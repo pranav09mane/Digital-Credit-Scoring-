@@ -35,7 +35,16 @@ Digital-Credit-Scoring/
 
 
 
-
+OUR TEAM -
+1. Pranav Prabhanjan Mane
+Github - 
+2. Swayam Talreja
+Github - 
+3. Pratiksha Warake
+Github - 
+4. Purva Kamat
+Github - 
+5. Utkarsha Salokhe 
 
 
 
