@@ -1,0 +1,801 @@
+Name,Age,Gender,City,Degree,CGPA,Internship,Family Income,Scholarship,Loan Type,Bank Account,Subscriptions,Food Spend (â‚¹),Monthly Expenses (â‚¹),Savings Pattern
+Aarav Sharma,21,Male,Pune,B.Tech,8.2,Yes (3 months),3–6L,Yes (?25000),Education Loan,Savings,"Netflix, Gym",1200,8500,Regular
+Sneha Patil,22,Female,Mumbai,MBA,7.6,Yes (6 months),6–10L,No,No,Student,"Spotify, OTT",1800,9500,Occasional
+Rohan Deshmukh,20,Male,Nagpur,B.Com,6.9,No,1–3L,Yes (?15000),No,Savings,"OTT, Gym",900,6000,
+Meera Joshi,23,Female,Nashik,M.Tech,9.1,Yes (4 months),10–15L,No,Personal Loan,Joint,"Netflix, Spotify",2500,12000,Regular
+Yash Kale,19,Male,Aurangabad,BCA,7.4,No,<1L,Yes (?10000),No,Student,OTT,700,4500,Occasional
+Priya More,21,Female,Thane,B.Sc,8,Yes (2 months),3–6L,No,No,Savings,"Netflix, Gym",1100,7800,Regular
+Aditya Pawar,22,Male,Kolhapur,BBA,7.2,Yes (1 month),1–3L,Yes (?12000),No,Student,"OTT, Spotify",950,6700,Occasional
+Neha Jadhav,20,Female,Solapur,B.Com,6.8,No,<1L,Yes (?8000),No,Savings,Gym,600,5200,
+Kunal Shinde,24,Male,Satara,MBA,8.5,Yes (5 months),6–10L,No,Personal Loan,Joint,"Netflix, OTT",2000,11000,Regular
+Aishwarya Rane,22,Female,Sangli,BCA,7.9,Yes (2 months),3–6L,Yes (?18000),No,Student,"Spotify, Gym",1300,8000,Regular
+Harshad Gaikwad,21,Male,Amravati,B.Tech,7.5,Yes (1 month),1–3L,No,Education Loan,Savings,OTT,1000,7200,Occasional
+Pooja Kulkarni,23,Female,Nanded,M.Sc,8.9,Yes (6 months),10–15L,No,No,Joint,"Netflix, Spotify",2200,10500,Regular
+Omkar Salunkhe,20,Male,Latur,B.Com,6.7,No,<1L,Yes (?9000),No,Student,"OTT, Gym",800,5800,
+Rutuja Bhosale,21,Female,Beed,BBA,7.3,Yes (2 months),3–6L,Yes (?14000),No,Savings,"Netflix, OTT",1400,7900,Occasional
+Shubham Chavan,22,Male,Parbhani,B.Tech,8.1,Yes (3 months),6–10L,No,Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Komal Waghmare,19,Female,Jalna,B.Sc,7,No,1–3L,Yes (?11000),No,Student,OTT,750,5600,Occasional
+Akshay Jagtap,20,Male,Akola,Diploma,6.5,No,<1L,Yes (?6000),No,Student,Gym,500,4300,
+Tanvi Mahajan,22,Female,Buldhana,MBA,8.3,Yes (4 months),6–10L,No,Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Nikhil Patange,21,Male,Washim,BCA,7.6,Yes (2 months),3–6L,Yes (?16000),No,Savings,"OTT, Gym",1200,7600,Occasional
+Shruti Pawar,23,Female,Yavatmal,M.Tech,9,Yes (5 months),10–15L,No,Education Loan,Joint,"Netflix, OTT",2400,11500,Regular
+Aanya Bhagat,20,Female,Pune,B.Sc,8.2,Yes (2 months),3–6L,Yes (?11000),No,Student,"Netflix, Gym",1200,7800,Regular
+Raghav Nair,22,Male,Kochi,B.Tech,7.9,Yes (3 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Simran Kaur,21,Female,Amritsar,MBA,8.6,Yes (5 months),10–15L,No,Personal Loan,Joint,"Netflix, Spotify",2300,11200,Regular
+Aditya Menon,19,Male,Bengaluru,BCA,7.3,No,<1L,Yes (?9000),No,Student,OTT,800,5200,
+Ishika Rane,23,Female,Mumbai,M.Tech,9.1,Yes (6 months),6–10L,No,Education Loan,Savings,"Netflix, OTT",2400,10900,Regular
+Aarush Desai,20,Male,Surat,B.Com,6.8,No,1–3L,Yes (?7000),No,Student,Gym,600,4900,
+Meher Joshi,21,Female,Nashik,BBA,7.7,Yes (1 month),3–6L,Yes (?10000),No,Savings,"OTT, Spotify",950,6800,Occasional
+Krishan Bhatia,22,Male,Delhi,MBA,8.4,Yes (4 months),6–10L,No,Personal Loan,Joint,"Netflix, Gym",2000,10600,Regular
+Ananya Pillai,20,Female,Thiruvananthapuram,B.Sc,7.1,No,<1L,Yes (?6000),No,Student,Spotify,700,5100,Occasional
+Ritesh Malhotra,21,Male,Chandigarh,B.Tech,8,Yes (2 months),3–6L,Yes (?14000),Education Loan,Savings,"OTT, Gym",1500,8700,Regular
+Sneha Iyer,22,Female,Chennai,M.Sc,8.9,Yes (5 months),10–15L,No,No,Joint,"Netflix, Spotify",2200,10800,Regular
+Arnav Kapoor,20,Male,Jaipur,B.Com,6.7,No,<1L,Yes (?8000),No,Student,"OTT, Gym",800,5600,
+Riya Banerjee,21,Female,Kolkata,BBA,7.5,Yes (2 months),3–6L,Yes (?13000),No,Savings,"Netflix, OTT",1400,7900,Occasional
+Yuvraj Chauhan,22,Male,Indore,B.Tech,8.1,Yes (3 months),6–10L,No,Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Tanya Shah,19,Female,Vadodara,B.Sc,7,No,1–3L,Yes (?10000),No,Student,OTT,750,5500,Occasional
+Harsh Vyas,20,Male,Udaipur,Diploma,6.5,No,<1L,Yes (?6000),No,Student,Gym,500,4300,
+Aishwarya Rao,22,Female,Hyderabad,MBA,8.3,Yes (4 months),6–10L,No,Personal Loan,Joint,"Netflix, Spotify",2100,10300,Regular
+Nikhil Patil,21,Male,Aurangabad,BCA,7.6,Yes (2 months),3–6L,Yes (?16000),No,Savings,"OTT, Gym",1200,7700,Occasional
+Shruti Kulkarni,23,Female,Nanded,M.Tech,9,Yes (5 months),10–15L,No,Education Loan,Joint,"Netflix, OTT",2400,11400,Regular
+Dev Sharma,20,Male,Bhopal,B.Com,6.9,No,<1L,Yes (?9000),No,Student,"OTT, Gym",850,5700,
+Kavya Sinha,21,Female,Ranchi,BBA,7.4,Yes (2 months),3–6L,Yes (?14000),No,Savings,"Netflix, OTT",1300,7800,Occasional
+Shubham Joshi,22,Male,Nagpur,B.Tech,8.2,Yes (3 months),6–10L,No,Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Komal Wagh,19,Female,Jalna,B.Sc,7,No,1–3L,Yes (?11000),No,Student,OTT,750,5600,Occasional
+Akshay Jadhav,20,Male,Akola,Diploma,6.5,No,<1L,Yes (?6000),No,Student,Gym,500,4300,
+Rutuja Bhosale,21,Female,Beed,BBA,7.3,Yes (2 months),6–10L,No,No,Savings,"Netflix, OTT",1400,7900,
+Priyanshi Thakur,20,Female,Raipur,B.Sc,8,Yes (2 months),<1L,Yes (?9000),No,Student,"Netflix, Gym",1100,7600,Regular
+Arnav Reddy,22,Male,Hyderabad,B.Tech,7.7,Yes (3 months),3–6L,Yes (?14000),Education Loan,Savings,"OTT, Gym",1400,8300,Occasional
+Mitali Jain,21,Female,Jaipur,MBA,8.5,Yes (5 months),3–6L,Yes (?10000),Personal Loan,Joint,"Netflix, Spotify",2300,11100,Regular
+Soham Bhave,19,Male,Pune,BCA,7.2,No,6–10L,No,No,Student,OTT,850,5300,
+Aastha Verma,23,Female,Lucknow,M.Tech,9.2,Yes (6 months),10–15L,No,Education Loan,Savings,"Netflix, OTT",2500,11000,Regular
+Kunal Rathore,20,Male,Bhopal,B.Com,6.9,No,<1L,Yes (?9000),No,Student,Gym,600,4800,
+Sneha Dey,21,Female,Kolkata,BBA,7.6,Yes (1 month),6–10L,No,No,Savings,"OTT, Spotify",950,6900,Occasional
+Rohan Shetty,22,Male,Mangalore,MBA,8.3,Yes (4 months),1–3L,Yes (?7000),Personal Loan,Joint,"Netflix, Gym",2000,10400,Regular
+Anjali Mishra,20,Female,Kanpur,B.Sc,7.2,No,3–6L,Yes (?10000),No,Student,Spotify,700,5000,Occasional
+Yashwant Singh,21,Male,Varanasi,B.Tech,8.1,Yes (2 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1500,8600,Regular
+Radhika Nambiar,22,Female,Kochi,M.Sc,8.8,Yes (5 months),<1L,Yes (?6000),No,Joint,"Netflix, Spotify",2200,10700,Regular
+Abhishek Chauhan,20,Male,Agra,B.Com,6.7,No,3–6L,Yes (?14000),No,Student,"OTT, Gym",800,5500,
+Pooja Naik,21,Female,Panaji,BBA,7.5,Yes (2 months),10–15L,No,No,Savings,"Netflix, OTT",1400,7800,Occasional
+Harshit Meena,22,Male,Udaipur,B.Tech,8.2,Yes (3 months),<1L,Yes (?8000),Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Nandini Ghosh,19,Female,Siliguri,B.Sc,7.1,No,3–6L,Yes (?13000),No,Student,OTT,750,5400,Occasional
+Manish Tiwari,20,Male,Gwalior,Diploma,6.5,No,6–10L,No,No,Student,Gym,500,4300,
+Ayesha Khan,22,Female,Srinagar,MBA,8.4,Yes (4 months),1–3L,Yes (?10000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Nitin Pawar,21,Male,Solapur,BCA,7.6,Yes (2 months),<1L,Yes (?6000),No,Savings,"OTT, Gym",1200,7600,Occasional
+Shreya Kulkarni,23,Female,Sangli,M.Tech,9,Yes (5 months),6–10L,No,Education Loan,Joint,"Netflix, OTT",2400,11500,Regular
+Rajat Agarwal,20,Male,Patna,B.Com,6.9,No,3–6L,Yes (?16000),No,Student,"OTT, Gym",850,5700,
+Bhavya Sharma,21,Female,Dehradun,BBA,7.4,Yes (2 months),10–15L,No,No,Savings,"Netflix, OTT",1300,7800,Occasional
+Karan Bansal,22,Male,Ludhiana,B.Tech,8.2,Yes (3 months),<1L,Yes (?9000),Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Neelam Yadav,19,Female,Bareilly,B.Sc,7,No,3–6L,Yes (?14000),No,Student,OTT,750,5600,Occasional
+Arvind Kumar,20,Male,Jamshedpur,Diploma,6.5,No,6–10L,No,No,Student,Gym,500,4300,
+Tanisha Das,22,Female,Bhubaneswar,MBA,8.3,Yes (4 months),1–3L,Yes (?11000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Vivek Joshi,21,Male,Satara,BCA,7.6,Yes (2 months),<1L,Yes (?6000),No,Savings,"OTT, Gym",1200,7600,Occasional
+Ishita Rawat,23,Female,Nainital,M.Tech,9,Yes (5 months),6–10L,No,,,,,,
+Lavanya Bhardwaj,21,Female,Delhi,B.Sc,8,Yes (2 months),3–6L,Yes (?16000),No,Student,"Netflix, Gym",1100,7500,Regular
+Arpit Gokhale,22,Male,Pune,B.Tech,7.9,Yes (3 months),10–15L,No,Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Charvi Sethi,23,Female,Chandigarh,MBA,8.6,Yes (5 months),3–6L,Yes (?12000),Personal Loan,Joint,"Netflix, Spotify",2300,11100,Regular
+Nilesh Kadam,20,Male,Nashik,BCA,7.2,No,6–10L,No,No,Student,OTT,850,5300,
+Roshni Dâ€™Souza,22,Female,Mangalore,M.Tech,9.1,Yes (6 months),10–15L,No,Education Loan,Savings,"Netflix, OTT",2500,11000,Regular
+Tejas Sharma,20,Male,Jaipur,B.Com,6.8,No,<1L,Yes (?9000),No,Student,Gym,600,4900,
+Aakriti Meena,21,Female,Bhopal,BBA,7.7,Yes (1 month),6–10L,No,No,Savings,"OTT, Spotify",950,6800,Occasional
+Raghav Chauhan,22,Male,Kanpur,MBA,8.4,Yes (4 months),1–3L,Yes (?7000),Personal Loan,Joint,"Netflix, Gym",2000,10600,Regular
+Sneha Borkar,20,Female,Panaji,B.Sc,7.1,No,3–6L,Yes (?10000),No,Student,Spotify,700,5000,Occasional
+Adarsh Verma,21,Male,Indore,B.Tech,8,Yes (2 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1500,8700,Regular
+Ishita Rawal,22,Female,Ahmedabad,M.Sc,8.9,Yes (5 months),<1L,Yes (?6000),No,Joint,"Netflix, Spotify",2200,10800,Regular
+Manan Joshi,20,Male,Vadodara,B.Com,6.7,No,3–6L,Yes (?14000),No,Student,"OTT, Gym",800,5600,
+Kritika Yadav,21,Female,Varanasi,BBA,7.5,Yes (2 months),10–15L,No,No,Savings,"Netflix, OTT",1400,7900,Occasional
+Ayush Bansal,22,Male,Ludhiana,B.Tech,8.1,Yes (3 months),<1L,Yes (?8000),Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Nandita Das,19,Female,Bhubaneswar,B.Sc,7,No,3–6L,Yes (?13000),No,Student,OTT,750,5400,Occasional
+Pratik Jadhav,20,Male,Solapur,Diploma,6.5,No,6–10L,No,No,Student,Gym,500,4300,
+Ayesha Siddiqui,22,Female,Lucknow,MBA,8.4,Yes (4 months),1–3L,Yes (?10000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Ritesh Pawar,21,Male,Satara,BCA,7.6,Yes (2 months),<1L,Yes (?6000),No,Savings,"OTT, Gym",1200,7600,Occasional
+Shruti Vyas,23,Female,Udaipur,M.Tech,9,Yes (5 months),6–10L,No,Education Loan,Joint,"Netflix, OTT",2400,11500,Regular
+Karan Thakur,20,Male,Raipur,B.Com,6.9,No,3–6L,Yes (?16000),No,Student,"OTT, Gym",850,5700,
+Bhavika Shah,21,Female,Surat,BBA,7.4,Yes (2 months),10–15L,No,No,Savings,"Netflix, OTT",1300,7800,Occasional
+Harshit Raina,22,Male,Jammu,B.Tech,8.2,Yes (3 months),<1L,Yes (?9000),Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Komal Tiwari,19,Female,Bareilly,B.Sc,7,No,3–6L,Yes (?14000),No,Student,OTT,750,5600,Occasional
+Akshay More,20,Male,Jalgaon,Diploma,6.5,No,6–10L,No,No,Student,Gym,500,4300,
+Tanvi Bhagat,22,Female,Sangli,MBA,8.3,Yes (4 months),1–3L,Yes (?11000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Omkar Kale,20,Male,Latur,B.Com,7.2,no,<1L,Yes (?6000),No,Student,"OTT, Gym",800,5800,
+Rutuja Shinde,21,Female,Beed,BBA,7.9,Yes(1month),6–10L,No,no,student,"amazon,gym",800,2000,none
+Aditi Venkatesh,20,Female,Chennai,B.Sc,8.1,Yes (2 months),<1L,Yes (?9000),No,Student,"Netflix, Gym",1200,7700,Regular
+Rohan Bhattacharya,22,Male,Kolkata,B.Tech,7.8,Yes (3 months),5–10L,No,Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Nisha Chauhan,21,Female,Jaipur,MBA,8.6,Yes (5 months),3–6L,Yes (?11000),Personal Loan,Joint,"Netflix, Spotify",2300,11100,Regular
+Arjun Pillai,19,Male,Kochi,BCA,7.2,No,6–10L,No,No,Student,OTT,850,5300,
+Shraddha Deshmukh,23,Female,Pune,M.Tech,9.1,Yes (6 months),10–15L,No,Education Loan,Savings,"Netflix, OTT",2500,11000,Regular
+Karthik Reddy,20,Male,Hyderabad,B.Com,6.8,No,<1L,Yes (?9000),No,Student,Gym,600,4900,
+Snehal Patil,21,Female,Nashik,BBA,7.7,Yes (1 month),6–10L,No,No,Savings,"OTT, Spotify",950,6800,Occasional
+Aman Kapoor,22,Male,Delhi,MBA,8.4,Yes (4 months),1–3L,Yes (?7000),Personal Loan,Joint,"Netflix, Gym",2000,10600,Regular
+Divya Sharma,20,Female,Chandigarh,B.Sc,7.1,No,3–6L,Yes (?10000),No,Student,Spotify,700,5000,Occasional
+Saurabh Mehta,21,Male,Ahmedabad,B.Tech,8,Yes (2 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1500,8700,Regular
+Ritu Jain,22,Female,Indore,M.Sc,8.9,Yes (5 months),<1L,Yes (?6000),No,Joint,"Netflix, Spotify",2200,10800,Regular
+Mohit Sinha,20,Male,Patna,B.Com,6.7,No,3–6L,Yes (?14000),No,Student,"OTT, Gym",800,5600,
+Anushka Joshi,21,Female,Nagpur,BBA,7.5,Yes (2 months),10–15L,No,No,Savings,"Netflix, OTT",1400,7900,Occasional
+Tushar Yadav,22,Male,Kanpur,B.Tech,8.1,Yes (3 months),<1L,Yes (?8000),Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Pallavi Nair,19,Female,Thiruvananthapuram,B.Sc,7,No,3–6L,Yes (?13000),No,Student,OTT,750,5400,Occasional
+Deepak Chauhan,20,Male,Gwalior,Diploma,6.5,No,6–10L,No,No,Student,Gym,500,4300,
+Sana Sheikh,22,Female,Lucknow,MBA,8.4,Yes (4 months),1–3L,Yes (?10000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Ravi Kulkarni,21,Male,Aurangabad,BCA,7.6,Yes (2 months),<1L,Yes (?6000),No,Savings,"OTT, Gym",1200,7600,Occasional
+Ishita Ghosh,23,Female,Siliguri,M.Tech,9,Yes (5 months),6–10L,No,Education Loan,Joint,"Netflix, OTT",2400,11500,Regular
+Abhay Verma,20,Male,Raipur,B.Com,6.9,No,3–6L,Yes (?16000),No,Student,"OTT, Gym",850,5700,
+Priya Singh,21,Female,Varanasi,BBA,7.4,Yes (2 months),10–15L,No,No,Savings,"Netflix, OTT",1300,7800,Occasional
+Harshad Patil,22,Male,Satara,B.Tech,8.2,Yes (3 months),<1L,Yes (?9000),Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Komal Wadhwa,19,Female,Jalna,B.Sc,7,No,3–6L,Yes (?14000),No,Student,OTT,750,5600,Occasional
+Akshay Thombre,20,Male,Akola,Diploma,6.5,No,6–10L,No,No,Student,Gym,500,4300,
+Tanvi Desai,22,Female,Buldhana,MBA,8.3,Yes (4 months),1–3L,Yes (?11000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Omkar Jagtap,20,Male,Latur,B.Com,6.7,No,<1L,Yes (?6000),No,Student,"OTT, Gym",800,5800,
+Rutuja Kale,21,Female,Beed,BBA,7.3,Yes (2 months),6–10L,No,No,Savings,"Netflix,",2000,4800,Ocassionally
+Aastha Pandey,21,Female,Lucknow,B.Sc,8.1,Yes (2 months),<1L,Yes (?9000),No,Student,"Netflix, Gym",1100,7600,Regular
+Rishabh Kulkarni,22,Male,Pune,B.Tech,7.8,Yes (3 months),3–6L,Yes (?14000),Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Shreya Ghosh,23,Female,Kolkata,MBA,8.6,Yes (5 months),3–6L,Yes (?12000),Personal Loan,Joint,"Netflix, Spotify",2300,11100,Regular
+Tanishq Desai,20,Male,Surat,BCA,7.2,No,6–10L,No,No,Student,OTT,850,5300,
+Isha Raval,22,Female,Ahmedabad,M.Tech,9.1,Yes (6 months),10–15L,No,Education Loan,Savings,"Netflix, OTT",2500,11000,Regular
+Aditya Chauhan,20,Male,Kanpur,B.Com,6.8,No,<1L,Yes (?9000),No,Student,Gym,600,4900,
+Nidhi Patil,21,Female,Nashik,BBA,7.7,Yes (1 month),6–10L,No,No,Savings,"OTT, Spotify",950,6800,Occasional
+Kunal Bhatia,22,Male,Delhi,MBA,8.4,Yes (4 months),1–3L,Yes (?7000),Personal Loan,Joint,"Netflix, Gym",2000,10600,Regular
+Ananya Joshi,20,Female,Nagpur,B.Sc,7.1,No,3–6L,Yes (?10000),No,Student,Spotify,700,5000,Occasional
+Arnav Singh,21,Male,Varanasi,B.Tech,8,Yes (2 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1500,8700,Regular
+Mahi Shah,22,Female,Rajkot,M.Sc,8.9,Yes (5 months),<1L,Yes (?6000),No,Joint,"Netflix, Spotify",2200,10800,Regular
+Yashwant Rane,20,Male,Kolhapur,B.Com,6.7,No,3–6L,Yes (?14000),No,Student,"OTT, Gym",800,5600,
+Sneha Shetty,21,Female,Mangalore,BBA,7.5,Yes (2 months),10–15L,No,No,Savings,"Netflix, OTT",1400,7900,Occasional
+Harsh Vyas,22,Male,Udaipur,B.Tech,8.1,Yes (3 months),<1L,Yes (?8000),Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Ritu Agarwal,19,Female,Bareilly,B.Sc,7,No,3–6L,Yes (?13000),No,Student,OTT,750,5400,Occasional
+Mohit Jadhav,20,Male,Jalna,Diploma,6.5,No,6–10L,No,No,Student,Gym,500,4300,
+Ayesha Khan,22,Female,Bhopal,MBA,8.4,Yes (4 months),1–3L,Yes (?10000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Raghav Shinde,21,Male,Satara,BCA,7.6,Yes (2 months),<1L,Yes (?6000),No,Savings,"OTT, Gym",1200,7600,Occasional
+Ishita Mahajan,23,Female,Sangli,M.Tech,9,Yes (5 months),6–10L,No,Education Loan,Joint,"Netflix, OTT",2400,11500,Regular
+Omkar Deshmukh,20,Male,Latur,B.Com,6.9,No,3–6L,Yes (?16000),No,Student,"OTT, Gym",850,5700,
+Rutuja Pawaskar,21,Female,Beed,BBA,7.4,Yes (2 months),10–15L,No,No,Savings,"Netflix, OTT",1300,7800,Occasional
+Shubham Kale,22,Male,Amravati,B.Tech,8.2,Yes (3 months),<1L,Yes (?9000),Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Komal Jagtap,19,Female,Akola,B.Sc,7,No,3–6L,Yes (?14000),No,Student,OTT,750,5600,Occasional
+Akshay Wagh,20,Male,Jalgaon,Diploma,6.5,No,6–10L,No,No,Student,Gym,500,4300,
+Tanvi Salvi,22,Female,Nanded,MBA,8.3,Yes (4 months),1–3L,Yes (?11000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Nikhil More,21,Male,Washim,BCA,7.6,Yes (2 months),<1L,Yes (?6000),No,Savings,"OTT, Gym",1200,7600,Occasional
+Shruti Patange,23,Female,Yavatmal,M.Tech,9,Yes (5 months),6–10L,No,Education Loan,Joint,"Netflix, OTT",2400,11500,Regular
+Aditi Bhandarkar,21,Female,Pune,B.Sc,8.2,Yes (2 months),3–6L,Yes (?16000),No,Student,"Netflix, Gym",1100,7500,Regular
+Raghav Joshi,22,Male,Mumbai,B.Tech,7.9,Yes (3 months),10–15L,No,Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Simran Desai,23,Female,Nashik,MBA,8.6,Yes (5 months),3–6L,Yes (?12000),Personal Loan,Joint,"Netflix, Spotify",2300,11100,Regular
+Arjun Kale,20,Male,Aurangabad,BCA,7.2,No,6–10L,No,No,Student,OTT,850,5300,
+Ishika Sawant,22,Female,Kolhapur,M.Tech,9.1,Yes (6 months),10–15L,No,Education Loan,Savings,"Netflix, OTT",2500,11000,Regular
+Soham Gokhale,20,Male,Nagpur,B.Com,6.8,No,<1L,Yes (?9000),No,Student,Gym,600,4900,
+Meher Kulkarni,21,Female,Thane,BBA,7.7,Yes (1 month),6–10L,No,No,Savings,"OTT, Spotify",950,6800,Occasional
+Krish Patil,22,Male,Satara,MBA,8.4,Yes (4 months),1–3L,Yes (?7000),Personal Loan,Joint,"Netflix, Gym",2000,10600,Regular
+Ananya Rane,20,Female,Sangli,B.Sc,7.1,No,3–6L,Yes (?10000),No,Student,Spotify,700,5000,Occasional
+Ritesh Jadhav,21,Male,Beed,B.Tech,8,Yes (2 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1500,8700,Regular
+Sneha Pawaskar,22,Female,Latur,M.Sc,8.9,Yes (5 months),<1L,Yes (?6000),No,Joint,"Netflix, Spotify",2200,10800,Regular
+Aditya Wagh,20,Male,Akola,B.Com,6.7,No,3–6L,Yes (?14000),No,Student,"OTT, Gym",800,5600,
+Pooja Salvi,21,Female,Jalgaon,BBA,7.5,Yes (2 months),10–15L,No,No,Savings,"Netflix, OTT",1400,7900,Occasional
+Harshad More,22,Male,Nanded,B.Tech,8.1,Yes (3 months),<1L,Yes (?8000),Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Riya Pawar,19,Female,Washim,B.Sc,7,No,3–6L,Yes (?13000),No,Student,OTT,750,5400,Occasional
+Akshay Shinde,20,Male,Yavatmal,Diploma,6.5,No,6–10L,No,No,Student,Gym,500,4300,
+Tanvi Patil,22,Female,Parbhani,MBA,8.4,Yes (4 months),1–3L,Yes (?10000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Omkar Joshi,21,Male,Jalna,BCA,7.6,Yes (2 months),<1L,Yes (?6000),No,Savings,"OTT, Gym",1200,7600,Occasional
+Rutuja Ghadge,23,Female,Amravati,M.Tech,9,Yes (5 months),6–10L,No,Education Loan,Joint,"Netflix, OTT",2400,11500,Regular
+Nikhil Salunkhe,20,Male,Ratnagiri,B.Com,6.9,No,3–6L,Yes (?16000),No,Student,"OTT, Gym",850,5700,
+Vaishnavi Joshi,21,Female,Navi Mumbai,BBA,7.4,Yes (2 months),10–15L,No,No,Savings,"Netflix, OTT",1300,7800,Occasional
+Shubham Raut,22,Male,Pune,B.Tech,8.2,Yes (3 months),<1L,Yes (?9000),Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Komal Pawaskar,19,Female,Mumbai,B.Sc,7,No,3–6L,Yes (?14000),No,Student,OTT,750,5600,Occasional
+Akshay Kulkarni,20,Male,Nagpur,Diploma,6.5,No,6–10L,No,No,Student,Gym,500,4300,
+Tanvi Deshmukh,22,Female,Nashik,MBA,8.3,Yes (4 months),1–3L,Yes (?11000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Nilesh Pawar,21,Male,Aurangabad,BCA,7.6,Yes (2 months),<1L,Yes (?6000),No,Savings,"OTT, Gym",1200,7600,Occasional
+Shruti Waghmare,23,Female,Sangli,M.Tech,9,Yes (5 months),6–10L,No,Education Loan,Joint,"Netflix, OTT",2400,11500,Regular
+Aanya Thakur,21,Female,Bhopal,B.Sc,8,Yes (2 months),3–6L,Yes (?16000),No,Student,"Netflix, Gym",1100,7600,Regular
+Raghav Iyer,22,Male,Chennai,B.Tech,7.8,Yes (3 months),10–15L,No,Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Mitali Sharma,23,Female,Jaipur,MBA,8.6,Yes (5 months),3–6L,Yes (?11000),Personal Loan,Joint,"Netflix, Spotify",2300,11100,Regular
+Soham Banerjee,20,Male,Kolkata,BCA,7.2,No,6–10L,No,No,Student,OTT,850,5300,
+Aastha Rane,23,Female,Nashik,M.Tech,9.1,Yes (6 months),10–15L,No,Education Loan,Savings,"Netflix, OTT",2500,11000,Regular
+Kunal Rathod,20,Male,Nagpur,B.Com,6.8,No,<1L,Yes (?9000),No,Student,Gym,600,4900,
+Sneha Dâ€™Souza,21,Female,Mangalore,BBA,7.7,Yes (1 month),6–10L,No,No,Savings,"OTT, Spotify",950,6800,Occasional
+Rohan Shetty,22,Male,Bengaluru,MBA,8.4,Yes (4 months),1–3L,Yes (?7000),Personal Loan,Joint,"Netflix, Gym",2000,10600,Regular
+Anjali Mishra,20,Female,Kanpur,B.Sc,7.1,No,3–6L,Yes (?10000),No,Student,Spotify,700,5000,Occasional
+Ishita Rawat,23,Female,Nainital,M.Tech,9,Yes (5 months),6–10L,No,Education Loan,Joint,"Netflix, OTT",2400,11500,Regular
+Aakriti Sharma,21,Female,Delhi,B.Sc,8.1,Yes (2 months),<1L,Yes (?6000),No,Student,"Netflix, Gym",1100,7600,Regular
+Rohan Nair,22,Male,Kochi,B.Tech,7.8,Yes (3 months),3–6L,Yes (?14000),Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Charvi Patel,23,Female,Ahmedabad,MBA,8.6,Yes (5 months),10–15L,No,Personal Loan,Joint,"Netflix, Spotify",2300,11100,Regular
+Aditya Rane,20,Male,Pune,BCA,7.2,No,<1L,Yes (?8000),No,Student,OTT,850,5300,
+Sneha Ghosh,22,Female,Kolkata,M.Tech,9.1,Yes (6 months),3–6L,Yes (?13000),Education Loan,Savings,"Netflix, OTT",2500,11000,Regular
+Karan Mehta,20,Male,Jaipur,B.Com,6.8,No,6–10L,No,No,Student,Gym,600,4900,
+Riya Deshmukh,21,Female,Nashik,BBA,7.7,Yes (1 month),1–3L,Yes (?10000),No,Savings,"OTT, Spotify",950,6800,Occasional
+Harsh Vora,22,Male,Mumbai,MBA,8.4,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Gym",2000,10600,Regular
+Anushka Pillai,20,Female,Thiruvananthapuram,B.Sc,7.1,No,6–10L,No,No,Student,Spotify,700,5000,Occasional
+Yuvraj Chauhan,21,Male,Indore,B.Tech,8,Yes (2 months),3–6L,Yes (?16000),Education Loan,Savings,"OTT, Gym",1500,8700,Regular
+Tanya Shah,22,Female,Vadodara,M.Sc,8.9,Yes (5 months),10–15L,No,No,Joint,"Netflix, Spotify",2200,10800,Regular
+Sakshi Verma,21,Female,Lucknow,BBA,7.5,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1400,7900,Occasional
+Tushar Bansal,22,Male,Ludhiana,B.Tech,8.1,Yes (3 months),3–6L,Yes (?14000),Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Nisha Chauhan,19,Female,Bareilly,B.Sc,7,No,6–10L,No,No,Student,OTT,750,5400,Occasional
+Pranav Jadhav,20,Male,Jalna,Diploma,6.5,No,1–3L,Yes (?11000),No,Student,Gym,500,4300,
+Tanvi Kamat,22,Female,Panaji,MBA,8.3,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Nilesh Shinde,21,Male,Solapur,BCA,7.6,Yes (2 months),6–10L,No,No,Savings,"OTT, Gym",1200,7600,Occasional
+Aastha Kulkarni,21,Female,Pune,B.Sc,8,Yes (2 months),3–6L,Yes (?16000),No,Student,"Netflix, Gym",1100,7600,Regular
+Raghav Salunkhe,22,Male,Mumbai,B.Tech,7.9,Yes (3 months),10–15L,No,Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Simran Iyer,23,Female,Chennai,MBA,8.6,Yes (5 months),3–6L,Yes (?12000),Personal Loan,Joint,"Netflix, Spotify",2300,11100,Regular
+Arjun Bhagat,20,Male,Nashik,BCA,7.2,No,6–10L,No,No,Student,OTT,850,5300,
+Ishita Desai,22,Female,Ahmedabad,M.Tech,9.1,Yes (6 months),10–15L,No,Education Loan,Savings,"Netflix, OTT",2500,11000,Regular
+Soham Joshi,20,Male,Nagpur,B.Com,6.8,No,<1L,Yes (?9000),No,Student,Gym,600,4900,
+Meher Rane,21,Female,Thane,BBA,7.7,Yes (1 month),6–10L,No,No,Savings,"OTT, Spotify",950,6800,Occasional
+Krishan Patil,22,Male,Satara,MBA,8.4,Yes (4 months),1–3L,Yes (?7000),Personal Loan,Joint,"Netflix, Gym",2000,10600,Regular
+Ananya Jadhav,20,Female,Sangli,B.Sc,7.1,No,3–6L,Yes (?10000),No,Student,Spotify,700,5000,Occasional
+Ritesh Pawaskar,21,Male,Beed,B.Tech,8,Yes (2 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1500,8700,Regular
+Sneha Wagh,22,Female,Latur,M.Sc,8.9,Yes (5 months),<1L,Yes (?6000),No,Joint,"Netflix, Spotify",2200,10800,Regular
+Aditya Shinde,20,Male,Akola,B.Com,6.7,No,3–6L,Yes (?14000),No,Student,"OTT, Gym",800,5600,
+Pooja Salunkhe,21,Female,Jalgaon,BBA,7.5,Yes (2 months),10–15L,No,No,Savings,"Netflix, OTT",1400,7900,Occasional
+Akshay Jagtap,20,Male,Yavatmal,Diploma,6.5,No,<1L,Yes (?8000),No,Student,Gym,500,4300,
+Tanvi Mahajan,22,Female,Parbhani,MBA,8.3,Yes (4 months),3–6L,Yes (?13000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Omkar Kale,21,Male,Jalna,BCA,7.6,Yes (2 months),6–10L,No,No,Savings,"OTT, Gym",1200,7600,Occasional
+Nikhil Salvi,20,Male,Ratnagiri,B.Com,6.9,No,1–3L,Yes (?10000),No,Student,"OTT, Gym",850,5700,
+Aishwarya Bhosale,21,Female,Pune,B.Sc,8.2,Yes (2 months),<1L,Yes (?6000),No,Student,"Netflix, Gym",1100,7600,Regular
+Raghav Gokhale,22,Male,Mumbai,B.Tech,7.8,Yes (3 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Mitali Jagtap,23,Female,Nashik,MBA,8.6,Yes (5 months),3–6L,Yes (?16000),Personal Loan,Joint,"Netflix, Spotify",2300,11100,Regular
+Soham Raut,20,Male,Nagpur,BCA,7.2,No,10–15L,No,No,Student,OTT,850,5300,
+Aastha Salvi,22,Female,Aurangabad,M.Tech,9.1,Yes (6 months),<1L,Yes (?9000),Education Loan,Savings,"Netflix, OTT",2500,11000,Regular
+Kunal Joshi,20,Male,Satara,B.Com,6.8,No,3–6L,Yes (?14000),No,Student,Gym,600,4900,
+Sneha Pawar,21,Female,Sangli,BBA,7.7,Yes (1 month),6–10L,No,No,Savings,"OTT, Spotify",950,6800,Occasional
+Rohan Patil,22,Male,Beed,MBA,8.4,Yes (4 months),1–3L,Yes (?11000),Personal Loan,Joint,"Netflix, Gym",2000,10600,Regular
+Anjali Wagh,20,Female,Latur,B.Sc,7.1,No,<1L,Yes (?6000),No,Student,Spotify,700,5000,Occasional
+Yash Kale,21,Male,Jalgaon,B.Tech,8,Yes (2 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1500,8700,Regular
+Radhika More,22,Female,Nanded,M.Sc,8.9,Yes (5 months),3–6L,Yes (?16000),No,Joint,"Netflix, Spotify",2200,10800,Regular
+Abhishek Pawaskar,20,Male,Washim,B.Com,6.7,No,3–6L,Yes (?11000),No,Student,"OTT, Gym",800,5600,
+Pooja Jadhav,21,Female,Yavatmal,BBA,7.5,Yes (2 months),6–10L,No,No,Savings,"Netflix, OTT",1400,7900,Occasional
+Harshit Shinde,22,Male,Parbhani,B.Tech,8.1,Yes (3 months),10–15L,No,Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Neha Kulkarni,19,Female,Akola,B.Sc,7,No,<1L,Yes (?9000),No,Student,OTT,750,5400,Occasional
+Pratik Salunkhe,20,Male,Jalna,Diploma,6.5,No,6–10L,No,No,Student,Gym,500,4300,
+Tanvi Joshi,22,Female,Pune,MBA,8.3,Yes (4 months),1–3L,Yes (?7000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Omkar Bhosale,21,Male,Mumbai,BCA,7.6,Yes (2 months),3–6L,Yes (?10000),No,Savings,"OTT, Gym",1200,7600,Occasional
+Rutuja Naik,23,Female,Goa,M.Tech,9,Yes (5 months),6–10L,No,Education Loan,Joint,"Netflix, OTT",2400,11500,Regular
+Nikhil Jagtap,20,Male,Pune,B.Com,6.9,No,<1L,Yes (?6000),No,Student,"OTT, Gym",850,5700,
+Aakriti Mehta,21,Female,Delhi,B.Sc,8.1,Yes (2 months),3–6L,Yes (?14000),No,Student,"Netflix, Gym",1100,7600,Regular
+Rohan Chavan,22,Male,Pune,B.Tech,7.8,Yes (3 months),10–15L,No,Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Charvi Nair,23,Female,Kochi,MBA,8.6,Yes (5 months),<1L,Yes (?8000),Personal Loan,Joint,"Netflix, Spotify",2300,11100,Regular
+Aditya Gokhale,20,Male,Mumbai,BCA,7.2,No,3–6L,Yes (?13000),No,Student,OTT,850,5300,
+Sneha Bhonsale,22,Female,Nashik,M.Tech,9.1,Yes (6 months),6–10L,No,Education Loan,Savings,"Netflix, OTT",2500,11000,Regular
+Kunal Deshmukh,20,Male,Nagpur,B.Com,6.8,No,1–3L,Yes (?10000),No,Student,Gym,600,4900,
+Meher Thombre,21,Female,Aurangabad,BBA,7.7,Yes (1 month),<1L,Yes (?6000),No,Savings,"OTT, Spotify",950,6800,Occasional
+Krishan Kale,22,Male,Jalgaon,MBA,8.4,Yes (4 months),6–10L,No,Personal Loan,Joint,"Netflix, Gym",2000,10600,Regular
+Ananya Salvi,20,Female,Sangli,B.Sc,7.1,No,3–6L,Yes (?16000),No,Student,Spotify,700,5000,Occasional
+Ritesh Gawande,21,Male,Ratnagiri,B.Tech,8,Yes (2 months),10–15L,No,Education Loan,Savings,"OTT, Gym",1500,8700,Regular
+Sneha Lokhande,22,Female,Solapur,M.Sc,8.9,Yes (5 months),<1L,Yes (?9000),No,Joint,"Netflix, Spotify",2200,10800,Regular
+Abhishek More,20,Male,Akola,B.Com,6.7,No,3–6L,Yes (?14000),No,Student,"OTT, Gym",800,5600,
+Pooja Raut,21,Female,Beed,BBA,7.5,Yes (2 months),6–10L,No,No,Savings,"Netflix, OTT",1400,7900,Occasional
+Harshad Jagtap,22,Male,Latur,B.Tech,8.1,Yes (3 months),1–3L,Yes (?11000),Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Riya Mahajan,19,Female,Washim,B.Sc,7,No,<1L,Yes (?6000),No,Student,OTT,750,5400,Occasional
+Akshay Pawar,20,Male,Yavatmal,Diploma,6.5,No,6–10L,No,No,Student,Gym,500,4300,
+Tanvi Shinde,22,Female,Parbhani,MBA,8.3,Yes (4 months),3–6L,Yes (?12000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Omkar Kulkarni,21,Male,Pune,BCA,7.6,Yes (2 months),6–10L,No,No,Savings,"OTT, Gym",1200,7600,Occasional
+Ayesha Rathod,21,Female,Indore,B.Sc,8.2,Yes (2 months),10–15L,No,No,Student,"Netflix, Gym",1100,7600,Regular
+Tushar Khatri,22,Male,Bhopal,B.Tech,7.9,Yes (3 months),<1L,Yes (?9000),Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Aastha Chavan,21,Female,Pune,B.Sc,8,Yes (2 months),6–10L,No,No,Student,"Netflix, Gym",1100,7600,Regular
+Raghav Pawar,22,Male,Mumbai,B.Tech,7.9,Yes (3 months),1–3L,Yes (?7000),Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Simran Lokhande,23,Female,Nashik,MBA,8.6,Yes (5 months),3–6L,Yes (?10000),Personal Loan,Joint,"Netflix, Spotify",2300,11100,Regular
+Arjun Salvi,20,Male,Nagpur,BCA,7.2,No,6–10L,No,No,Student,OTT,850,5300,
+Ishita Gokhale,22,Female,Aurangabad,M.Tech,9.1,Yes (6 months),<1L,Yes (?6000),Education Loan,Savings,"Netflix, OTT",2500,11000,Regular
+Soham Jagtap,20,Male,Jalgaon,B.Com,6.8,No,3–6L,Yes (?14000),No,Student,Gym,600,4900,
+Meher Patil,21,Female,Sangli,BBA,7.7,Yes (1 month),10–15L,No,No,Savings,"OTT, Spotify",950,6800,Occasional
+Krishan Raut,22,Male,Beed,MBA,8.4,Yes (4 months),<1L,Yes (?8000),Personal Loan,Joint,"Netflix, Gym",2000,10600,Regular
+Ananya Pawaskar,20,Female,Latur,B.Sc,7.1,No,3–6L,Yes (?13000),No,Student,Spotify,700,5000,Occasional
+Ritesh Salunkhe,21,Male,Akola,B.Tech,8,Yes (2 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1500,8700,Regular
+Sneha Joshi,22,Female,Nanded,M.Sc,8.9,Yes (5 months),1–3L,Yes (?10000),No,Joint,"Netflix, Spotify",2200,10800,Regular
+Aditya Rane,20,Male,Washim,B.Com,6.7,No,<1L,Yes (?6000),No,Student,"OTT, Gym",800,5600,
+Pooja Kulkarni,21,Female,Yavatmal,BBA,7.5,Yes (2 months),6–10L,No,No,Savings,"Netflix, OTT",1400,7900,Occasional
+Harshad Pawar,22,Male,Parbhani,B.Tech,8.1,Yes (3 months),3–6L,Yes (?16000),Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Riya Jadhav,19,Female,Amravati,B.Sc,7,No,10–15L,No,No,Student,OTT,750,5400,Occasional
+Akshay Gawande,20,Male,Ratnagiri,Diploma,6.5,No,<1L,Yes (?9000),No,Student,Gym,500,4300,
+Tanvi More,22,Female,Navi Mumbai,MBA,8.3,Yes (4 months),3–6L,Yes (?12000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Omkar Patil,21,Male,Pune,BCA,7.6,Yes (2 months),6–10L,No,No,Savings,"OTT, Gym",1200,7600,Occasional
+Rutuja Salvi,23,Female,Mumbai,M.Tech,9,Yes (5 months),10–15L,No,Education Loan,Joint,"Netflix, OTT",2400,11500,Regular
+Nikhil Lokhande,20,Male,Nashik,B.Com,6.9,No,<1L,Yes (?9000),No,Student,"OTT, Gym",850,5700,
+Vaishnavi Gokhale,21,Female,Nagpur,BBA,7.4,Yes (2 months),6–10L,No,No,Savings,"Netflix, OTT",1300,7800,Occasional
+Shubham Jagtap,22,Male,Aurangabad,B.Tech,8.2,Yes (3 months),1–3L,Yes (?7000),Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Komal Pawar,19,Female,Jalgaon,B.Sc,7,No,3–6L,Yes (?10000),No,Student,OTT,750,5600,Occasional
+Akshay Salunkhe,20,Male,Sangli,Diploma,6.5,No,6–10L,No,No,Student,Gym,500,4300,
+Tanvi Jagtap,22,Female,Beed,MBA,8.3,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Nilesh Rane,21,Male,Latur,BCA,7.6,Yes (2 months),3–6L,Yes (?14000),No,Savings,"OTT, Gym",1200,7600,Occasional
+Shruti Joshi,23,Female,Akola,M.Tech,9,Yes (5 months),10–15L,No,Education Loan,Joint,"Netflix, OTT",2400,11500,Regular
+Aishwarya Shetty,21,Female,Bengaluru,B.Sc,8,Yes (2 months),<1L,Yes (?8000),No,Student,"Netflix, Gym",1100,7600,Regular
+Raghav Desai,22,Male,Ahmedabad,B.Tech,7.9,Yes (3 months),3–6L,Yes (?13000),Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Simran Kapoor,23,Female,Chandigarh,MBA,8.6,Yes (5 months),6–10L,No,Personal Loan,Joint,"Netflix, Spotify",2300,11100,Regular
+Arjun Mehta,20,Male,Jaipur,BCA,7.2,No,1–3L,Yes (?10000),No,Student,OTT,850,5300,
+Ishita Sharma,22,Female,Delhi,M.Tech,9.1,Yes (6 months),<1L,Yes (?6000),Education Loan,Savings,"Netflix, OTT",2500,11000,Regular
+Soham Banerjee,20,Male,Kolkata,B.Com,6.8,No,6–10L,No,No,Student,Gym,600,4900,
+Meher Singh,21,Female,Lucknow,BBA,7.7,Yes (1 month),3–6L,Yes (?16000),No,Savings,"OTT, Spotify",950,6800,Occasional
+Krishan Verma,22,Male,Kanpur,MBA,8.4,Yes (4 months),3–6L,Yes (?12000),Personal Loan,Joint,"Netflix, Gym",2000,10600,Regular
+Ananya Yadav,20,Female,Varanasi,B.Sc,7.1,No,6–10L,No,No,Student,Spotify,700,5000,Occasional
+Ritesh Tiwari,21,Male,Gwalior,B.Tech,8,Yes (2 months),3–6L,Yes (?11000),Education Loan,Savings,"OTT, Gym",1500,8700,Regular
+Sneha Chauhan,22,Female,Bhopal,M.Sc,8.9,Yes (5 months),6–10L,No,No,Joint,"Netflix, Spotify",2200,10800,Regular
+Aditya Singh,20,Male,Patna,B.Com,6.7,No,10–15L,No,No,Student,"OTT, Gym",800,5600,
+Pooja Agarwal,21,Female,Ranchi,BBA,7.5,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1400,7900,Occasional
+Harshad Sinha,22,Male,Raipur,B.Tech,8.1,Yes (3 months),6–10L,No,Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Riya Bhattacharya,19,Female,Siliguri,B.Sc,7,No,1–3L,Yes (?7000),No,Student,OTT,750,5400,Occasional
+Akshay Das,20,Male,Bhubaneswar,Diploma,6.5,No,3–6L,Yes (?10000),No,Student,Gym,500,4300,
+Tanvi Ghosh,22,Female,Durgapur,MBA,8.3,Yes (4 months),6–10L,No,Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Nilesh Roy,21,Male,Asansol,BCA,7.6,Yes (2 months),<1L,Yes (?6000),No,Savings,"OTT, Gym",1200,7600,Occasional
+Shruti Das,23,Female,Guwahati,M.Tech,9,Yes (5 months),3–6L,Yes (?14000),Education Loan,Joint,"Netflix, OTT",2400,11500,Regular
+Nikhil Sen,20,Male,Jamshedpur,B.Com,6.9,No,10–15L,No,No,Student,"OTT, Gym",850,5700,
+Vaishnavi Mishra,21,Female,Dehradun,BBA,7.4,Yes (2 months),<1L,Yes (?8000),No,Savings,"Netflix, OTT",1300,7800,Occasional
+Shubham Rawat,22,Male,Nainital,B.Tech,8.2,Yes (3 months),3–6L,Yes (?13000),Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Komal Pandey,19,Female,Meerut,B.Sc,7,No,6–10L,No,No,Student,OTT,750,5600,Occasional
+Akshay Yadav,20,Male,Aligarh,Diploma,6.5,No,1–3L,Yes (?10000),No,Student,Gym,500,4300,
+Tanvi Saxena,22,Female,Moradabad,MBA,8.3,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Aastha Pawar,21,Female,Pune,B.Sc,8.1,Yes (2 months),6–10L,No,No,Student,"Netflix, Gym",1100,7600,Regular
+Raghav Jadhav,22,Male,Mumbai,B.Tech,7.8,Yes (3 months),3–6L,Yes (?16000),Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Simran Gokhale,23,Female,Nashik,MBA,8.6,Yes (5 months),10–15L,No,Personal Loan,Joint,"Netflix, Spotify",2300,11100,Regular
+Arjun Salunkhe,20,Male,Nagpur,BCA,7.2,No,<1L,Yes (?9000),No,Student,OTT,850,5300,
+Ishita Rane,22,Female,Aurangabad,M.Tech,9.1,Yes (6 months),3–6L,Yes (?14000),Education Loan,Savings,"Netflix, OTT",2500,11000,Regular
+Soham Shinde,20,Male,Jalgaon,B.Com,6.8,No,6–10L,No,No,Student,Gym,600,4900,
+Meher Kulkarni,21,Female,Sangli,BBA,7.7,Yes (1 month),1–3L,Yes (?11000),No,Savings,"OTT, Spotify",950,6800,Occasional
+Krishan Gawande,22,Male,Beed,MBA,8.4,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Gym",2000,10600,Regular
+Ananya Patil,20,Female,Latur,B.Sc,7.1,No,6–10L,No,No,Student,Spotify,700,5000,Occasional
+Ritesh Lokhande,21,Male,Akola,B.Tech,8,Yes (2 months),3–6L,Yes (?16000),Education Loan,Savings,"OTT, Gym",1500,8700,Regular
+Sneha Salvi,22,Female,Nanded,M.Sc,8.9,Yes (5 months),10–15L,No,No,Joint,"Netflix, Spotify",2200,10800,Regular
+Aditya Gawande,20,Male,Washim,B.Com,6.7,No,3–6L,Yes (?11000),No,Student,"OTT, Gym",800,5600,
+Pooja Pawaskar,21,Female,Yavatmal,BBA,7.5,Yes (2 months),6–10L,No,No,Savings,"Netflix, OTT",1400,7900,Occasional
+Harshad Jadhav,22,Male,Parbhani,B.Tech,8.1,Yes (3 months),10–15L,No,Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Riya Gokhale,19,Female,Amravati,B.Sc,7,No,<1L,Yes (?9000),No,Student,OTT,750,5400,Occasional
+Akshay Salunkhe,20,Male,Ratnagiri,Diploma,6.5,No,6–10L,No,No,Student,Gym,500,4300,
+Tanvi Joshi,22,Female,Navi Mumbai,MBA,8.3,Yes (4 months),1–3L,Yes (?7000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Omkar Pawar,21,Male,Pune,BCA,7.6,Yes (2 months),3–6L,Yes (?10000),No,Savings,"OTT, Gym",1200,7600,Occasional
+Rutuja Jadhav,23,Female,Mumbai,M.Tech,9,Yes (5 months),6–10L,No,Education Loan,Joint,"Netflix, OTT",2400,11500,Regular
+Nikhil Pawaskar,20,Male,Nashik,B.Com,6.9,No,<1L,Yes (?6000),No,Student,"OTT, Gym",850,5700,
+Vaishnavi Salvi,21,Female,Nagpur,BBA,7.4,Yes (2 months),3–6L,Yes (?14000),No,Savings,"Netflix, OTT",1300,7800,Occasional
+Shubham Kulkarni,22,Male,Aurangabad,B.Tech,8.2,Yes (3 months),10–15L,No,Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Komal Gawande,19,Female,Jalgaon,B.Sc,7,No,<1L,Yes (?8000),No,Student,OTT,750,5600,Occasional
+Akshay Jagtap,20,Male,Sangli,Diploma,6.5,No,3–6L,Yes (?13000),No,Student,Gym,500,4300,
+Tanvi Salunkhe,22,Female,Beed,MBA,8.3,Yes (4 months),6–10L,No,Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Aishwarya More,21,Female,Pune,B.Sc,8.2,Yes (2 months),1–3L,Yes (?10000),No,Student,"Netflix, Gym",1100,7600,Regular
+Raghav Kulkarni,22,Male,Mumbai,B.Tech,7.8,Yes (3 months),<1L,Yes (?6000),Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Simran Salvi,23,Female,Nashik,MBA,8.6,Yes (5 months),6–10L,No,Personal Loan,Joint,"Netflix, Spotify",2300,11100,Regular
+Arjun Pawar,20,Male,Nagpur,BCA,7.2,No,3–6L,Yes (?16000),No,Student,OTT,850,5300,
+Ishita Jagtap,22,Female,Aurangabad,M.Tech,9.1,Yes (6 months),10–15L,No,Education Loan,Savings,"Netflix, OTT",2500,11000,Regular
+Soham Gokhale,20,Male,Jalgaon,B.Com,6.8,No,<1L,Yes (?9000),No,Student,Gym,600,4900,
+Meher Salunkhe,21,Female,Sangli,BBA,7.7,Yes (1 month),3–6L,Yes (?14000),No,Savings,"OTT, Spotify",950,6800,Occasional
+Krishan Jadhav,22,Male,Beed,MBA,8.4,Yes (4 months),6–10L,No,Personal Loan,Joint,"Netflix, Gym",2000,10600,Regular
+Ananya Lokhande,20,Female,Latur,B.Sc,7.1,No,1–3L,Yes (?11000),No,Student,Spotify,700,5000,Occasional
+Ritesh Salvi,21,Male,Akola,B.Tech,8,Yes (2 months),<1L,Yes (?6000),Education Loan,Savings,"OTT, Gym",1500,8700,Regular
+Sneha Gokhale,22,Female,Nanded,M.Sc,8.9,Yes (5 months),6–10L,No,No,Joint,"Netflix, Spotify",2200,10800,Regular
+Aditya Jagtap,20,Male,Washim,B.Com,6.7,No,3–6L,Yes (?12000),No,Student,"OTT, Gym",800,5600,
+Harshad Pawaskar,22,Male,Parbhani,B.Tech,8.1,Yes (3 months),6–10L,No,Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Riya Salunkhe,19,Female,Amravati,B.Sc,7,No,10–15L,No,No,Student,OTT,750,5400,Occasional
+Akshay Gokhale,20,Male,Ratnagiri,Diploma,6.5,No,<1L,Yes (?9000),No,Student,Gym,500,4300,
+Tanvi Jadhav,22,Female,Navi Mumbai,MBA,8.3,Yes (4 months),6–10L,No,Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Rutuja Pawar,23,Female,Mumbai,M.Tech,9,Yes (5 months),1–3L,Yes (?7000),Education Loan,Joint,"Netflix, OTT",2400,11500,Regular
+Nikhil Salunkhe,20,Male,Nashik,B.Com,6.9,No,3–6L,Yes (?10000),No,Student,"OTT, Gym",850,5700,
+Vaishnavi Jagtap,21,Female,Nagpur,BBA,7.4,Yes (2 months),6–10L,No,No,Savings,"Netflix, OTT",1300,7800,Occasional
+Shubham Gawande,22,Male,Aurangabad,B.Tech,8.2,Yes (3 months),<1L,Yes (?6000),Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Komal Shinde,19,Female,Jalgaon,B.Sc,7,No,3–6L,Yes (?14000),No,Student,OTT,750,5600,Occasional
+Akshay Lokhande,20,Male,Sangli,Diploma,6.5,No,10–15L,No,No,Student,Gym,500,4300,
+Tanvi Gawande,22,Female,Beed,MBA,8.3,Yes (4 months),<1L,Yes (?8000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Nilesh Jadhav,21,Male,Latur,BCA,7.6,Yes (2 months),3–6L,Yes (?13000),No,Savings,"OTT, Gym",1200,7600,Occasional
+Aishwarya Rane,21,Female,Pune,B.Sc,8.2,Yes (2 months),6–10L,No,No,Student,"Netflix, Gym",1100,7600,Regular
+Raghav Pawaskar,22,Male,Mumbai,B.Tech,7.8,Yes (3 months),1–3L,Yes (?10000),Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Simran Jadhav,23,Female,Nashik,MBA,8.6,Yes (5 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2300,11100,Regular
+Arjun Kulkarni,20,Male,Nagpur,BCA,7.2,No,6–10L,No,No,Student,OTT,850,5300,
+Ishita Salvi,22,Female,Aurangabad,M.Tech,9.1,Yes (6 months),3–6L,Yes (?16000),Education Loan,Savings,"Netflix, OTT",2500,11000,Regular
+Soham Gawande,20,Male,Jalgaon,B.Com,6.8,No,10–15L,No,No,Student,Gym,600,4900,
+Meher Lokhande,21,Female,Sangli,BBA,7.7,Yes (1 month),<1L,Yes (?9000),No,Savings,"OTT, Spotify",950,6800,Occasional
+Krishan Jagtap,22,Male,Beed,MBA,8.4,Yes (4 months),3–6L,Yes (?14000),Personal Loan,Joint,"Netflix, Gym",2000,10600,Regular
+Ritesh Shinde,21,Male,Akola,B.Tech,8,Yes (2 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1500,8700,Regular
+Aditya Salunkhe,20,Male,Washim,B.Com,6.7,No,1–3L,Yes (?11000),No,Student,"OTT, Gym",800,5600,
+Tanvi Pawaskar,22,Female,Navi Mumbai,MBA,8.3,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Omkar Salvi,21,Male,Pune,BCA,7.6,Yes (2 months),6–10L,No,No,Savings,"OTT, Gym",1200,7600,Occasional
+Rutuja Lokhande,23,Female,Mumbai,M.Tech,9,Yes (5 months),3–6L,Yes (?12000),Education Loan,Joint,"Netflix, OTT",2400,11500,Regular
+Nikhil Jagtap,20,Male,Nashik,B.Com,6.9,No,6–10L,No,No,Student,"OTT, Gym",850,5700,
+Vaishnavi Patil,21,Female,Nagpur,BBA,7.4,Yes (2 months),10–15L,No,No,Savings,"Netflix, OTT",1300,7800,Occasional
+Shubham Gokhale,22,Male,Aurangabad,B.Tech,8.2,Yes (3 months),<1L,Yes (?9000),Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Komal Jadhav,19,Female,Jalgaon,B.Sc,7,No,6–10L,No,No,Student,OTT,750,5600,Occasional
+Akshay Pawar,20,Male,Sangli,Diploma,6.5,No,1–3L,Yes (?7000),No,Student,Gym,500,4300,
+Aanya Gokhale,21,Female,Pune,B.Sc,8.1,Yes (2 months),3–6L,Yes (?10000),No,Student,"Netflix, Gym",1100,7600,Regular
+Simran Pawar,23,Female,Nashik,MBA,8.6,Yes (5 months),6–10L,No,Personal Loan,Joint,"Netflix, Spotify",2300,11100,Regular
+Arjun Jadhav,20,Male,Nagpur,BCA,7.2,No,<1L,Yes (?6000),No,Student,OTT,850,5300,
+Ishita Kulkarni,22,Female,Aurangabad,M.Tech,9.1,Yes (6 months),3–6L,Yes (?14000),Education Loan,Savings,"Netflix, OTT",2500,11000,Regular
+Soham Lokhande,20,Male,Jalgaon,B.Com,6.8,No,10–15L,No,No,Student,Gym,600,4900,
+Meher Jagtap,21,Female,Sangli,BBA,7.7,Yes (1 month),<1L,Yes (?8000),No,Savings,"OTT, Spotify",950,6800,Occasional
+Krishan Gokhale,22,Male,Beed,MBA,8.4,Yes (4 months),3–6L,Yes (?13000),Personal Loan,Joint,"Netflix, Gym",2000,10600,Regular
+Ananya Salvi,20,Female,Latur,B.Sc,7.1,No,6–10L,No,No,Student,Spotify,700,5000,Occasional
+Ritesh Jagtap,21,Male,Akola,B.Tech,8,Yes (2 months),1–3L,Yes (?10000),Education Loan,Savings,"OTT, Gym",1500,8700,Regular
+Sneha Pawaskar,22,Female,Nanded,M.Sc,8.9,Yes (5 months),<1L,Yes (?6000),No,Joint,"Netflix, Spotify",2200,10800,Regular
+Aditya Gokhale,20,Male,Washim,B.Com,6.7,No,6–10L,No,No,Student,"OTT, Gym",800,5600,
+Pooja Salunkhe,21,Female,Yavatmal,BBA,7.5,Yes (2 months),3–6L,Yes (?16000),No,Savings,"Netflix, OTT",1400,7900,Occasional
+Harshad Kulkarni,22,Male,Parbhani,B.Tech,8.1,Yes (3 months),10–15L,No,Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Akshay Jagtap,20,Male,Ratnagiri,Diploma,6.5,No,<1L,Yes (?9000),No,Student,Gym,500,4300,
+Tanvi Gokhale,22,Female,Navi Mumbai,MBA,8.3,Yes (4 months),3–6L,Yes (?14000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Omkar Jadhav,21,Male,Pune,BCA,7.6,Yes (2 months),6–10L,No,No,Savings,"OTT, Gym",1200,7600,Occasional
+Rutuja Salunkhe,23,Female,Mumbai,M.Tech,9,Yes (5 months),1–3L,Yes (?11000),Education Loan,Joint,"Netflix, OTT",2400,11500,Regular
+Nikhil Pawar,20,Male,Nashik,B.Com,6.9,No,<1L,Yes (?6000),No,Student,"OTT, Gym",850,5700,
+Vaishnavi Jadhav,21,Female,Nagpur,BBA,7.4,Yes (2 months),6–10L,No,No,Savings,"Netflix, OTT",1300,7800,Occasional
+Shubham Lokhande,22,Male,Aurangabad,B.Tech,8.2,Yes (3 months),3–6L,Yes (?16000),Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Komal Salvi,19,Female,Jalgaon,B.Sc,7,No,3–6L,Yes (?12000),No,Student,OTT,750,5600,Occasional
+Akshay Kulkarni,20,Male,Sangli,Diploma,6.5,No,6–10L,No,No,Student,Gym,500,4300,
+Raghav Jagtap,22,Male,Mumbai,B.Tech,7.8,Yes (3 months),10–15L,No,Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Simran Gawande,23,Female,Nashik,MBA,8.6,Yes (5 months),<1L,Yes (?9000),Personal Loan,Joint,"Netflix, Spotify",2300,11100,Regular
+Ishita Pawar,22,Female,Aurangabad,M.Tech,9.1,Yes (6 months),6–10L,No,Education Loan,Savings,"Netflix, OTT",2500,11000,Regular
+Soham Salunkhe,20,Male,Jalgaon,B.Com,6.8,No,1–3L,Yes (?7000),No,Student,Gym,600,4900,
+Meher Gokhale,21,Female,Sangli,BBA,7.7,Yes (1 month),3–6L,Yes (?10000),No,Savings,"OTT, Spotify",950,6800,Occasional
+Krishan Lokhande,22,Male,Beed,MBA,8.4,Yes (4 months),6–10L,No,Personal Loan,Joint,"Netflix, Gym",2000,10600,Regular
+Ananya Jagtap,20,Female,Latur,B.Sc,7.1,No,<1L,Yes (?6000),No,Student,Spotify,700,5000,Occasional
+Ritesh Pawar,21,Male,Akola,B.Tech,8,Yes (2 months),3–6L,Yes (?14000),Education Loan,Savings,"OTT, Gym",1500,8700,Regular
+Aditya Lokhande,20,Male,Washim,B.Com,6.7,No,10–15L,No,No,Student,"OTT, Gym",800,5600,
+Pooja Gokhale,21,Female,Yavatmal,BBA,7.5,Yes (2 months),<1L,Yes (?8000),No,Savings,"Netflix, OTT",1400,7900,Occasional
+Harshad Jagtap,22,Male,Parbhani,B.Tech,8.1,Yes (3 months),3–6L,Yes (?13000),Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Riya Pawaskar,19,Female,Amravati,B.Sc,7,No,6–10L,No,No,Student,OTT,750,5400,Occasional
+Akshay Salvi,20,Male,Ratnagiri,Diploma,6.5,No,1–3L,Yes (?10000),No,Student,Gym,500,4300,
+Tanvi Lokhande,22,Female,Navi Mumbai,MBA,8.3,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Rutuja Jagtap,23,Female,Mumbai,M.Tech,9,Yes (5 months),6–10L,No,Education Loan,Joint,"Netflix, OTT",2400,11500,Regular
+Nikhil Gokhale,20,Male,Nashik,B.Com,6.9,No,3–6L,Yes (?16000),No,Student,"OTT, Gym",850,5700,
+Shubham Pawaskar,22,Male,Aurangabad,B.Tech,8.2,Yes (3 months),10–15L,No,Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Komal Lokhande,19,Female,Jalgaon,B.Sc,7,No,<1L,Yes (?9000),No,Student,OTT,750,5600,Occasional
+Akshay Jadhav,20,Male,Sangli,Diploma,6.5,No,3–6L,Yes (?14000),No,Student,Gym,500,4300,
+Tanvi Pawar,22,Female,Beed,MBA,8.3,Yes (4 months),6–10L,No,Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Aanya Salvi,21,Female,Pune,B.Sc,8.1,Yes (2 months),1–3L,Yes (?11000),No,Student,"Netflix, Gym",1100,7600,Regular
+Raghav Gokhale,22,Male,Mumbai,B.Tech,7.9,Yes (3 months),<1L,Yes (?6000),Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Arjun Jagtap,20,Male,Nagpur,BCA,7.2,No,6–10L,No,No,Student,OTT,850,5300,
+Ishita Gawande,22,Female,Aurangabad,M.Tech,9.1,Yes (6 months),3–6L,Yes (?12000),Education Loan,Savings,"Netflix, OTT",2500,11000,Regular
+Soham Kulkarni,20,Male,Jalgaon,B.Com,6.8,No,6–10L,No,No,Student,Gym,600,4900,
+Meher Pawar,21,Female,Sangli,BBA,7.7,Yes (1 month),10–15L,No,No,Savings,"OTT, Spotify",950,6800,Occasional
+Krishan Salvi,22,Male,Beed,MBA,8.4,Yes (4 months),<1L,Yes (?9000),Personal Loan,Joint,"Netflix, Gym",2000,10600,Regular
+Ritesh Gokhale,21,Male,Akola,B.Tech,8,Yes (2 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1500,8700,Regular
+Sneha Jagtap,22,Female,Nanded,M.Sc,8.9,Yes (5 months),1–3L,Yes (?7000),No,Joint,"Netflix, Spotify",2200,10800,Regular
+Aditya Pawar,20,Male,Washim,B.Com,6.7,No,3–6L,Yes (?10000),No,Student,"OTT, Gym",800,5600,
+Pooja Gawande,21,Female,Yavatmal,BBA,7.5,Yes (2 months),6–10L,No,No,Savings,"Netflix, OTT",1400,7900,Occasional
+Harshad Lokhande,22,Male,Parbhani,B.Tech,8.1,Yes (3 months),<1L,Yes (?6000),Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Riya Salvi,19,Female,Amravati,B.Sc,7,No,3–6L,Yes (?14000),No,Student,OTT,750,5400,Occasional
+Akshay Pawaskar,20,Male,Ratnagiri,Diploma,6.5,No,10–15L,No,No,Student,Gym,500,4300,
+Tanvi Jagtap,22,Female,Navi Mumbai,MBA,8.3,Yes (4 months),<1L,Yes (?8000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Omkar Lokhande,21,Male,Pune,BCA,7.6,Yes (2 months),3–6L,Yes (?13000),No,Savings,"OTT, Gym",1200,7600,Occasional
+Rutuja Pawaskar,23,Female,Mumbai,M.Tech,9,Yes (5 months),6–10L,No,Education Loan,Joint,"Netflix, OTT",2400,11500,Regular
+Nikhil Salvi,20,Male,Nashik,B.Com,6.9,No,1–3L,Yes (?10000),No,Student,"OTT, Gym",850,5700,
+Shubham Salvi,22,Male,Aurangabad,B.Tech,8.2,Yes (3 months),<1L,Yes (?6000),Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Tanvi Gokhale,22,Female,Beed,MBA,8.3,Yes (4 months),6–10L,No,Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Aastha Rane,21,Female,Pune,B.Sc,8.1,Yes (2 months),3–6L,Yes (?16000),No,Student,"Netflix, Gym",1100,7600,Regular
+Aanya Pawar,21,Female,Pune,B.Sc,8,Yes (2 months),10–15L,No,No,Student,"Netflix, Gym",1100,7600,Regular
+Raghav Lokhande,22,Male,Mumbai,B.Tech,7.8,Yes (3 months),<1L,Yes (?9000),Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Simran Jagtap,23,Female,Nashik,MBA,8.6,Yes (5 months),3–6L,Yes (?14000),Personal Loan,Joint,"Netflix, Spotify",2300,11100,Regular
+Soham Jadhav,20,Male,Jalgaon,B.Com,6.8,No,6–10L,No,No,Student,Gym,600,4900,
+Meher Salvi,21,Female,Sangli,BBA,7.7,Yes (1 month),1–3L,Yes (?11000),No,Savings,"OTT, Spotify",950,6800,Occasional
+Ananya Jadhav,20,Female,Latur,B.Sc,7.1,No,<1L,Yes (?6000),No,Student,Spotify,700,5000,Occasional
+Sneha Pawar,22,Female,Nanded,M.Sc,8.9,Yes (5 months),3–6L,Yes (?11000),No,Joint,"Netflix, Spotify",2200,10800,Regular
+Pooja Lokhande,21,Female,Yavatmal,BBA,7.5,Yes (2 months),6–10L,No,No,Savings,"Netflix, OTT",1400,7900,Occasional
+Riya Lokhande,19,Female,Amravati,B.Sc,7,No,10–15L,No,No,Student,OTT,750,5400,Occasional
+Aastha Pawar,21,Female,Pune,B.Sc,8,Yes (2 months),<1L,Yes (?9000),No,Student,"Netflix, Gym",1100,7600,Regular
+Raghav Salvi,22,Male,Mumbai,B.Tech,7.8,Yes (3 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Arjun Gokhale,20,Male,Nagpur,BCA,7.2,No,1–3L,Yes (?7000),No,Student,OTT,850,5300,
+Ishita Jadhav,22,Female,Aurangabad,M.Tech,9.1,Yes (6 months),3–6L,Yes (?10000),Education Loan,Savings,"Netflix, OTT",2500,11000,Regular
+Ritesh Jadhav,21,Male,Akola,B.Tech,8,Yes (2 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1500,8700,Regular
+Sneha Lokhande,22,Female,Nanded,M.Sc,8.9,Yes (5 months),<1L,Yes (?6000),No,Joint,"Netflix, Spotify",2200,10800,Regular
+Harshad Salvi,22,Male,Parbhani,B.Tech,8.1,Yes (3 months),3–6L,Yes (?14000),Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Riya Jagtap,19,Female,Amravati,B.Sc,7,No,10–15L,No,No,Student,OTT,750,5400,Occasional
+Akshay Lokhande,20,Male,Ratnagiri,Diploma,6.5,No,<1L,Yes (?8000),No,Student,Gym,500,4300,
+Tanvi Salvi,22,Female,Navi Mumbai,MBA,8.3,Yes (4 months),3–6L,Yes (?13000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Omkar Gokhale,21,Male,Pune,BCA,7.6,Yes (2 months),6–10L,No,No,Savings,"OTT, Gym",1200,7600,Occasional
+Vaishnavi Pawar,21,Female,Nagpur,BBA,7.4,Yes (2 months),1–3L,Yes (?10000),No,Savings,"Netflix, OTT",1300,7800,Occasional
+Komal Gokhale,19,Female,Jalgaon,B.Sc,7,No,<1L,Yes (?6000),No,Student,OTT,750,5600,Occasional
+Aastha Salvi,21,Female,Pune,B.Sc,8,Yes (2 months),6–10L,No,No,Student,"Netflix, Gym",1100,7600,Regular
+Arjun Lokhande,20,Male,Nagpur,BCA,7.2,No,3–6L,Yes (?16000),No,Student,OTT,850,5300,
+Soham Salvi,20,Male,Jalgaon,B.Com,6.8,No,10–15L,No,No,Student,Gym,600,4900,
+Pooja Salvi,21,Female,Yavatmal,BBA,7.5,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1400,7900,Occasional
+Harshad Gokhale,22,Male,Parbhani,B.Tech,8.1,Yes (3 months),3–6L,Yes (?14000),Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Akshay Jadhav,20,Male,Ratnagiri,Diploma,6.5,No,6–10L,No,No,Student,Gym,500,4300,
+Nikhil Jadhav,20,Male,Nashik,B.Com,6.9,No,1–3L,Yes (?11000),No,Student,"OTT, Gym",850,5700,
+Akshay Salvi,20,Male,Sangli,Diploma,6.5,No,<1L,Yes (?6000),No,Student,Gym,500,4300,
+Raghav Lokhande,22,Male,Mumbai,B.Tech,7.9,Yes (3 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Aanya Lokhande,21,Female,Pune,B.Sc,8.1,Yes (2 months),3–6L,Yes (?12000),No,Student,"Netflix, Gym",1100,7600,Regular
+Raghav Jadhav,22,Male,Mumbai,B.Tech,7.9,Yes (3 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Ananya Gokhale,20,Female,Latur,B.Sc,7.1,No,10–15L,No,No,Student,Spotify,700,5000,Occasional
+Sneha Jadhav,22,Female,Nanded,M.Sc,8.9,Yes (5 months),<1L,Yes (?9000),No,Joint,"Netflix, Spotify",2200,10800,Regular
+Pooja Pawar,21,Female,Yavatmal,BBA,7.5,Yes (2 months),6–10L,No,No,Savings,"Netflix, OTT",1400,7900,Occasional
+Vaishnavi Lokhande,21,Female,Nagpur,BBA,7.4,Yes (2 months),1–3L,Yes (?7000),No,Savings,"Netflix, OTT",1300,7800,Occasional
+Shubham Jadhav,22,Male,Aurangabad,B.Tech,8.2,Yes (3 months),3–6L,Yes (?10000),Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Shubham Pawar,22,Male,Aurangabad,B.Tech,8.2,Yes (3 months),6–10L,No,Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Akshay Pawar,20,Male,Ratnagiri,Diploma,6.5,No,<1L,Yes (?6000),No,Student,Gym,500,4300,
+Nivedita Menon,21,Female,Kochi,B.Sc,8.2,Yes (2 months),3–6L,Yes (?14000),No,Student,"Netflix, Gym",1150,7800,Regular
+Arvind Barua,22,Male,Guwahati,B.Tech,7.7,Yes (3 months),10–15L,No,Education Loan,Savings,"OTT, Gym",1250,8300,Occasional
+Roshni Dâ€™Souza,23,Female,Mangalore,MBA,8.5,Yes (5 months),<1L,Yes (?8000),Personal Loan,Joint,"Netflix, Spotify",2350,11200,Regular
+Pratiksha Bhoi,20,Female,Bhubaneswar,BCA,7.3,No,3–6L,Yes (?13000),No,Student,OTT,900,5400,
+Faizan Shaikh,22,Male,Bhopal,M.Tech,9,Yes (6 months),6–10L,No,Education Loan,Savings,"Netflix, OTT",2450,11100,Regular
+Lavanya Iyer,20,Female,Chennai,B.Com,6.9,No,1–3L,Yes (?10000),No,Student,Gym,650,4800,
+Tenzin Norbu,21,Male,Dharamshala,BBA,7.6,Yes (1 month),<1L,Yes (?6000),No,Savings,"OTT, Spotify",1000,6900,Occasional
+Snehal Patankar,22,Female,Kolhapur,MBA,8.3,Yes (4 months),6–10L,No,Personal Loan,Joint,"Netflix, Gym",2050,10500,Regular
+Abhishek Rathi,20,Male,Indore,B.Sc,7,No,3–6L,Yes (?16000),No,Student,Spotify,750,5100,Occasional
+Devika Nair,21,Female,Thiruvananthapuram,B.Tech,8.1,Yes (2 months),10–15L,No,Education Loan,Savings,"OTT, Gym",1450,8600,Regular
+Rameshwar Yadav,22,Male,Varanasi,M.Sc,8.8,Yes (5 months),<1L,Yes (?9000),No,Joint,"Netflix, Spotify",2150,10900,Regular
+Anushka Bhagat,20,Female,Raipur,B.Com,6.6,No,3–6L,Yes (?14000),No,Student,"OTT, Gym",850,5500,
+Harshit Meena,21,Male,Jaipur,BBA,7.5,Yes (2 months),6–10L,No,No,Savings,"Netflix, OTT",1350,7700,Occasional
+Ayesha Mirza,22,Female,Srinagar,B.Tech,8.2,Yes (3 months),1–3L,Yes (?11000),Education Loan,Savings,"Spotify, Gym",1550,8900,Regular
+Karthikeya Reddy,19,Male,Hyderabad,B.Sc,7.1,No,<1L,Yes (?6000),No,Student,OTT,800,5300,Occasional
+Nandini Chatterjee,20,Female,Kolkata,Diploma,6.4,No,6–10L,No,No,Student,Gym,550,4200,
+Aravindh Rajan,22,Male,Coimbatore,MBA,8.2,Yes (4 months),3–6L,Yes (?12000),Personal Loan,Joint,"Netflix, Spotify",2100,10300,Regular
+Priya Chauhan,21,Female,Ahmedabad,BCA,7.7,Yes (2 months),6–10L,No,No,Savings,"OTT, Gym",1250,7700,Occasional
+Manjeet Singh,23,Male,Chandigarh,M.Tech,9,Yes (5 months),10–15L,No,Education Loan,Joint,"Netflix, OTT",2400,11400,Regular
+Ritu Kumari,20,Female,Ranchi,B.Com,6.8,No,<1L,Yes (?9000),No,Student,"OTT, Gym",850,5600,
+Vishal Parmar,21,Male,Surat,BBA,7.3,Yes (2 months),6–10L,No,No,Savings,"Netflix, OTT",1300,7900,Occasional
+Shreya Joshi,22,Female,Nashik,B.Tech,8.3,Yes (3 months),1–3L,Yes (?7000),Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Tushar Bansal,19,Male,Ludhiana,B.Sc,7,No,3–6L,Yes (?10000),No,Student,OTT,750,5500,Occasional
+Rachana Deshmukh,20,Female,Nagpur,Diploma,6.5,No,6–10L,No,No,Student,Gym,500,4300,
+Ishaan Bhattacharya,21,Male,Kolkata,B.Sc,8,Yes (2 months),<1L,Yes (?6000),No,Student,"Netflix, Gym",1100,7600,Regular
+Aaliya Khan,22,Female,Lucknow,B.Tech,7.9,Yes (3 months),3–6L,Yes (?14000),Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Ritesh Shetty,23,Male,Mangalore,MBA,8.6,Yes (5 months),10–15L,No,Personal Loan,Joint,"Netflix, Spotify",2300,11100,Regular
+Kavya Rawat,20,Female,Dehradun,BCA,7.2,No,<1L,Yes (?8000),No,Student,OTT,850,5300,
+Arman Dey,22,Male,Siliguri,M.Tech,9.1,Yes (6 months),3–6L,Yes (?13000),Education Loan,Savings,"Netflix, OTT",2500,11000,Regular
+Shruti Pillai,20,Female,Kochi,B.Com,6.8,No,6–10L,No,No,Student,Gym,600,4900,
+Nikhil Chauhan,21,Male,Shimla,BBA,7.7,Yes (1 month),1–3L,Yes (?10000),No,Savings,"OTT, Spotify",950,6800,Occasional
+Sneha Ramesh,22,Female,Madurai,MBA,8.4,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Gym",2000,10600,Regular
+Aniket Das,20,Male,Jamshedpur,B.Sc,7.1,No,6–10L,No,No,Student,Spotify,700,5000,Occasional
+Vaidehi Joshi,21,Female,Nashik,B.Tech,8,Yes (2 months),3–6L,Yes (?16000),Education Loan,Savings,"OTT, Gym",1500,8700,Regular
+Raghunandan Verma,22,Male,Kanpur,M.Sc,8.9,Yes (5 months),10–15L,No,No,Joint,"Netflix, Spotify",2200,10800,Regular
+Charvi Mehta,20,Female,Rajkot,B.Com,6.7,No,<1L,Yes (?9000),No,Student,"OTT, Gym",800,5600,
+Harshil Patel,21,Male,Vadodara,BBA,7.5,Yes (2 months),3–6L,Yes (?14000),No,Savings,"Netflix, OTT",1400,7900,Occasional
+Nagma Siddiqui,22,Female,Aligarh,B.Tech,8.1,Yes (3 months),6–10L,No,Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Rohan Thakur,19,Male,Solan,B.Sc,7,No,1–3L,Yes (?11000),No,Student,OTT,750,5400,Occasional
+Ananya Mohanty,20,Female,Cuttack,Diploma,6.5,No,<1L,Yes (?6000),No,Student,Gym,500,4300,
+Siddharth Kulkarni,22,Male,Pune,MBA,8.3,Yes (4 months),3–6L,Yes (?11000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Bhavya Sharma,21,Female,Delhi,BCA,7.6,Yes (2 months),6–10L,No,No,Savings,"OTT, Gym",1200,7600,Occasional
+Ajay Rajput,23,Male,Gwalior,M.Tech,9,Yes (5 months),10–15L,No,Education Loan,Joint,"Netflix, OTT",2400,11500,Regular
+Rachita Jain,20,Female,Ujjain,B.Com,6.9,No,<1L,Yes (?9000),No,Student,"OTT, Gym",850,5700,
+Kunal Bhatia,21,Male,Amritsar,BBA,7.4,Yes (2 months),6–10L,No,No,Savings,"Netflix, OTT",1300,7800,Occasional
+Shraddha Vyas,22,Female,Udaipur,B.Tech,8.2,Yes (3 months),1–3L,Yes (?7000),Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Aamir Hussain,19,Male,Patna,B.Sc,7,No,3–6L,Yes (?10000),No,Student,OTT,750,5600,Occasional
+Deepika Rane,20,Female,Panaji,Diploma,6.5,No,6–10L,No,No,Student,Gym,500,4300,
+Riya Banerjee,21,Female,Kolkata,B.Sc,8.2,Yes (2 months),<1L,Yes (?6000),No,Student,"Netflix, Gym",1150,7800,Regular
+Adarsh Pillai,22,Male,Kochi,B.Tech,7.8,Yes (3 months),3–6L,Yes (?14000),Education Loan,Savings,"OTT, Gym",1250,8300,Occasional
+Sana Qureshi,23,Female,Bhopal,MBA,8.5,Yes (5 months),10–15L,No,Personal Loan,Joint,"Netflix, Spotify",2350,11200,Regular
+Raghavendra Joshi,20,Male,Hubli,BCA,7.3,No,<1L,Yes (?8000),No,Student,OTT,900,5400,
+Nandita Reddy,22,Female,Hyderabad,M.Tech,9,Yes (6 months),3–6L,Yes (?13000),Education Loan,Savings,"Netflix, OTT",2450,11100,Regular
+Pranav Kapoor,20,Male,Chandigarh,B.Com,6.9,No,6–10L,No,No,Student,Gym,650,4800,
+Ishika Sharma,21,Female,Jaipur,BBA,7.6,Yes (1 month),1–3L,Yes (?10000),No,Savings,"OTT, Spotify",1000,6900,Occasional
+Aakash Bhatt,22,Male,Ahmedabad,MBA,8.3,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Gym",2050,10500,Regular
+Snehal Desai,20,Female,Surat,B.Sc,7,No,6–10L,No,No,Student,Spotify,750,5100,Occasional
+Arvind Kumar,21,Male,Patna,B.Tech,8.1,Yes (2 months),3–6L,Yes (?16000),Education Loan,Savings,"OTT, Gym",1450,8600,Regular
+Shalini Nair,22,Female,Thiruvananthapuram,M.Sc,8.8,Yes (5 months),10–15L,No,No,Joint,"Netflix, Spotify",2150,10900,Regular
+Devansh Singh,20,Male,Kanpur,B.Com,6.6,No,<1L,Yes (?9000),No,Student,"OTT, Gym",850,5500,
+Aarti Mishra,21,Female,Varanasi,BBA,7.5,Yes (2 months),3–6L,Yes (?14000),No,Savings,"Netflix, OTT",1350,7700,Occasional
+Zaid Khan,22,Male,Srinagar,B.Tech,8.2,Yes (3 months),6–10L,No,Education Loan,Savings,"Spotify, Gym",1550,8900,Regular
+Mitali Das,19,Female,Silchar,B.Sc,7.1,No,1–3L,Yes (?11000),No,Student,OTT,800,5300,Occasional
+Rakesh Chauhan,20,Male,Shimla,Diploma,6.4,No,<1L,Yes (?6000),No,Student,Gym,550,4200,
+Anushka Jain,22,Female,Indore,MBA,8.2,Yes (4 months),3–6L,Yes (?11000),Personal Loan,Joint,"Netflix, Spotify",2100,10300,Regular
+Rohan Mehta,21,Male,Mumbai,BCA,7.7,Yes (2 months),6–10L,No,No,Savings,"OTT, Gym",1250,7700,Occasional
+Priyanka Yadav,23,Female,Lucknow,M.Tech,9,Yes (5 months),10–15L,No,Education Loan,Joint,"Netflix, OTT",2400,11400,Regular
+Ankit Verma,20,Male,Gwalior,B.Com,6.8,No,<1L,Yes (?9000),No,Student,"OTT, Gym",850,5600,
+Roshni Thakur,21,Female,Raipur,BBA,7.3,Yes (2 months),6–10L,No,No,Savings,"Netflix, OTT",1300,7900,Occasional
+Aryan Bansal,22,Male,Ludhiana,B.Tech,8.3,Yes (3 months),1–3L,Yes (?7000),Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Nisha Kumari,19,Female,Ranchi,B.Sc,7,No,3–6L,Yes (?10000),No,Student,OTT,750,5600,Occasional
+Vishnu Mohan,20,Male,Kozhikode,Diploma,6.5,No,6–10L,No,No,Student,Gym,500,4300,
+Aditi Ghosh,21,Female,Howrah,B.Sc,8.1,Yes (2 months),<1L,Yes (?6000),No,Student,"Netflix, Gym",1100,7600,Regular
+Rohan Nair,22,Male,Kochi,B.Tech,7.9,Yes (3 months),3–6L,Yes (?14000),Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Meenal Kapoor,23,Female,Delhi,MBA,8.6,Yes (5 months),10–15L,No,Personal Loan,Joint,"Netflix, Spotify",2300,11100,Regular
+Satyam Rathore,20,Male,Jabalpur,BCA,7.2,No,<1L,Yes (?8000),No,Student,OTT,850,5300,
+Anushka Rane,22,Female,Pune,M.Tech,9.1,Yes (6 months),3–6L,Yes (?13000),Education Loan,Savings,"Netflix, OTT",2500,11000,Regular
+Ritesh Bhagat,20,Male,Nagpur,B.Com,6.8,No,6–10L,No,No,Student,Gym,600,4900,
+Arvind Mishra,22,Male,Varanasi,MBA,8.4,Yes (4 months),1–3L,Yes (?10000),Personal Loan,Joint,"Netflix, Gym",2000,10600,Regular
+Rachna Yadav,20,Female,Kanpur,B.Sc,7.1,No,<1L,Yes (?6000),No,Student,Spotify,700,5000,Occasional
+Faizal Ansari,21,Male,Bhopal,B.Tech,8,Yes (2 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1500,8700,Regular
+Shreya Kulkarni,22,Female,Nashik,M.Sc,8.9,Yes (5 months),3–6L,Yes (?16000),No,Joint,"Netflix, Spotify",2200,10800,Regular
+Manish Rawat,20,Male,Dehradun,B.Com,6.7,No,10–15L,No,No,Student,"OTT, Gym",800,5600,
+Bhavna Joshi,21,Female,Indore,BBA,7.5,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1400,7900,Occasional
+Zubin Irani,22,Male,Surat,B.Tech,8.1,Yes (3 months),3–6L,Yes (?14000),Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Rituja Patil,19,Female,Kolhapur,B.Sc,7,No,6–10L,No,No,Student,OTT,750,5400,Occasional
+Harsh Vora,20,Male,Rajkot,Diploma,6.5,No,1–3L,Yes (?11000),No,Student,Gym,500,4300,
+Ayesha Siddiqui,22,Female,Aligarh,MBA,8.3,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Karan Malhotra,21,Male,Ludhiana,BCA,7.6,Yes (2 months),3–6L,Yes (?11000),No,Savings,"OTT, Gym",1200,7600,Occasional
+Vaishali Deshmukh,23,Female,Aurangabad,M.Tech,9,Yes (5 months),6–10L,No,Education Loan,Joint,"Netflix, OTT",2400,11500,Regular
+Nitin Sharma,20,Male,Jaipur,B.Com,6.9,No,10–15L,No,No,Student,"OTT, Gym",850,5700,
+Shraddha Pandey,21,Female,Lucknow,BBA,7.4,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1300,7800,Occasional
+Abhay Singh,22,Male,Gwalior,B.Tech,8.2,Yes (3 months),6–10L,No,Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Komal Jain,19,Female,Ujjain,B.Sc,7,No,1–3L,Yes (?7000),No,Student,OTT,750,5600,Occasional
+Arvindh Krishnan,20,Male,Coimbatore,Diploma,6.5,No,3–6L,Yes (?10000),No,Student,Gym,500,4300,
+Neha Bhat,21,Female,Jammu,B.Sc,8.2,Yes (2 months),6–10L,No,No,Student,"Netflix, Gym",1150,7800,Regular
+Arjun Das,22,Male,Kolkata,B.Tech,7.8,Yes (3 months),<1L,Yes (?6000),Education Loan,Savings,"OTT, Gym",1250,8300,Occasional
+Ishita Raval,23,Female,Ahmedabad,MBA,8.5,Yes (5 months),3–6L,Yes (?14000),Personal Loan,Joint,"Netflix, Spotify",2350,11200,Regular
+Rakesh Tiwari,20,Male,Gorakhpur,BCA,7.3,No,10–15L,No,No,Student,OTT,900,5400,
+Ananya Pillai,22,Female,Kochi,M.Tech,9,Yes (6 months),<1L,Yes (?8000),Education Loan,Savings,"Netflix, OTT",2450,11100,Regular
+Saurabh Chauhan,20,Male,Agra,B.Com,6.9,No,3–6L,Yes (?13000),No,Student,Gym,650,4800,
+Roshni Shetty,21,Female,Mangalore,BBA,7.6,Yes (1 month),6–10L,No,No,Savings,"OTT, Spotify",1000,6900,Occasional
+Nitin Reddy,22,Male,Hyderabad,MBA,8.3,Yes (4 months),1–3L,Yes (?10000),Personal Loan,Joint,"Netflix, Gym",2050,10500,Regular
+Priya Sinha,20,Female,Ranchi,B.Sc,7,No,<1L,Yes (?6000),No,Student,Spotify,750,5100,Occasional
+Aditya Mehta,21,Male,Surat,B.Tech,8.1,Yes (2 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1450,8600,Regular
+Snehal Patil,22,Female,Pune,M.Sc,8.8,Yes (5 months),3–6L,Yes (?16000),No,Joint,"Netflix, Spotify",2150,10900,Regular
+Rajeev Sharma,20,Male,Jaipur,B.Com,6.6,No,10–15L,No,No,Student,"OTT, Gym",850,5500,
+Aishwarya Nair,21,Female,Thane,BBA,7.5,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1350,7700,Occasional
+Imran Qureshi,22,Male,Bhopal,B.Tech,8.2,Yes (3 months),3–6L,Yes (?14000),Education Loan,Savings,"Spotify, Gym",1550,8900,Regular
+Ritu Meena,19,Female,Kota,B.Sc,7.1,No,6–10L,No,No,Student,OTT,800,5300,Occasional
+Deepak Verma,20,Male,Kanpur,Diploma,6.4,No,1–3L,Yes (?11000),No,Student,Gym,550,4200,
+Shruti Desai,22,Female,Vadodara,MBA,8.2,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2100,10300,Regular
+Kunal Joshi,21,Male,Nashik,BCA,7.7,Yes (2 months),3–6L,Yes (?12000),No,Savings,"OTT, Gym",1250,7700,Occasional
+Aarti Kumari,23,Female,Patna,M.Tech,9,Yes (5 months),6–10L,No,Education Loan,Joint,"Netflix, OTT",2400,11400,Regular
+Harsh Bansal,20,Male,Ludhiana,B.Com,6.8,No,10–15L,No,No,Student,"OTT, Gym",850,5600,
+Nandini Choudhury,21,Female,Siliguri,BBA,7.3,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1300,7900,Occasional
+Aman Kapoor,22,Male,Chandigarh,B.Tech,8.3,Yes (3 months),6–10L,No,Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Kavita Rao,19,Female,Mysuru,B.Sc,7,No,1–3L,Yes (?7000),No,Student,OTT,750,5600,Occasional
+Praveen Mohanty,20,Male,Bhubaneswar,Diploma,6.5,No,3–6L,Yes (?10000),No,Student,Gym,500,4300,
+Tanya Bhattacharya,21,Female,Kolkata,B.Sc,8.2,Yes (2 months),6–10L,No,No,Student,"Netflix, Gym",1150,7800,Regular
+Aditya Rane,22,Male,Pune,B.Tech,7.8,Yes (3 months),<1L,Yes (?6000),Education Loan,Savings,"OTT, Gym",1250,8300,Occasional
+Shalini Verma,23,Female,Lucknow,MBA,8.5,Yes (5 months),3–6L,Yes (?14000),Personal Loan,Joint,"Netflix, Spotify",2350,11200,Regular
+Karan Dâ€™Souza,20,Male,Mangalore,BCA,7.3,No,10–15L,No,No,Student,OTT,900,5400,
+Ayesha Iqbal,22,Female,Srinagar,M.Tech,9,Yes (6 months),<1L,Yes (?8000),Education Loan,Savings,"Netflix, OTT",2450,11100,Regular
+Harshit Jain,20,Male,Indore,B.Com,6.9,No,3–6L,Yes (?13000),No,Student,Gym,650,4800,
+Riya Shah,21,Female,Surat,BBA,7.6,Yes (1 month),6–10L,No,No,Savings,"OTT, Spotify",1000,6900,Occasional
+Arvindh Nair,22,Male,Kochi,MBA,8.3,Yes (4 months),1–3L,Yes (?10000),Personal Loan,Joint,"Netflix, Gym",2050,10500,Regular
+Sneha Kumari,20,Female,Patna,B.Sc,7,No,<1L,Yes (?6000),No,Student,Spotify,750,5100,Occasional
+Raghav Kapoor,21,Male,Delhi,B.Tech,8.1,Yes (2 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1450,8600,Regular
+Anjali Deshmukh,22,Female,Nagpur,M.Sc,8.8,Yes (5 months),3–6L,Yes (?16000),No,Joint,"Netflix, Spotify",2150,10900,Regular
+Manav Singh,20,Male,Kanpur,B.Com,6.6,No,10–15L,No,No,Student,"OTT, Gym",850,5500,
+Bhavika Joshi,21,Female,Nashik,BBA,7.5,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1350,7700,Occasional
+Zaid Mir,22,Male,Baramulla,B.Tech,8.2,Yes (3 months),3–6L,Yes (?14000),Education Loan,Savings,"Spotify, Gym",1550,8900,Regular
+Mitali Rao,19,Female,Panaji,B.Sc,7.1,No,6–10L,No,No,Student,OTT,800,5300,Occasional
+Abhishek Yadav,20,Male,Varanasi,Diploma,6.4,No,1–3L,Yes (?11000),No,Student,Gym,550,4200,
+Shraddha Menon,22,Female,Thiruvananthapuram,MBA,8.2,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2100,10300,Regular
+Tushar Bhagat,21,Male,Raipur,BCA,7.7,Yes (2 months),3–6L,Yes (?12000),No,Savings,"OTT, Gym",1250,7700,Occasional
+Priyanka Das,23,Female,Guwahati,M.Tech,9,Yes (5 months),6–10L,No,Education Loan,Joint,"Netflix, OTT",2400,11400,Regular
+Arvind Kumar,20,Male,Ranchi,B.Com,6.8,No,10–15L,No,No,Student,"OTT, Gym",850,5600,
+Nandita Sen,21,Female,Asansol,BBA,7.3,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1300,7900,Occasional
+Saurabh Kulkarni,22,Male,Solapur,B.Tech,8.3,Yes (3 months),6–10L,No,Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Kavita Mishra,19,Female,Gaya,B.Sc,7,No,1–3L,Yes (?7000),No,Student,OTT,750,5600,Occasional
+Vishal Mohanty,20,Male,Cuttack,Diploma,6.5,No,3–6L,Yes (?10000),No,Student,Gym,500,4300,
+Radhika Sen,21,Female,Chandigarh,B.Sc,8.1,Yes (2 months),6–10L,No,No,Student,"Netflix, Gym",1100,7600,Regular
+Arman Bhagat,22,Male,Pune,B.Tech,7.9,Yes (3 months),<1L,Yes (?6000),Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Sneha Chatterjee,23,Female,Kolkata,MBA,8.6,Yes (5 months),3–6L,Yes (?14000),Personal Loan,Joint,"Netflix, Spotify",2300,11100,Regular
+Pratiksha Rane,20,Female,Mumbai,BCA,7.2,No,10–15L,No,No,Student,OTT,850,5300,
+Faizan Khan,22,Male,Lucknow,M.Tech,9.1,Yes (6 months),<1L,Yes (?8000),Education Loan,Savings,"Netflix, OTT",2500,11000,Regular
+Lavanya Joshi,20,Female,Indore,B.Com,6.8,No,3–6L,Yes (?13000),No,Student,Gym,600,4900,
+Tenzin Lhamo,21,Female,Dharamshala,BBA,7.7,Yes (1 month),6–10L,No,No,Savings,"OTT, Spotify",950,6800,Occasional
+Snehal Kulkarni,22,Male,Nashik,MBA,8.4,Yes (4 months),1–3L,Yes (?10000),Personal Loan,Joint,"Netflix, Gym",2000,10600,Regular
+Ananya Das,20,Female,Bhubaneswar,B.Sc,7.1,No,<1L,Yes (?6000),No,Student,Spotify,700,5000,Occasional
+Ritesh Iyer,21,Male,Chennai,B.Tech,8,Yes (2 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1500,8700,Regular
+Sneha Yadav,22,Female,Kanpur,M.Sc,8.9,Yes (5 months),3–6L,Yes (?16000),No,Joint,"Netflix, Spotify",2200,10800,Regular
+Aditya Chauhan,20,Male,Jaipur,B.Com,6.7,No,10–15L,No,No,Student,"OTT, Gym",800,5600,
+Pooja Nair,21,Female,Kochi,BBA,7.5,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1400,7900,Occasional
+Harshad Patel,22,Male,Vadodara,B.Tech,8.1,Yes (3 months),3–6L,Yes (?14000),Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Riya Kumari,19,Female,Ranchi,B.Sc,7,No,6–10L,No,No,Student,OTT,750,5400,Occasional
+Akshay Mohanty,20,Male,Cuttack,Diploma,6.5,No,1–3L,Yes (?11000),No,Student,Gym,500,4300,
+Tanvi Mehta,22,Female,Ahmedabad,MBA,8.3,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Omkar Shetty,21,Male,Mangalore,BCA,7.6,Yes (2 months),3–6L,Yes (?11000),No,Savings,"OTT, Gym",1200,7600,Occasional
+Rutuja Pawar,23,Female,Sangli,M.Tech,9,Yes (5 months),6–10L,No,Education Loan,Joint,"Netflix, OTT",2400,11500,Regular
+Nikhil Barua,20,Male,Guwahati,B.Com,6.9,No,10–15L,No,No,Student,"OTT, Gym",850,5700,
+Vaishnavi Reddy,21,Female,Hyderabad,BBA,7.4,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1300,7800,Occasional
+Shubham Ghosh,22,Male,Siliguri,B.Tech,8.2,Yes (3 months),6–10L,No,Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Komal Sharma,19,Female,Udaipur,B.Sc,7,No,1–3L,Yes (?7000),No,Student,OTT,750,5600,Occasional
+Akshay Pillai,20,Male,Thane,Diploma,6.5,No,3–6L,Yes (?10000),No,Student,Gym,500,4300,
+Aastha Kapoor,21,Female,Delhi,B.Sc,8.2,Yes (2 months),6–10L,No,No,Student,"Netflix, Gym",1150,7800,Regular
+Raghav Menon,22,Male,Kochi,B.Tech,7.8,Yes (3 months),<1L,Yes (?6000),Education Loan,Savings,"OTT, Gym",1250,8300,Occasional
+Simran Chauhan,23,Female,Jaipur,MBA,8.5,Yes (5 months),3–6L,Yes (?14000),Personal Loan,Joint,"Netflix, Spotify",2350,11200,Regular
+Arvindh Das,20,Male,Kolkata,BCA,7.3,No,10–15L,No,No,Student,OTT,900,5400,
+Ishita Reddy,22,Female,Hyderabad,M.Tech,9,Yes (6 months),<1L,Yes (?8000),Education Loan,Savings,"Netflix, OTT",2450,11100,Regular
+Soham Ghosh,20,Male,Siliguri,B.Com,6.9,No,3–6L,Yes (?13000),No,Student,Gym,650,4800,
+Meher Sharma,21,Female,Chandigarh,BBA,7.6,Yes (1 month),6–10L,No,No,Savings,"OTT, Spotify",1000,6900,Occasional
+Krishan Pillai,22,Male,Thiruvananthapuram,MBA,8.3,Yes (4 months),1–3L,Yes (?10000),Personal Loan,Joint,"Netflix, Gym",2050,10500,Regular
+Ananya Bhagat,20,Female,Bhopal,B.Sc,7,No,<1L,Yes (?6000),No,Student,Spotify,750,5100,Occasional
+Ritesh Verma,21,Male,Kanpur,B.Tech,8.1,Yes (2 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1450,8600,Regular
+Sneha Patankar,22,Female,Nashik,M.Sc,8.8,Yes (5 months),3–6L,Yes (?16000),No,Joint,"Netflix, Spotify",2150,10900,Regular
+Aditya Joshi,20,Male,Pune,B.Com,6.6,No,10–15L,No,No,Student,"OTT, Gym",850,5500,
+Pooja Desai,21,Female,Surat,BBA,7.5,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1350,7700,Occasional
+Harshad Singh,22,Male,Gwalior,B.Tech,8.2,Yes (3 months),3–6L,Yes (?14000),Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Riya Mishra,19,Female,Varanasi,B.Sc,7.1,No,6–10L,No,No,Student,OTT,800,5300,Occasional
+Akshay Bansal,20,Male,Ludhiana,Diploma,6.4,No,1–3L,Yes (?11000),No,Student,Gym,550,4200,
+Tanvi Kumari,22,Female,Ranchi,MBA,8.2,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2100,10300,Regular
+Omkar Jadhav,21,Male,Aurangabad,BCA,7.7,Yes (2 months),3–6L,Yes (?12000),No,Savings,"OTT, Gym",1250,7700,Occasional
+Rutuja Salvi,23,Female,Sangli,M.Tech,9,Yes (5 months),6–10L,No,Education Loan,Joint,"Netflix, OTT",2400,11400,Regular
+Nikhil Chauhan,20,Male,Jaipur,B.Com,6.8,No,10–15L,No,No,Student,"OTT, Gym",850,5600,
+Vaishnavi Pillai,21,Female,Kochi,BBA,7.3,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1300,7900,Occasional
+Shubham Rathi,22,Male,Indore,B.Tech,8.3,Yes (3 months),6–10L,No,Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Komal Bhatt,19,Female,Rajkot,B.Sc,7,No,1–3L,Yes (?7000),No,Student,OTT,750,5600,Occasional
+Akshay Thakur,20,Male,Solan,Diploma,6.5,No,3–6L,Yes (?10000),No,Student,Gym,500,4300,
+Nivedita Rao,21,Female,Bengaluru,B.Sc,8.2,Yes (2 months),6–10L,No,No,Student,"Netflix, Gym",1150,7800,Regular
+Arvindh Sharma,22,Male,Jaipur,B.Tech,7.8,Yes (3 months),<1L,Yes (?6000),Education Loan,Savings,"OTT, Gym",1250,8300,Occasional
+Roshni Nair,23,Female,Kochi,MBA,8.5,Yes (5 months),3–6L,Yes (?14000),Personal Loan,Joint,"Netflix, Spotify",2350,11200,Regular
+Pranav Deshmukh,20,Male,Nagpur,BCA,7.3,No,10–15L,No,No,Student,OTT,900,5400,
+Ayesha Siddiqui,22,Female,Lucknow,M.Tech,9,Yes (6 months),<1L,Yes (?8000),Education Loan,Savings,"Netflix, OTT",2450,11100,Regular
+Harshit Patel,20,Male,Ahmedabad,B.Com,6.9,No,3–6L,Yes (?13000),No,Student,Gym,650,4800,
+Sneha Joshi,21,Female,Nashik,BBA,7.6,Yes (1 month),6–10L,No,No,Savings,"OTT, Spotify",1000,6900,Occasional
+Kunal Mehta,22,Male,Mumbai,MBA,8.3,Yes (4 months),1–3L,Yes (?10000),Personal Loan,Joint,"Netflix, Gym",2050,10500,Regular
+Anushka Banerjee,20,Female,Kolkata,B.Sc,7,No,<1L,Yes (?6000),No,Student,Spotify,750,5100,Occasional
+Raghav Rathi,21,Male,Indore,B.Tech,8.1,Yes (2 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1450,8600,Regular
+Shreya Pillai,22,Female,Thane,M.Sc,8.8,Yes (5 months),3–6L,Yes (?16000),No,Joint,"Netflix, Spotify",2150,10900,Regular
+Manish Yadav,20,Male,Kanpur,B.Com,6.6,No,10–15L,No,No,Student,"OTT, Gym",850,5500,
+Bhavika Shah,21,Female,Surat,BBA,7.5,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1350,7700,Occasional
+Zubair Khan,22,Male,Bhopal,B.Tech,8.2,Yes (3 months),3–6L,Yes (?14000),Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Ritu Kumari,19,Female,Ranchi,B.Sc,7.1,No,6–10L,No,No,Student,OTT,800,5300,Occasional
+Abhay Singh,20,Male,Varanasi,Diploma,6.4,No,1–3L,Yes (?11000),No,Student,Gym,550,4200,
+Shraddha Iyer,22,Female,Chennai,MBA,8.2,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2100,10300,Regular
+Tushar Kulkarni,21,Male,Pune,BCA,7.7,Yes (2 months),3–6L,Yes (?12000),No,Savings,"OTT, Gym",1250,7700,Occasional
+Priyanka Ghosh,23,Female,Siliguri,M.Tech,9,Yes (5 months),6–10L,No,Education Loan,Joint,"Netflix, OTT",2400,11400,Regular
+Arvindh Chauhan,20,Male,Jaipur,B.Com,6.8,No,10–15L,No,No,Student,"OTT, Gym",850,5600,
+Nandini Reddy,21,Female,Hyderabad,BBA,7.3,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1300,7900,Occasional
+Saurabh Joshi,22,Male,Nashik,B.Tech,8.3,Yes (3 months),6–10L,No,Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Kavita Thakur,19,Female,Shimla,B.Sc,7,No,1–3L,Yes (?7000),No,Student,OTT,750,5600,Occasional
+Riya Bhagat,21,Female,Pune,B.Sc,8.1,Yes (2 months),3–6L,Yes (?10000),No,Student,"Netflix, Gym",1100,7600,Regular
+Arjun Pillai,22,Male,Kochi,B.Tech,7.9,Yes (3 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Ishita Mehta,23,Female,Ahmedabad,MBA,8.6,Yes (5 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2300,11100,Regular
+Rakesh Chauhan,20,Male,Jaipur,BCA,7.2,No,3–6L,Yes (?14000),No,Student,OTT,850,5300,
+Ananya Reddy,22,Female,Hyderabad,M.Tech,9.1,Yes (6 months),10–15L,No,Education Loan,Savings,"Netflix, OTT",2500,11000,Regular
+Saurabh Ghosh,20,Male,Siliguri,B.Com,6.8,No,<1L,Yes (?8000),No,Student,Gym,600,4900,
+Sneha Sharma,21,Female,Chandigarh,BBA,7.7,Yes (1 month),3–6L,Yes (?13000),No,Savings,"OTT, Spotify",950,6800,Occasional
+Krishan Nair,22,Male,Thiruvananthapuram,MBA,8.4,Yes (4 months),6–10L,No,Personal Loan,Joint,"Netflix, Gym",2000,10600,Regular
+Ananya Yadav,20,Female,Kanpur,B.Sc,7.1,No,1–3L,Yes (?10000),No,Student,Spotify,700,5000,Occasional
+Ritesh Joshi,21,Male,Nashik,B.Tech,8,Yes (2 months),<1L,Yes (?6000),Education Loan,Savings,"OTT, Gym",1500,8700,Regular
+Sneha Banerjee,22,Female,Kolkata,M.Sc,8.9,Yes (5 months),6–10L,No,No,Joint,"Netflix, Spotify",2200,10800,Regular
+Aditya Raval,20,Male,Rajkot,B.Com,6.7,No,3–6L,Yes (?16000),No,Student,"OTT, Gym",800,5600,
+Pooja Kumari,21,Female,Ranchi,BBA,7.5,Yes (2 months),10–15L,No,No,Savings,"Netflix, OTT",1400,7900,Occasional
+Harshad Singh,22,Male,Gwalior,B.Tech,8.1,Yes (3 months),<1L,Yes (?9000),Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Riya Desai,19,Female,Surat,B.Sc,7,No,3–6L,Yes (?14000),No,Student,OTT,750,5400,Occasional
+Akshay Verma,20,Male,Varanasi,Diploma,6.5,No,6–10L,No,No,Student,Gym,500,4300,
+Tanvi Kulkarni,22,Female,Pune,MBA,8.3,Yes (4 months),1–3L,Yes (?11000),Personal Loan,Joint,"Netflix, Spotify",2100,10200,Regular
+Omkar Patil,21,Male,Kolhapur,BCA,7.6,Yes (2 months),<1L,Yes (?6000),No,Savings,"OTT, Gym",1200,7600,Occasional
+Rutuja Jagtap,23,Female,Aurangabad,M.Tech,9,Yes (5 months),3–6L,Yes (?12000),Education Loan,Joint,"Netflix, OTT",2400,11500,Regular
+Nikhil Mishra,20,Male,Patna,B.Com,6.9,No,6–10L,No,No,Student,"OTT, Gym",850,5700,
+Vaishnavi Joshi,21,Female,Nagpur,BBA,7.4,Yes (2 months),10–15L,No,No,Savings,"Netflix, OTT",1300,7800,Occasional
+Shubham Kulkarni,22,Male,Solapur,B.Tech,8.2,Yes (3 months),<1L,Yes (?9000),Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Komal Reddy,19,Female,Warangal,B.Sc,7,No,6–10L,No,No,Student,OTT,750,5600,Occasional
+Aditi Sharma,21,Female,Jaipur,B.Sc,8.2,Yes (2 months),1–3L,Yes (?7000),No,Student,"Netflix, Gym",1150,7800,Regular
+Rohan Iyer,22,Male,Mumbai,B.Tech,7.8,Yes (3 months),3–6L,Yes (?10000),Education Loan,Savings,"OTT, Gym",1250,8300,Occasional
+Meenal Reddy,23,Female,Hyderabad,MBA,8.5,Yes (5 months),6–10L,No,Personal Loan,Joint,"Netflix, Spotify",2350,11200,Regular
+Satyam Joshi,20,Male,Indore,BCA,7.3,No,<1L,Yes (?6000),No,Student,OTT,900,5400,
+Anushka Ghosh,22,Female,Kolkata,M.Tech,9,Yes (6 months),3–6L,Yes (?14000),Education Loan,Savings,"Netflix, OTT",2450,11100,Regular
+Ritesh Singh,20,Male,Varanasi,B.Com,6.9,No,10–15L,No,No,Student,Gym,650,4800,
+Sneha Pillai,21,Female,Kochi,BBA,7.6,Yes (1 month),<1L,Yes (?8000),No,Savings,"OTT, Spotify",1000,6900,Occasional
+Arvindh Kapoor,22,Male,Delhi,MBA,8.3,Yes (4 months),3–6L,Yes (?13000),Personal Loan,Joint,"Netflix, Gym",2050,10500,Regular
+Rachna Kumari,20,Female,Patna,B.Sc,7,No,6–10L,No,No,Student,Spotify,750,5100,Occasional
+Faizan Qureshi,21,Male,Bhopal,B.Tech,8.1,Yes (2 months),1–3L,Yes (?10000),Education Loan,Savings,"OTT, Gym",1450,8600,Regular
+Shreya Deshmukh,22,Female,Nagpur,M.Sc,8.8,Yes (5 months),<1L,Yes (?6000),No,Joint,"Netflix, Spotify",2150,10900,Regular
+Manav Chauhan,20,Male,Kanpur,B.Com,6.6,No,6–10L,No,No,Student,"OTT, Gym",850,5500,
+Bhavika Raval,21,Female,Ahmedabad,BBA,7.5,Yes (2 months),3–6L,Yes (?16000),No,Savings,"Netflix, OTT",1350,7700,Occasional
+Zaid Irani,22,Male,Surat,B.Tech,8.2,Yes (3 months),10–15L,No,Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Rituja Salunkhe,19,Female,Sangli,B.Sc,7.1,No,<1L,Yes (?9000),No,Student,OTT,800,5300,Occasional
+Harsh Vyas,20,Male,Udaipur,Diploma,6.4,No,3–6L,Yes (?14000),No,Student,Gym,550,4200,
+Ayesha Mirza,22,Female,Srinagar,MBA,8.2,Yes (4 months),6–10L,No,Personal Loan,Joint,"Netflix, Spotify",2100,10300,Regular
+Karan Bhatia,21,Male,Amritsar,BCA,7.7,Yes (2 months),1–3L,Yes (?11000),No,Savings,"OTT, Gym",1250,7700,Occasional
+Priyanka Mohanty,23,Female,Bhubaneswar,M.Tech,9,Yes (5 months),<1L,Yes (?6000),Education Loan,Joint,"Netflix, OTT",2400,11400,Regular
+Arvindh Joshi,20,Male,Nashik,B.Com,6.8,No,3–6L,Yes (?12000),No,Student,"OTT, Gym",850,5600,
+Nandini Chatterjee,21,Female,Kolkata,BBA,7.3,Yes (2 months),6–10L,No,No,Savings,"Netflix, OTT",1300,7900,Occasional
+Saurabh Kulkarni,22,Male,Pune,B.Tech,8.3,Yes (3 months),10–15L,No,Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Tanya Desai,21,Female,Surat,B.Sc,8.1,Yes (2 months),<1L,Yes (?9000),No,Student,"Netflix, Gym",1100,7800,Regular
+Aditya Pillai,22,Male,Kochi,B.Tech,7.8,Yes (3 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1250,8300,Occasional
+Shalini Reddy,23,Female,Hyderabad,MBA,8.5,Yes (5 months),1–3L,Yes (?7000),Personal Loan,Joint,"Netflix, Spotify",2350,11200,Regular
+Karan Bhagat,20,Male,Pune,BCA,7.3,No,3–6L,Yes (?10000),No,Student,OTT,900,5400,
+Ayesha Chauhan,22,Female,Kanpur,M.Tech,9,Yes (6 months),6–10L,No,Education Loan,Savings,"Netflix, OTT",2450,11100,Regular
+Harshit Ghosh,20,Male,Siliguri,B.Com,6.9,No,<1L,Yes (?6000),No,Student,Gym,650,4800,
+Sneha Kulkarni,21,Female,Nashik,BBA,7.6,Yes (1 month),3–6L,Yes (?14000),No,Savings,"OTT, Spotify",1000,6900,Occasional
+Arvindh Singh,22,Male,Gwalior,MBA,8.3,Yes (4 months),10–15L,No,Personal Loan,Joint,"Netflix, Gym",2050,10500,Regular
+Ananya Joshi,20,Female,Ahmedabad,B.Sc,7,No,<1L,Yes (?8000),No,Student,Spotify,750,5100,Occasional
+Shreya Nair,22,Female,Thane,M.Sc,8.8,Yes (5 months),3–6L,Yes (?13000),No,Joint,"Netflix, Spotify",2150,10900,Regular
+Manish Verma,20,Male,Varanasi,B.Com,6.6,No,6–10L,No,No,Student,"OTT, Gym",850,5500,
+Bhavika Shetty,21,Female,Mangalore,BBA,7.5,Yes (2 months),1–3L,Yes (?10000),No,Savings,"Netflix, OTT",1350,7700,Occasional
+Zubair Ansari,22,Male,Bhopal,B.Tech,8.2,Yes (3 months),<1L,Yes (?6000),Education Loan,Savings,"Spotify, Gym",1600,8900,Regular
+Abhay Mishra,20,Male,Patna,Diploma,6.4,No,6–10L,No,No,Student,Gym,550,4200,
+Shraddha Rao,22,Female,Bengaluru,MBA,8.2,Yes (4 months),3–6L,Yes (?16000),Personal Loan,Joint,"Netflix, Spotify",2100,10300,Regular
+Arvindh Reddy,20,Male,Hyderabad,B.Com,6.8,No,10–15L,No,No,Student,"OTT, Gym",850,5600,
+Nandini Sen,21,Female,Asansol,BBA,7.3,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1300,7900,Occasional
+Saurabh Bansal,22,Male,Ludhiana,B.Tech,8.3,Yes (3 months),3–6L,Yes (?14000),Education Loan,Savings,"Spotify, Gym",1600,8800,Regular
+Aastha Menon,21,Female,Kochi,B.Sc,8.2,Yes (2 months),6–10L,No,No,Student,"Netflix, Gym",1150,7800,Regular
+Arvindh Barua,22,Male,Guwahati,B.Tech,7.8,Yes (3 months),1–3L,Yes (?11000),Education Loan,Savings,"OTT, Gym",1250,8300,Occasional
+Neha Raval,21,Female,Ahmedabad,B.Sc,8.2,Yes (2 months),<1L,Yes (?6000),No,Student,"Netflix, Gym",1150,7800,Regular
+Arvindh Chauhan,22,Male,Jaipur,B.Tech,7.8,Yes (3 months),3–6L,Yes (?12000),Education Loan,Savings,"OTT, Gym",1250,8300,Occasional
+Harshit Patel,20,Male,Surat,B.Com,6.9,No,6–10L,No,No,Student,Gym,650,4800,
+Shreya Pillay,22,Female,Thane,M.Sc,8.8,Yes (5 months),10–15L,No,No,Joint,"Netflix, Spotify",2150,10900,Regular
+Aastha Sharma,21,Female,Jaipur,B.Sc,8.1,Yes (2 months),<1L,Yes (?9000),No,Student,"Netflix, Gym",1100,7800,Regular
+Raghav Sinha,22,Male,Patna,B.Tech,7.9,Yes (3 months),6–10L,No,Education Loan,Savings,"OTT, Gym",1300,8400,Occasional
+Simran Deshmukh,23,Female,Pune,MBA,8.6,Yes (5 months),1–3L,Yes (?7000),Personal Loan,Joint,"Netflix, Spotify",2300,11100,Regular
+Arvind Yadav,20,Male,Kanpur,BCA,7.2,No,3–6L,Yes (?10000),No,Student,OTT,850,5300,
+,,,,,,,6–10L,No,,,,,,
+,,,,,,,<1L,Yes (?6000),,,,,,
+,,,,,,,3–6L,Yes (?14000),,,,,,
+,,,,,,,10–15L,No,,,,,,
+,,,,,,,<1L,Yes (?8000),,,,,,
+,,,,,,,3–6L,Yes (?13000),,,,,,
+,,,,,,,6–10L,No,,,,,,
+,,,,,,,1–3L,Yes (?10000),,,,,,
+,,,,,,,<1L,Yes (?6000),,,,,,
+,,,,,,,6–10L,No,,,,,,
+,,,,,,,3–6L,Yes (?16000),,,,,,
+,,,,,,,10–15L,No,,,,,,
+,,,,,,,<1L,Yes (?9000),,,,,,
+,,,,,,,3–6L,Yes (?14000),,,,,,
+,,,,,,,6–10L,No,,,,,,
+,,,,,,,1–3L,Yes (?11000),,,,,,
+,,,,,,,<1L,Yes (?6000),,,,,,
+,,,,,,,3–6L,Yes (?12000),,,,,,
+,,,,,,,6–10L,No,,,,,,
+,,,,,,,10–15L,No,,,,,,
+,,,,,,,<1L,Yes (?9000),,,,,,
+,,,,,,,6–10L,No,,,,,,
+,,,,,,,1–3L,Yes (?7000),,,,,,
+,,,,,,,3–6L,Yes (?10000),,,,,,
+,,,,,,,6–10L,No,,,,,,
+,,,,,,,<1L,Yes (?6000),,,,,,
+,,,,,,,3–6L,Yes (?14000),,,,,,
