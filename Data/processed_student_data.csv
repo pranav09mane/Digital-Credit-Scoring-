@@ -1,0 +1,801 @@
+Name,Age,Gender,City,Degree,CGPA,Internship,Family_Income,Scholarship,Loan_Type,Bank_Account,Subscriptions,Food_Spend,Monthly_Expenses,Savings_Pattern,Family_Income_Clean,Scholarship_Amount,Has_Scholarship,Internship_Months,Has_Internship,Has_Loan,Subscriptions_Count,Savings_Score,Credit_Score,Risk_Bucket
+Aarav Sharma,21.0,Male,Pune,B.Tech,8.2,Yes (3 months),36L,Yes (?25000),Education Loan,Savings,"Netflix, Gym",1200.0,8500.0,Regular,450000.0,25000,1,3,1,1,2,2.0,75.0,Low Risk
+Sneha Patil,22.0,Female,Mumbai,MBA,7.6,Yes (6 months),610L,No,No,Student,"Spotify, OTT",1800.0,9500.0,Occasional,800000.0,0,0,6,1,0,2,1.0,70.0,Medium Risk
+Rohan Deshmukh,20.0,Male,Nagpur,B.Com,6.9,No,13L,Yes (?15000),No,Savings,"OTT, Gym",900.0,6000.0,,200000.0,15000,1,0,0,0,2,0.0,50.0,High Risk
+Meera Joshi,23.0,Female,Nashik,M.Tech,9.1,Yes (4 months),1015L,No,Personal Loan,Joint,"Netflix, Spotify",2500.0,12000.0,Regular,1250000.0,0,0,4,1,1,2,2.0,80.0,Low Risk
+Yash Kale,19.0,Male,Aurangabad,BCA,7.4,No,<1L,Yes (?10000),No,Student,OTT,700.0,4500.0,Occasional,50000.0,10000,1,0,0,0,1,1.0,65.0,Medium Risk
+Priya More,21.0,Female,Thane,B.Sc,8.0,Yes (2 months),36L,No,No,Savings,"Netflix, Gym",1100.0,7800.0,Regular,450000.0,0,0,2,1,0,2,2.0,75.0,Low Risk
+Aditya Pawar,22.0,Male,Kolhapur,BBA,7.2,Yes (1 month),13L,Yes (?12000),No,Student,"OTT, Spotify",950.0,6700.0,Occasional,200000.0,12000,1,1,1,0,2,1.0,65.0,Medium Risk
+Neha Jadhav,20.0,Female,Solapur,B.Com,6.8,No,<1L,Yes (?8000),No,Savings,Gym,600.0,5200.0,,50000.0,8000,1,0,0,0,1,0.0,55.0,Medium Risk
+Kunal Shinde,24.0,Male,Satara,MBA,8.5,Yes (5 months),610L,No,Personal Loan,Joint,"Netflix, OTT",2000.0,11000.0,Regular,800000.0,0,0,5,1,1,2,2.0,70.0,Medium Risk
+Aishwarya Rane,22.0,Female,Sangli,BCA,7.9,Yes (2 months),36L,Yes (?18000),No,Student,"Spotify, Gym",1300.0,8000.0,Regular,450000.0,18000,1,2,1,0,2,2.0,75.0,Low Risk
+Harshad Gaikwad,21.0,Male,Amravati,B.Tech,7.5,Yes (1 month),13L,No,Education Loan,Savings,OTT,1000.0,7200.0,Occasional,200000.0,0,0,1,1,1,1,1.0,60.0,Medium Risk
+Pooja Kulkarni,23.0,Female,Nanded,M.Sc,8.9,Yes (6 months),1015L,No,No,Joint,"Netflix, Spotify",2200.0,10500.0,Regular,1250000.0,0,0,6,1,0,2,2.0,85.0,Low Risk
+Omkar Salunkhe,20.0,Male,Latur,B.Com,6.7,No,<1L,Yes (?9000),No,Student,"OTT, Gym",800.0,5800.0,,50000.0,9000,1,0,0,0,2,0.0,50.0,High Risk
+Rutuja Bhosale,21.0,Female,Beed,BBA,7.3,Yes (2 months),36L,Yes (?14000),No,Savings,"Netflix, OTT",1400.0,7900.0,Occasional,450000.0,14000,1,2,1,0,2,1.0,70.0,Medium Risk
+Shubham Chavan,22.0,Male,Parbhani,B.Tech,8.1,Yes (3 months),610L,No,Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,800000.0,0,0,3,1,1,2,2.0,75.0,Low Risk
+Komal Waghmare,19.0,Female,Jalna,B.Sc,7.0,No,13L,Yes (?11000),No,Student,OTT,750.0,5600.0,Occasional,200000.0,11000,1,0,0,0,1,1.0,65.0,Medium Risk
+Akshay Jagtap,20.0,Male,Akola,Diploma,6.5,No,<1L,Yes (?6000),No,Student,Gym,500.0,4300.0,,50000.0,6000,1,0,0,0,1,0.0,55.0,Medium Risk
+Tanvi Mahajan,22.0,Female,Buldhana,MBA,8.3,Yes (4 months),610L,No,Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,800000.0,0,0,4,1,1,2,2.0,70.0,Medium Risk
+Nikhil Patange,21.0,Male,Washim,BCA,7.6,Yes (2 months),36L,Yes (?16000),No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,450000.0,16000,1,2,1,0,2,1.0,70.0,Medium Risk
+Shruti Pawar,23.0,Female,Yavatmal,M.Tech,9.0,Yes (5 months),1015L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11500.0,Regular,1250000.0,0,0,5,1,1,2,2.0,85.0,Low Risk
+Aanya Bhagat,20.0,Female,Pune,B.Sc,8.2,Yes (2 months),36L,Yes (?11000),No,Student,"Netflix, Gym",1200.0,7800.0,Regular,450000.0,11000,1,2,1,0,2,2.0,80.0,Low Risk
+Raghav Nair,22.0,Male,Kochi,B.Tech,7.9,Yes (3 months),610L,No,Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,800000.0,0,0,3,1,1,2,1.0,65.0,Medium Risk
+Simran Kaur,21.0,Female,Amritsar,MBA,8.6,Yes (5 months),1015L,No,Personal Loan,Joint,"Netflix, Spotify",2300.0,11200.0,Regular,1250000.0,0,0,5,1,1,2,2.0,75.0,Low Risk
+Aditya Menon,19.0,Male,Bengaluru,BCA,7.3,No,<1L,Yes (?9000),No,Student,OTT,800.0,5200.0,,50000.0,9000,1,0,0,0,1,0.0,60.0,Medium Risk
+Ishika Rane,23.0,Female,Mumbai,M.Tech,9.1,Yes (6 months),610L,No,Education Loan,Savings,"Netflix, OTT",2400.0,10900.0,Regular,800000.0,0,0,6,1,1,2,2.0,80.0,Low Risk
+Aarush Desai,20.0,Male,Surat,B.Com,6.8,No,13L,Yes (?7000),No,Student,Gym,600.0,4900.0,,200000.0,7000,1,0,0,0,1,0.0,55.0,Medium Risk
+Meher Joshi,21.0,Female,Nashik,BBA,7.7,Yes (1 month),36L,Yes (?10000),No,Savings,"OTT, Spotify",950.0,6800.0,Occasional,450000.0,10000,1,1,1,0,2,1.0,70.0,Medium Risk
+Krishan Bhatia,22.0,Male,Delhi,MBA,8.4,Yes (4 months),610L,No,Personal Loan,Joint,"Netflix, Gym",2000.0,10600.0,Regular,800000.0,0,0,4,1,1,2,2.0,70.0,Medium Risk
+Ananya Pillai,20.0,Female,Thiruvananthapuram,B.Sc,7.1,No,<1L,Yes (?6000),No,Student,Spotify,700.0,5100.0,Occasional,50000.0,6000,1,0,0,0,1,1.0,65.0,Medium Risk
+Ritesh Malhotra,21.0,Male,Chandigarh,B.Tech,8.0,Yes (2 months),36L,Yes (?14000),Education Loan,Savings,"OTT, Gym",1500.0,8700.0,Regular,450000.0,14000,1,2,1,1,2,2.0,75.0,Low Risk
+Sneha Iyer,22.0,Female,Chennai,M.Sc,8.9,Yes (5 months),1015L,No,No,Joint,"Netflix, Spotify",2200.0,10800.0,Regular,1250000.0,0,0,5,1,0,2,2.0,85.0,Low Risk
+Arnav Kapoor,20.0,Male,Jaipur,B.Com,6.7,No,<1L,Yes (?8000),No,Student,"OTT, Gym",800.0,5600.0,,50000.0,8000,1,0,0,0,2,0.0,50.0,High Risk
+Riya Banerjee,21.0,Female,Kolkata,BBA,7.5,Yes (2 months),36L,Yes (?13000),No,Savings,"Netflix, OTT",1400.0,7900.0,Occasional,450000.0,13000,1,2,1,0,2,1.0,70.0,Medium Risk
+Yuvraj Chauhan,22.0,Male,Indore,B.Tech,8.1,Yes (3 months),610L,No,Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,800000.0,0,0,3,1,1,2,2.0,75.0,Low Risk
+Tanya Shah,19.0,Female,Vadodara,B.Sc,7.0,No,13L,Yes (?10000),No,Student,OTT,750.0,5500.0,Occasional,200000.0,10000,1,0,0,0,1,1.0,65.0,Medium Risk
+Harsh Vyas,20.0,Male,Udaipur,Diploma,6.5,No,<1L,Yes (?6000),No,Student,Gym,500.0,4300.0,,50000.0,6000,1,0,0,0,1,0.0,55.0,Medium Risk
+Aishwarya Rao,22.0,Female,Hyderabad,MBA,8.3,Yes (4 months),610L,No,Personal Loan,Joint,"Netflix, Spotify",2100.0,10300.0,Regular,800000.0,0,0,4,1,1,2,2.0,70.0,Medium Risk
+Nikhil Patil,21.0,Male,Aurangabad,BCA,7.6,Yes (2 months),36L,Yes (?16000),No,Savings,"OTT, Gym",1200.0,7700.0,Occasional,450000.0,16000,1,2,1,0,2,1.0,70.0,Medium Risk
+Shruti Kulkarni,23.0,Female,Nanded,M.Tech,9.0,Yes (5 months),1015L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11400.0,Regular,1250000.0,0,0,5,1,1,2,2.0,85.0,Low Risk
+Dev Sharma,20.0,Male,Bhopal,B.Com,6.9,No,<1L,Yes (?9000),No,Student,"OTT, Gym",850.0,5700.0,,50000.0,9000,1,0,0,0,2,0.0,50.0,High Risk
+Kavya Sinha,21.0,Female,Ranchi,BBA,7.4,Yes (2 months),36L,Yes (?14000),No,Savings,"Netflix, OTT",1300.0,7800.0,Occasional,450000.0,14000,1,2,1,0,2,1.0,70.0,Medium Risk
+Shubham Joshi,22.0,Male,Nagpur,B.Tech,8.2,Yes (3 months),610L,No,Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,800000.0,0,0,3,1,1,2,2.0,75.0,Low Risk
+Komal Wagh,19.0,Female,Jalna,B.Sc,7.0,No,13L,Yes (?11000),No,Student,OTT,750.0,5600.0,Occasional,200000.0,11000,1,0,0,0,1,1.0,65.0,Medium Risk
+Akshay Jadhav,20.0,Male,Akola,Diploma,6.5,No,<1L,Yes (?6000),No,Student,Gym,500.0,4300.0,,50000.0,6000,1,0,0,0,1,0.0,55.0,Medium Risk
+Rutuja Bhosale,21.0,Female,Beed,BBA,7.3,Yes (2 months),610L,No,No,Savings,"Netflix, OTT",1400.0,7900.0,,800000.0,0,0,2,1,0,2,0.0,65.0,Medium Risk
+Priyanshi Thakur,20.0,Female,Raipur,B.Sc,8.0,Yes (2 months),<1L,Yes (?9000),No,Student,"Netflix, Gym",1100.0,7600.0,Regular,50000.0,9000,1,2,1,0,2,2.0,75.0,Low Risk
+Arnav Reddy,22.0,Male,Hyderabad,B.Tech,7.7,Yes (3 months),36L,Yes (?14000),Education Loan,Savings,"OTT, Gym",1400.0,8300.0,Occasional,450000.0,14000,1,3,1,1,2,1.0,65.0,Medium Risk
+Mitali Jain,21.0,Female,Jaipur,MBA,8.5,Yes (5 months),36L,Yes (?10000),Personal Loan,Joint,"Netflix, Spotify",2300.0,11100.0,Regular,450000.0,10000,1,5,1,1,2,2.0,70.0,Medium Risk
+Soham Bhave,19.0,Male,Pune,BCA,7.2,No,610L,No,No,Student,OTT,850.0,5300.0,,800000.0,0,0,0,0,0,1,0.0,65.0,Medium Risk
+Aastha Verma,23.0,Female,Lucknow,M.Tech,9.2,Yes (6 months),1015L,No,Education Loan,Savings,"Netflix, OTT",2500.0,11000.0,Regular,1250000.0,0,0,6,1,1,2,2.0,85.0,Low Risk
+Kunal Rathore,20.0,Male,Bhopal,B.Com,6.9,No,<1L,Yes (?9000),No,Student,Gym,600.0,4800.0,,50000.0,9000,1,0,0,0,1,0.0,55.0,Medium Risk
+Sneha Dey,21.0,Female,Kolkata,BBA,7.6,Yes (1 month),610L,No,No,Savings,"OTT, Spotify",950.0,6900.0,Occasional,800000.0,0,0,1,1,0,2,1.0,70.0,Medium Risk
+Rohan Shetty,22.0,Male,Mangalore,MBA,8.3,Yes (4 months),13L,Yes (?7000),Personal Loan,Joint,"Netflix, Gym",2000.0,10400.0,Regular,200000.0,7000,1,4,1,1,2,2.0,65.0,Medium Risk
+Anjali Mishra,20.0,Female,Kanpur,B.Sc,7.2,No,36L,Yes (?10000),No,Student,Spotify,700.0,5000.0,Occasional,450000.0,10000,1,0,0,0,1,1.0,70.0,Medium Risk
+Yashwant Singh,21.0,Male,Varanasi,B.Tech,8.1,Yes (2 months),610L,No,Education Loan,Savings,"OTT, Gym",1500.0,8600.0,Regular,800000.0,0,0,2,1,1,2,2.0,75.0,Low Risk
+Radhika Nambiar,22.0,Female,Kochi,M.Sc,8.8,Yes (5 months),<1L,Yes (?6000),No,Joint,"Netflix, Spotify",2200.0,10700.0,Regular,50000.0,6000,1,5,1,0,2,2.0,75.0,Low Risk
+Abhishek Chauhan,20.0,Male,Agra,B.Com,6.7,No,36L,Yes (?14000),No,Student,"OTT, Gym",800.0,5500.0,,450000.0,14000,1,0,0,0,2,0.0,55.0,Medium Risk
+Pooja Naik,21.0,Female,Panaji,BBA,7.5,Yes (2 months),1015L,No,No,Savings,"Netflix, OTT",1400.0,7800.0,Occasional,1250000.0,0,0,2,1,0,2,1.0,75.0,Low Risk
+Harshit Meena,22.0,Male,Udaipur,B.Tech,8.2,Yes (3 months),<1L,Yes (?8000),Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,50000.0,8000,1,3,1,1,2,2.0,70.0,Medium Risk
+Nandini Ghosh,19.0,Female,Siliguri,B.Sc,7.1,No,36L,Yes (?13000),No,Student,OTT,750.0,5400.0,Occasional,450000.0,13000,1,0,0,0,1,1.0,70.0,Medium Risk
+Manish Tiwari,20.0,Male,Gwalior,Diploma,6.5,No,610L,No,No,Student,Gym,500.0,4300.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Ayesha Khan,22.0,Female,Srinagar,MBA,8.4,Yes (4 months),13L,Yes (?10000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,200000.0,10000,1,4,1,1,2,2.0,65.0,Medium Risk
+Nitin Pawar,21.0,Male,Solapur,BCA,7.6,Yes (2 months),<1L,Yes (?6000),No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,50000.0,6000,1,2,1,0,2,1.0,65.0,Medium Risk
+Shreya Kulkarni,23.0,Female,Sangli,M.Tech,9.0,Yes (5 months),610L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11500.0,Regular,800000.0,0,0,5,1,1,2,2.0,80.0,Low Risk
+Rajat Agarwal,20.0,Male,Patna,B.Com,6.9,No,36L,Yes (?16000),No,Student,"OTT, Gym",850.0,5700.0,,450000.0,16000,1,0,0,0,2,0.0,55.0,Medium Risk
+Bhavya Sharma,21.0,Female,Dehradun,BBA,7.4,Yes (2 months),1015L,No,No,Savings,"Netflix, OTT",1300.0,7800.0,Occasional,1250000.0,0,0,2,1,0,2,1.0,75.0,Low Risk
+Karan Bansal,22.0,Male,Ludhiana,B.Tech,8.2,Yes (3 months),<1L,Yes (?9000),Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,50000.0,9000,1,3,1,1,2,2.0,70.0,Medium Risk
+Neelam Yadav,19.0,Female,Bareilly,B.Sc,7.0,No,36L,Yes (?14000),No,Student,OTT,750.0,5600.0,Occasional,450000.0,14000,1,0,0,0,1,1.0,70.0,Medium Risk
+Arvind Kumar,20.0,Male,Jamshedpur,Diploma,6.5,No,610L,No,No,Student,Gym,500.0,4300.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Tanisha Das,22.0,Female,Bhubaneswar,MBA,8.3,Yes (4 months),13L,Yes (?11000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,200000.0,11000,1,4,1,1,2,2.0,65.0,Medium Risk
+Vivek Joshi,21.0,Male,Satara,BCA,7.6,Yes (2 months),<1L,Yes (?6000),No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,50000.0,6000,1,2,1,0,2,1.0,65.0,Medium Risk
+Ishita Rawat,23.0,Female,Nainital,M.Tech,9.0,Yes (5 months),610L,No,,,,,,,800000.0,0,0,5,1,1,1,0.0,70.0,Medium Risk
+Lavanya Bhardwaj,21.0,Female,Delhi,B.Sc,8.0,Yes (2 months),36L,Yes (?16000),No,Student,"Netflix, Gym",1100.0,7500.0,Regular,450000.0,16000,1,2,1,0,2,2.0,80.0,Low Risk
+Arpit Gokhale,22.0,Male,Pune,B.Tech,7.9,Yes (3 months),1015L,No,Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,1250000.0,0,0,3,1,1,2,1.0,70.0,Medium Risk
+Charvi Sethi,23.0,Female,Chandigarh,MBA,8.6,Yes (5 months),36L,Yes (?12000),Personal Loan,Joint,"Netflix, Spotify",2300.0,11100.0,Regular,450000.0,12000,1,5,1,1,2,2.0,70.0,Medium Risk
+Nilesh Kadam,20.0,Male,Nashik,BCA,7.2,No,610L,No,No,Student,OTT,850.0,5300.0,,800000.0,0,0,0,0,0,1,0.0,65.0,Medium Risk
+Roshni DâSouza,22.0,Female,Mangalore,M.Tech,9.1,Yes (6 months),1015L,No,Education Loan,Savings,"Netflix, OTT",2500.0,11000.0,Regular,1250000.0,0,0,6,1,1,2,2.0,85.0,Low Risk
+Tejas Sharma,20.0,Male,Jaipur,B.Com,6.8,No,<1L,Yes (?9000),No,Student,Gym,600.0,4900.0,,50000.0,9000,1,0,0,0,1,0.0,55.0,Medium Risk
+Aakriti Meena,21.0,Female,Bhopal,BBA,7.7,Yes (1 month),610L,No,No,Savings,"OTT, Spotify",950.0,6800.0,Occasional,800000.0,0,0,1,1,0,2,1.0,70.0,Medium Risk
+Raghav Chauhan,22.0,Male,Kanpur,MBA,8.4,Yes (4 months),13L,Yes (?7000),Personal Loan,Joint,"Netflix, Gym",2000.0,10600.0,Regular,200000.0,7000,1,4,1,1,2,2.0,65.0,Medium Risk
+Sneha Borkar,20.0,Female,Panaji,B.Sc,7.1,No,36L,Yes (?10000),No,Student,Spotify,700.0,5000.0,Occasional,450000.0,10000,1,0,0,0,1,1.0,70.0,Medium Risk
+Adarsh Verma,21.0,Male,Indore,B.Tech,8.0,Yes (2 months),610L,No,Education Loan,Savings,"OTT, Gym",1500.0,8700.0,Regular,800000.0,0,0,2,1,1,2,2.0,75.0,Low Risk
+Ishita Rawal,22.0,Female,Ahmedabad,M.Sc,8.9,Yes (5 months),<1L,Yes (?6000),No,Joint,"Netflix, Spotify",2200.0,10800.0,Regular,50000.0,6000,1,5,1,0,2,2.0,75.0,Low Risk
+Manan Joshi,20.0,Male,Vadodara,B.Com,6.7,No,36L,Yes (?14000),No,Student,"OTT, Gym",800.0,5600.0,,450000.0,14000,1,0,0,0,2,0.0,55.0,Medium Risk
+Kritika Yadav,21.0,Female,Varanasi,BBA,7.5,Yes (2 months),1015L,No,No,Savings,"Netflix, OTT",1400.0,7900.0,Occasional,1250000.0,0,0,2,1,0,2,1.0,75.0,Low Risk
+Ayush Bansal,22.0,Male,Ludhiana,B.Tech,8.1,Yes (3 months),<1L,Yes (?8000),Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,50000.0,8000,1,3,1,1,2,2.0,70.0,Medium Risk
+Nandita Das,19.0,Female,Bhubaneswar,B.Sc,7.0,No,36L,Yes (?13000),No,Student,OTT,750.0,5400.0,Occasional,450000.0,13000,1,0,0,0,1,1.0,70.0,Medium Risk
+Pratik Jadhav,20.0,Male,Solapur,Diploma,6.5,No,610L,No,No,Student,Gym,500.0,4300.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Ayesha Siddiqui,22.0,Female,Lucknow,MBA,8.4,Yes (4 months),13L,Yes (?10000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,200000.0,10000,1,4,1,1,2,2.0,65.0,Medium Risk
+Ritesh Pawar,21.0,Male,Satara,BCA,7.6,Yes (2 months),<1L,Yes (?6000),No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,50000.0,6000,1,2,1,0,2,1.0,65.0,Medium Risk
+Shruti Vyas,23.0,Female,Udaipur,M.Tech,9.0,Yes (5 months),610L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11500.0,Regular,800000.0,0,0,5,1,1,2,2.0,80.0,Low Risk
+Karan Thakur,20.0,Male,Raipur,B.Com,6.9,No,36L,Yes (?16000),No,Student,"OTT, Gym",850.0,5700.0,,450000.0,16000,1,0,0,0,2,0.0,55.0,Medium Risk
+Bhavika Shah,21.0,Female,Surat,BBA,7.4,Yes (2 months),1015L,No,No,Savings,"Netflix, OTT",1300.0,7800.0,Occasional,1250000.0,0,0,2,1,0,2,1.0,75.0,Low Risk
+Harshit Raina,22.0,Male,Jammu,B.Tech,8.2,Yes (3 months),<1L,Yes (?9000),Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,50000.0,9000,1,3,1,1,2,2.0,70.0,Medium Risk
+Komal Tiwari,19.0,Female,Bareilly,B.Sc,7.0,No,36L,Yes (?14000),No,Student,OTT,750.0,5600.0,Occasional,450000.0,14000,1,0,0,0,1,1.0,70.0,Medium Risk
+Akshay More,20.0,Male,Jalgaon,Diploma,6.5,No,610L,No,No,Student,Gym,500.0,4300.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Tanvi Bhagat,22.0,Female,Sangli,MBA,8.3,Yes (4 months),13L,Yes (?11000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,200000.0,11000,1,4,1,1,2,2.0,65.0,Medium Risk
+Omkar Kale,20.0,Male,Latur,B.Com,7.2,no,<1L,Yes (?6000),No,Student,"OTT, Gym",800.0,5800.0,,50000.0,6000,1,0,0,0,2,0.0,55.0,Medium Risk
+Rutuja Shinde,21.0,Female,Beed,BBA,7.9,Yes(1month),610L,No,no,student,"amazon,gym",800.0,2000.0,none,800000.0,0,0,1,1,1,2,0.0,55.0,Medium Risk
+Aditi Venkatesh,20.0,Female,Chennai,B.Sc,8.1,Yes (2 months),<1L,Yes (?9000),No,Student,"Netflix, Gym",1200.0,7700.0,Regular,50000.0,9000,1,2,1,0,2,2.0,75.0,Low Risk
+Rohan Bhattacharya,22.0,Male,Kolkata,B.Tech,7.8,Yes (3 months),510L,No,Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,,0,0,3,1,1,2,1.0,45.0,High Risk
+Nisha Chauhan,21.0,Female,Jaipur,MBA,8.6,Yes (5 months),36L,Yes (?11000),Personal Loan,Joint,"Netflix, Spotify",2300.0,11100.0,Regular,450000.0,11000,1,5,1,1,2,2.0,70.0,Medium Risk
+Arjun Pillai,19.0,Male,Kochi,BCA,7.2,No,610L,No,No,Student,OTT,850.0,5300.0,,800000.0,0,0,0,0,0,1,0.0,65.0,Medium Risk
+Shraddha Deshmukh,23.0,Female,Pune,M.Tech,9.1,Yes (6 months),1015L,No,Education Loan,Savings,"Netflix, OTT",2500.0,11000.0,Regular,1250000.0,0,0,6,1,1,2,2.0,85.0,Low Risk
+Karthik Reddy,20.0,Male,Hyderabad,B.Com,6.8,No,<1L,Yes (?9000),No,Student,Gym,600.0,4900.0,,50000.0,9000,1,0,0,0,1,0.0,55.0,Medium Risk
+Snehal Patil,21.0,Female,Nashik,BBA,7.7,Yes (1 month),610L,No,No,Savings,"OTT, Spotify",950.0,6800.0,Occasional,800000.0,0,0,1,1,0,2,1.0,70.0,Medium Risk
+Aman Kapoor,22.0,Male,Delhi,MBA,8.4,Yes (4 months),13L,Yes (?7000),Personal Loan,Joint,"Netflix, Gym",2000.0,10600.0,Regular,200000.0,7000,1,4,1,1,2,2.0,65.0,Medium Risk
+Divya Sharma,20.0,Female,Chandigarh,B.Sc,7.1,No,36L,Yes (?10000),No,Student,Spotify,700.0,5000.0,Occasional,450000.0,10000,1,0,0,0,1,1.0,70.0,Medium Risk
+Saurabh Mehta,21.0,Male,Ahmedabad,B.Tech,8.0,Yes (2 months),610L,No,Education Loan,Savings,"OTT, Gym",1500.0,8700.0,Regular,800000.0,0,0,2,1,1,2,2.0,75.0,Low Risk
+Ritu Jain,22.0,Female,Indore,M.Sc,8.9,Yes (5 months),<1L,Yes (?6000),No,Joint,"Netflix, Spotify",2200.0,10800.0,Regular,50000.0,6000,1,5,1,0,2,2.0,75.0,Low Risk
+Mohit Sinha,20.0,Male,Patna,B.Com,6.7,No,36L,Yes (?14000),No,Student,"OTT, Gym",800.0,5600.0,,450000.0,14000,1,0,0,0,2,0.0,55.0,Medium Risk
+Anushka Joshi,21.0,Female,Nagpur,BBA,7.5,Yes (2 months),1015L,No,No,Savings,"Netflix, OTT",1400.0,7900.0,Occasional,1250000.0,0,0,2,1,0,2,1.0,75.0,Low Risk
+Tushar Yadav,22.0,Male,Kanpur,B.Tech,8.1,Yes (3 months),<1L,Yes (?8000),Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,50000.0,8000,1,3,1,1,2,2.0,70.0,Medium Risk
+Pallavi Nair,19.0,Female,Thiruvananthapuram,B.Sc,7.0,No,36L,Yes (?13000),No,Student,OTT,750.0,5400.0,Occasional,450000.0,13000,1,0,0,0,1,1.0,70.0,Medium Risk
+Deepak Chauhan,20.0,Male,Gwalior,Diploma,6.5,No,610L,No,No,Student,Gym,500.0,4300.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Sana Sheikh,22.0,Female,Lucknow,MBA,8.4,Yes (4 months),13L,Yes (?10000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,200000.0,10000,1,4,1,1,2,2.0,65.0,Medium Risk
+Ravi Kulkarni,21.0,Male,Aurangabad,BCA,7.6,Yes (2 months),<1L,Yes (?6000),No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,50000.0,6000,1,2,1,0,2,1.0,65.0,Medium Risk
+Ishita Ghosh,23.0,Female,Siliguri,M.Tech,9.0,Yes (5 months),610L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11500.0,Regular,800000.0,0,0,5,1,1,2,2.0,80.0,Low Risk
+Abhay Verma,20.0,Male,Raipur,B.Com,6.9,No,36L,Yes (?16000),No,Student,"OTT, Gym",850.0,5700.0,,450000.0,16000,1,0,0,0,2,0.0,55.0,Medium Risk
+Priya Singh,21.0,Female,Varanasi,BBA,7.4,Yes (2 months),1015L,No,No,Savings,"Netflix, OTT",1300.0,7800.0,Occasional,1250000.0,0,0,2,1,0,2,1.0,75.0,Low Risk
+Harshad Patil,22.0,Male,Satara,B.Tech,8.2,Yes (3 months),<1L,Yes (?9000),Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,50000.0,9000,1,3,1,1,2,2.0,70.0,Medium Risk
+Komal Wadhwa,19.0,Female,Jalna,B.Sc,7.0,No,36L,Yes (?14000),No,Student,OTT,750.0,5600.0,Occasional,450000.0,14000,1,0,0,0,1,1.0,70.0,Medium Risk
+Akshay Thombre,20.0,Male,Akola,Diploma,6.5,No,610L,No,No,Student,Gym,500.0,4300.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Tanvi Desai,22.0,Female,Buldhana,MBA,8.3,Yes (4 months),13L,Yes (?11000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,200000.0,11000,1,4,1,1,2,2.0,65.0,Medium Risk
+Omkar Jagtap,20.0,Male,Latur,B.Com,6.7,No,<1L,Yes (?6000),No,Student,"OTT, Gym",800.0,5800.0,,50000.0,6000,1,0,0,0,2,0.0,50.0,High Risk
+Rutuja Kale,21.0,Female,Beed,BBA,7.3,Yes (2 months),610L,No,No,Savings,"Netflix,",2000.0,4800.0,Ocassionally,800000.0,0,0,2,1,0,2,0.0,65.0,Medium Risk
+Aastha Pandey,21.0,Female,Lucknow,B.Sc,8.1,Yes (2 months),<1L,Yes (?9000),No,Student,"Netflix, Gym",1100.0,7600.0,Regular,50000.0,9000,1,2,1,0,2,2.0,75.0,Low Risk
+Rishabh Kulkarni,22.0,Male,Pune,B.Tech,7.8,Yes (3 months),36L,Yes (?14000),Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,450000.0,14000,1,3,1,1,2,1.0,65.0,Medium Risk
+Shreya Ghosh,23.0,Female,Kolkata,MBA,8.6,Yes (5 months),36L,Yes (?12000),Personal Loan,Joint,"Netflix, Spotify",2300.0,11100.0,Regular,450000.0,12000,1,5,1,1,2,2.0,70.0,Medium Risk
+Tanishq Desai,20.0,Male,Surat,BCA,7.2,No,610L,No,No,Student,OTT,850.0,5300.0,,800000.0,0,0,0,0,0,1,0.0,65.0,Medium Risk
+Isha Raval,22.0,Female,Ahmedabad,M.Tech,9.1,Yes (6 months),1015L,No,Education Loan,Savings,"Netflix, OTT",2500.0,11000.0,Regular,1250000.0,0,0,6,1,1,2,2.0,85.0,Low Risk
+Aditya Chauhan,20.0,Male,Kanpur,B.Com,6.8,No,<1L,Yes (?9000),No,Student,Gym,600.0,4900.0,,50000.0,9000,1,0,0,0,1,0.0,55.0,Medium Risk
+Nidhi Patil,21.0,Female,Nashik,BBA,7.7,Yes (1 month),610L,No,No,Savings,"OTT, Spotify",950.0,6800.0,Occasional,800000.0,0,0,1,1,0,2,1.0,70.0,Medium Risk
+Kunal Bhatia,22.0,Male,Delhi,MBA,8.4,Yes (4 months),13L,Yes (?7000),Personal Loan,Joint,"Netflix, Gym",2000.0,10600.0,Regular,200000.0,7000,1,4,1,1,2,2.0,65.0,Medium Risk
+Ananya Joshi,20.0,Female,Nagpur,B.Sc,7.1,No,36L,Yes (?10000),No,Student,Spotify,700.0,5000.0,Occasional,450000.0,10000,1,0,0,0,1,1.0,70.0,Medium Risk
+Arnav Singh,21.0,Male,Varanasi,B.Tech,8.0,Yes (2 months),610L,No,Education Loan,Savings,"OTT, Gym",1500.0,8700.0,Regular,800000.0,0,0,2,1,1,2,2.0,75.0,Low Risk
+Mahi Shah,22.0,Female,Rajkot,M.Sc,8.9,Yes (5 months),<1L,Yes (?6000),No,Joint,"Netflix, Spotify",2200.0,10800.0,Regular,50000.0,6000,1,5,1,0,2,2.0,75.0,Low Risk
+Yashwant Rane,20.0,Male,Kolhapur,B.Com,6.7,No,36L,Yes (?14000),No,Student,"OTT, Gym",800.0,5600.0,,450000.0,14000,1,0,0,0,2,0.0,55.0,Medium Risk
+Sneha Shetty,21.0,Female,Mangalore,BBA,7.5,Yes (2 months),1015L,No,No,Savings,"Netflix, OTT",1400.0,7900.0,Occasional,1250000.0,0,0,2,1,0,2,1.0,75.0,Low Risk
+Harsh Vyas,22.0,Male,Udaipur,B.Tech,8.1,Yes (3 months),<1L,Yes (?8000),Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,50000.0,8000,1,3,1,1,2,2.0,70.0,Medium Risk
+Ritu Agarwal,19.0,Female,Bareilly,B.Sc,7.0,No,36L,Yes (?13000),No,Student,OTT,750.0,5400.0,Occasional,450000.0,13000,1,0,0,0,1,1.0,70.0,Medium Risk
+Mohit Jadhav,20.0,Male,Jalna,Diploma,6.5,No,610L,No,No,Student,Gym,500.0,4300.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Ayesha Khan,22.0,Female,Bhopal,MBA,8.4,Yes (4 months),13L,Yes (?10000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,200000.0,10000,1,4,1,1,2,2.0,65.0,Medium Risk
+Raghav Shinde,21.0,Male,Satara,BCA,7.6,Yes (2 months),<1L,Yes (?6000),No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,50000.0,6000,1,2,1,0,2,1.0,65.0,Medium Risk
+Ishita Mahajan,23.0,Female,Sangli,M.Tech,9.0,Yes (5 months),610L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11500.0,Regular,800000.0,0,0,5,1,1,2,2.0,80.0,Low Risk
+Omkar Deshmukh,20.0,Male,Latur,B.Com,6.9,No,36L,Yes (?16000),No,Student,"OTT, Gym",850.0,5700.0,,450000.0,16000,1,0,0,0,2,0.0,55.0,Medium Risk
+Rutuja Pawaskar,21.0,Female,Beed,BBA,7.4,Yes (2 months),1015L,No,No,Savings,"Netflix, OTT",1300.0,7800.0,Occasional,1250000.0,0,0,2,1,0,2,1.0,75.0,Low Risk
+Shubham Kale,22.0,Male,Amravati,B.Tech,8.2,Yes (3 months),<1L,Yes (?9000),Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,50000.0,9000,1,3,1,1,2,2.0,70.0,Medium Risk
+Komal Jagtap,19.0,Female,Akola,B.Sc,7.0,No,36L,Yes (?14000),No,Student,OTT,750.0,5600.0,Occasional,450000.0,14000,1,0,0,0,1,1.0,70.0,Medium Risk
+Akshay Wagh,20.0,Male,Jalgaon,Diploma,6.5,No,610L,No,No,Student,Gym,500.0,4300.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Tanvi Salvi,22.0,Female,Nanded,MBA,8.3,Yes (4 months),13L,Yes (?11000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,200000.0,11000,1,4,1,1,2,2.0,65.0,Medium Risk
+Nikhil More,21.0,Male,Washim,BCA,7.6,Yes (2 months),<1L,Yes (?6000),No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,50000.0,6000,1,2,1,0,2,1.0,65.0,Medium Risk
+Shruti Patange,23.0,Female,Yavatmal,M.Tech,9.0,Yes (5 months),610L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11500.0,Regular,800000.0,0,0,5,1,1,2,2.0,80.0,Low Risk
+Aditi Bhandarkar,21.0,Female,Pune,B.Sc,8.2,Yes (2 months),36L,Yes (?16000),No,Student,"Netflix, Gym",1100.0,7500.0,Regular,450000.0,16000,1,2,1,0,2,2.0,80.0,Low Risk
+Raghav Joshi,22.0,Male,Mumbai,B.Tech,7.9,Yes (3 months),1015L,No,Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,1250000.0,0,0,3,1,1,2,1.0,70.0,Medium Risk
+Simran Desai,23.0,Female,Nashik,MBA,8.6,Yes (5 months),36L,Yes (?12000),Personal Loan,Joint,"Netflix, Spotify",2300.0,11100.0,Regular,450000.0,12000,1,5,1,1,2,2.0,70.0,Medium Risk
+Arjun Kale,20.0,Male,Aurangabad,BCA,7.2,No,610L,No,No,Student,OTT,850.0,5300.0,,800000.0,0,0,0,0,0,1,0.0,65.0,Medium Risk
+Ishika Sawant,22.0,Female,Kolhapur,M.Tech,9.1,Yes (6 months),1015L,No,Education Loan,Savings,"Netflix, OTT",2500.0,11000.0,Regular,1250000.0,0,0,6,1,1,2,2.0,85.0,Low Risk
+Soham Gokhale,20.0,Male,Nagpur,B.Com,6.8,No,<1L,Yes (?9000),No,Student,Gym,600.0,4900.0,,50000.0,9000,1,0,0,0,1,0.0,55.0,Medium Risk
+Meher Kulkarni,21.0,Female,Thane,BBA,7.7,Yes (1 month),610L,No,No,Savings,"OTT, Spotify",950.0,6800.0,Occasional,800000.0,0,0,1,1,0,2,1.0,70.0,Medium Risk
+Krish Patil,22.0,Male,Satara,MBA,8.4,Yes (4 months),13L,Yes (?7000),Personal Loan,Joint,"Netflix, Gym",2000.0,10600.0,Regular,200000.0,7000,1,4,1,1,2,2.0,65.0,Medium Risk
+Ananya Rane,20.0,Female,Sangli,B.Sc,7.1,No,36L,Yes (?10000),No,Student,Spotify,700.0,5000.0,Occasional,450000.0,10000,1,0,0,0,1,1.0,70.0,Medium Risk
+Ritesh Jadhav,21.0,Male,Beed,B.Tech,8.0,Yes (2 months),610L,No,Education Loan,Savings,"OTT, Gym",1500.0,8700.0,Regular,800000.0,0,0,2,1,1,2,2.0,75.0,Low Risk
+Sneha Pawaskar,22.0,Female,Latur,M.Sc,8.9,Yes (5 months),<1L,Yes (?6000),No,Joint,"Netflix, Spotify",2200.0,10800.0,Regular,50000.0,6000,1,5,1,0,2,2.0,75.0,Low Risk
+Aditya Wagh,20.0,Male,Akola,B.Com,6.7,No,36L,Yes (?14000),No,Student,"OTT, Gym",800.0,5600.0,,450000.0,14000,1,0,0,0,2,0.0,55.0,Medium Risk
+Pooja Salvi,21.0,Female,Jalgaon,BBA,7.5,Yes (2 months),1015L,No,No,Savings,"Netflix, OTT",1400.0,7900.0,Occasional,1250000.0,0,0,2,1,0,2,1.0,75.0,Low Risk
+Harshad More,22.0,Male,Nanded,B.Tech,8.1,Yes (3 months),<1L,Yes (?8000),Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,50000.0,8000,1,3,1,1,2,2.0,70.0,Medium Risk
+Riya Pawar,19.0,Female,Washim,B.Sc,7.0,No,36L,Yes (?13000),No,Student,OTT,750.0,5400.0,Occasional,450000.0,13000,1,0,0,0,1,1.0,70.0,Medium Risk
+Akshay Shinde,20.0,Male,Yavatmal,Diploma,6.5,No,610L,No,No,Student,Gym,500.0,4300.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Tanvi Patil,22.0,Female,Parbhani,MBA,8.4,Yes (4 months),13L,Yes (?10000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,200000.0,10000,1,4,1,1,2,2.0,65.0,Medium Risk
+Omkar Joshi,21.0,Male,Jalna,BCA,7.6,Yes (2 months),<1L,Yes (?6000),No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,50000.0,6000,1,2,1,0,2,1.0,65.0,Medium Risk
+Rutuja Ghadge,23.0,Female,Amravati,M.Tech,9.0,Yes (5 months),610L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11500.0,Regular,800000.0,0,0,5,1,1,2,2.0,80.0,Low Risk
+Nikhil Salunkhe,20.0,Male,Ratnagiri,B.Com,6.9,No,36L,Yes (?16000),No,Student,"OTT, Gym",850.0,5700.0,,450000.0,16000,1,0,0,0,2,0.0,55.0,Medium Risk
+Vaishnavi Joshi,21.0,Female,Navi Mumbai,BBA,7.4,Yes (2 months),1015L,No,No,Savings,"Netflix, OTT",1300.0,7800.0,Occasional,1250000.0,0,0,2,1,0,2,1.0,75.0,Low Risk
+Shubham Raut,22.0,Male,Pune,B.Tech,8.2,Yes (3 months),<1L,Yes (?9000),Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,50000.0,9000,1,3,1,1,2,2.0,70.0,Medium Risk
+Komal Pawaskar,19.0,Female,Mumbai,B.Sc,7.0,No,36L,Yes (?14000),No,Student,OTT,750.0,5600.0,Occasional,450000.0,14000,1,0,0,0,1,1.0,70.0,Medium Risk
+Akshay Kulkarni,20.0,Male,Nagpur,Diploma,6.5,No,610L,No,No,Student,Gym,500.0,4300.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Tanvi Deshmukh,22.0,Female,Nashik,MBA,8.3,Yes (4 months),13L,Yes (?11000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,200000.0,11000,1,4,1,1,2,2.0,65.0,Medium Risk
+Nilesh Pawar,21.0,Male,Aurangabad,BCA,7.6,Yes (2 months),<1L,Yes (?6000),No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,50000.0,6000,1,2,1,0,2,1.0,65.0,Medium Risk
+Shruti Waghmare,23.0,Female,Sangli,M.Tech,9.0,Yes (5 months),610L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11500.0,Regular,800000.0,0,0,5,1,1,2,2.0,80.0,Low Risk
+Aanya Thakur,21.0,Female,Bhopal,B.Sc,8.0,Yes (2 months),36L,Yes (?16000),No,Student,"Netflix, Gym",1100.0,7600.0,Regular,450000.0,16000,1,2,1,0,2,2.0,80.0,Low Risk
+Raghav Iyer,22.0,Male,Chennai,B.Tech,7.8,Yes (3 months),1015L,No,Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,1250000.0,0,0,3,1,1,2,1.0,70.0,Medium Risk
+Mitali Sharma,23.0,Female,Jaipur,MBA,8.6,Yes (5 months),36L,Yes (?11000),Personal Loan,Joint,"Netflix, Spotify",2300.0,11100.0,Regular,450000.0,11000,1,5,1,1,2,2.0,70.0,Medium Risk
+Soham Banerjee,20.0,Male,Kolkata,BCA,7.2,No,610L,No,No,Student,OTT,850.0,5300.0,,800000.0,0,0,0,0,0,1,0.0,65.0,Medium Risk
+Aastha Rane,23.0,Female,Nashik,M.Tech,9.1,Yes (6 months),1015L,No,Education Loan,Savings,"Netflix, OTT",2500.0,11000.0,Regular,1250000.0,0,0,6,1,1,2,2.0,85.0,Low Risk
+Kunal Rathod,20.0,Male,Nagpur,B.Com,6.8,No,<1L,Yes (?9000),No,Student,Gym,600.0,4900.0,,50000.0,9000,1,0,0,0,1,0.0,55.0,Medium Risk
+Sneha DâSouza,21.0,Female,Mangalore,BBA,7.7,Yes (1 month),610L,No,No,Savings,"OTT, Spotify",950.0,6800.0,Occasional,800000.0,0,0,1,1,0,2,1.0,70.0,Medium Risk
+Rohan Shetty,22.0,Male,Bengaluru,MBA,8.4,Yes (4 months),13L,Yes (?7000),Personal Loan,Joint,"Netflix, Gym",2000.0,10600.0,Regular,200000.0,7000,1,4,1,1,2,2.0,65.0,Medium Risk
+Anjali Mishra,20.0,Female,Kanpur,B.Sc,7.1,No,36L,Yes (?10000),No,Student,Spotify,700.0,5000.0,Occasional,450000.0,10000,1,0,0,0,1,1.0,70.0,Medium Risk
+Ishita Rawat,23.0,Female,Nainital,M.Tech,9.0,Yes (5 months),610L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11500.0,Regular,800000.0,0,0,5,1,1,2,2.0,80.0,Low Risk
+Aakriti Sharma,21.0,Female,Delhi,B.Sc,8.1,Yes (2 months),<1L,Yes (?6000),No,Student,"Netflix, Gym",1100.0,7600.0,Regular,50000.0,6000,1,2,1,0,2,2.0,75.0,Low Risk
+Rohan Nair,22.0,Male,Kochi,B.Tech,7.8,Yes (3 months),36L,Yes (?14000),Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,450000.0,14000,1,3,1,1,2,1.0,65.0,Medium Risk
+Charvi Patel,23.0,Female,Ahmedabad,MBA,8.6,Yes (5 months),1015L,No,Personal Loan,Joint,"Netflix, Spotify",2300.0,11100.0,Regular,1250000.0,0,0,5,1,1,2,2.0,75.0,Low Risk
+Aditya Rane,20.0,Male,Pune,BCA,7.2,No,<1L,Yes (?8000),No,Student,OTT,850.0,5300.0,,50000.0,8000,1,0,0,0,1,0.0,60.0,Medium Risk
+Sneha Ghosh,22.0,Female,Kolkata,M.Tech,9.1,Yes (6 months),36L,Yes (?13000),Education Loan,Savings,"Netflix, OTT",2500.0,11000.0,Regular,450000.0,13000,1,6,1,1,2,2.0,80.0,Low Risk
+Karan Mehta,20.0,Male,Jaipur,B.Com,6.8,No,610L,No,No,Student,Gym,600.0,4900.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Riya Deshmukh,21.0,Female,Nashik,BBA,7.7,Yes (1 month),13L,Yes (?10000),No,Savings,"OTT, Spotify",950.0,6800.0,Occasional,200000.0,10000,1,1,1,0,2,1.0,65.0,Medium Risk
+Harsh Vora,22.0,Male,Mumbai,MBA,8.4,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Gym",2000.0,10600.0,Regular,50000.0,6000,1,4,1,1,2,2.0,65.0,Medium Risk
+Anushka Pillai,20.0,Female,Thiruvananthapuram,B.Sc,7.1,No,610L,No,No,Student,Spotify,700.0,5000.0,Occasional,800000.0,0,0,0,0,0,1,1.0,70.0,Medium Risk
+Yuvraj Chauhan,21.0,Male,Indore,B.Tech,8.0,Yes (2 months),36L,Yes (?16000),Education Loan,Savings,"OTT, Gym",1500.0,8700.0,Regular,450000.0,16000,1,2,1,1,2,2.0,75.0,Low Risk
+Tanya Shah,22.0,Female,Vadodara,M.Sc,8.9,Yes (5 months),1015L,No,No,Joint,"Netflix, Spotify",2200.0,10800.0,Regular,1250000.0,0,0,5,1,0,2,2.0,85.0,Low Risk
+Sakshi Verma,21.0,Female,Lucknow,BBA,7.5,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1400.0,7900.0,Occasional,50000.0,9000,1,2,1,0,2,1.0,65.0,Medium Risk
+Tushar Bansal,22.0,Male,Ludhiana,B.Tech,8.1,Yes (3 months),36L,Yes (?14000),Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,450000.0,14000,1,3,1,1,2,2.0,75.0,Low Risk
+Nisha Chauhan,19.0,Female,Bareilly,B.Sc,7.0,No,610L,No,No,Student,OTT,750.0,5400.0,Occasional,800000.0,0,0,0,0,0,1,1.0,70.0,Medium Risk
+Pranav Jadhav,20.0,Male,Jalna,Diploma,6.5,No,13L,Yes (?11000),No,Student,Gym,500.0,4300.0,,200000.0,11000,1,0,0,0,1,0.0,55.0,Medium Risk
+Tanvi Kamat,22.0,Female,Panaji,MBA,8.3,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,50000.0,6000,1,4,1,1,2,2.0,65.0,Medium Risk
+Nilesh Shinde,21.0,Male,Solapur,BCA,7.6,Yes (2 months),610L,No,No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Aastha Kulkarni,21.0,Female,Pune,B.Sc,8.0,Yes (2 months),36L,Yes (?16000),No,Student,"Netflix, Gym",1100.0,7600.0,Regular,450000.0,16000,1,2,1,0,2,2.0,80.0,Low Risk
+Raghav Salunkhe,22.0,Male,Mumbai,B.Tech,7.9,Yes (3 months),1015L,No,Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,1250000.0,0,0,3,1,1,2,1.0,70.0,Medium Risk
+Simran Iyer,23.0,Female,Chennai,MBA,8.6,Yes (5 months),36L,Yes (?12000),Personal Loan,Joint,"Netflix, Spotify",2300.0,11100.0,Regular,450000.0,12000,1,5,1,1,2,2.0,70.0,Medium Risk
+Arjun Bhagat,20.0,Male,Nashik,BCA,7.2,No,610L,No,No,Student,OTT,850.0,5300.0,,800000.0,0,0,0,0,0,1,0.0,65.0,Medium Risk
+Ishita Desai,22.0,Female,Ahmedabad,M.Tech,9.1,Yes (6 months),1015L,No,Education Loan,Savings,"Netflix, OTT",2500.0,11000.0,Regular,1250000.0,0,0,6,1,1,2,2.0,85.0,Low Risk
+Soham Joshi,20.0,Male,Nagpur,B.Com,6.8,No,<1L,Yes (?9000),No,Student,Gym,600.0,4900.0,,50000.0,9000,1,0,0,0,1,0.0,55.0,Medium Risk
+Meher Rane,21.0,Female,Thane,BBA,7.7,Yes (1 month),610L,No,No,Savings,"OTT, Spotify",950.0,6800.0,Occasional,800000.0,0,0,1,1,0,2,1.0,70.0,Medium Risk
+Krishan Patil,22.0,Male,Satara,MBA,8.4,Yes (4 months),13L,Yes (?7000),Personal Loan,Joint,"Netflix, Gym",2000.0,10600.0,Regular,200000.0,7000,1,4,1,1,2,2.0,65.0,Medium Risk
+Ananya Jadhav,20.0,Female,Sangli,B.Sc,7.1,No,36L,Yes (?10000),No,Student,Spotify,700.0,5000.0,Occasional,450000.0,10000,1,0,0,0,1,1.0,70.0,Medium Risk
+Ritesh Pawaskar,21.0,Male,Beed,B.Tech,8.0,Yes (2 months),610L,No,Education Loan,Savings,"OTT, Gym",1500.0,8700.0,Regular,800000.0,0,0,2,1,1,2,2.0,75.0,Low Risk
+Sneha Wagh,22.0,Female,Latur,M.Sc,8.9,Yes (5 months),<1L,Yes (?6000),No,Joint,"Netflix, Spotify",2200.0,10800.0,Regular,50000.0,6000,1,5,1,0,2,2.0,75.0,Low Risk
+Aditya Shinde,20.0,Male,Akola,B.Com,6.7,No,36L,Yes (?14000),No,Student,"OTT, Gym",800.0,5600.0,,450000.0,14000,1,0,0,0,2,0.0,55.0,Medium Risk
+Pooja Salunkhe,21.0,Female,Jalgaon,BBA,7.5,Yes (2 months),1015L,No,No,Savings,"Netflix, OTT",1400.0,7900.0,Occasional,1250000.0,0,0,2,1,0,2,1.0,75.0,Low Risk
+Akshay Jagtap,20.0,Male,Yavatmal,Diploma,6.5,No,<1L,Yes (?8000),No,Student,Gym,500.0,4300.0,,50000.0,8000,1,0,0,0,1,0.0,55.0,Medium Risk
+Tanvi Mahajan,22.0,Female,Parbhani,MBA,8.3,Yes (4 months),36L,Yes (?13000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,450000.0,13000,1,4,1,1,2,2.0,70.0,Medium Risk
+Omkar Kale,21.0,Male,Jalna,BCA,7.6,Yes (2 months),610L,No,No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Nikhil Salvi,20.0,Male,Ratnagiri,B.Com,6.9,No,13L,Yes (?10000),No,Student,"OTT, Gym",850.0,5700.0,,200000.0,10000,1,0,0,0,2,0.0,50.0,High Risk
+Aishwarya Bhosale,21.0,Female,Pune,B.Sc,8.2,Yes (2 months),<1L,Yes (?6000),No,Student,"Netflix, Gym",1100.0,7600.0,Regular,50000.0,6000,1,2,1,0,2,2.0,75.0,Low Risk
+Raghav Gokhale,22.0,Male,Mumbai,B.Tech,7.8,Yes (3 months),610L,No,Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,800000.0,0,0,3,1,1,2,1.0,65.0,Medium Risk
+Mitali Jagtap,23.0,Female,Nashik,MBA,8.6,Yes (5 months),36L,Yes (?16000),Personal Loan,Joint,"Netflix, Spotify",2300.0,11100.0,Regular,450000.0,16000,1,5,1,1,2,2.0,70.0,Medium Risk
+Soham Raut,20.0,Male,Nagpur,BCA,7.2,No,1015L,No,No,Student,OTT,850.0,5300.0,,1250000.0,0,0,0,0,0,1,0.0,70.0,Medium Risk
+Aastha Salvi,22.0,Female,Aurangabad,M.Tech,9.1,Yes (6 months),<1L,Yes (?9000),Education Loan,Savings,"Netflix, OTT",2500.0,11000.0,Regular,50000.0,9000,1,6,1,1,2,2.0,75.0,Low Risk
+Kunal Joshi,20.0,Male,Satara,B.Com,6.8,No,36L,Yes (?14000),No,Student,Gym,600.0,4900.0,,450000.0,14000,1,0,0,0,1,0.0,60.0,Medium Risk
+Sneha Pawar,21.0,Female,Sangli,BBA,7.7,Yes (1 month),610L,No,No,Savings,"OTT, Spotify",950.0,6800.0,Occasional,800000.0,0,0,1,1,0,2,1.0,70.0,Medium Risk
+Rohan Patil,22.0,Male,Beed,MBA,8.4,Yes (4 months),13L,Yes (?11000),Personal Loan,Joint,"Netflix, Gym",2000.0,10600.0,Regular,200000.0,11000,1,4,1,1,2,2.0,65.0,Medium Risk
+Anjali Wagh,20.0,Female,Latur,B.Sc,7.1,No,<1L,Yes (?6000),No,Student,Spotify,700.0,5000.0,Occasional,50000.0,6000,1,0,0,0,1,1.0,65.0,Medium Risk
+Yash Kale,21.0,Male,Jalgaon,B.Tech,8.0,Yes (2 months),610L,No,Education Loan,Savings,"OTT, Gym",1500.0,8700.0,Regular,800000.0,0,0,2,1,1,2,2.0,75.0,Low Risk
+Radhika More,22.0,Female,Nanded,M.Sc,8.9,Yes (5 months),36L,Yes (?16000),No,Joint,"Netflix, Spotify",2200.0,10800.0,Regular,450000.0,16000,1,5,1,0,2,2.0,80.0,Low Risk
+Abhishek Pawaskar,20.0,Male,Washim,B.Com,6.7,No,36L,Yes (?11000),No,Student,"OTT, Gym",800.0,5600.0,,450000.0,11000,1,0,0,0,2,0.0,55.0,Medium Risk
+Pooja Jadhav,21.0,Female,Yavatmal,BBA,7.5,Yes (2 months),610L,No,No,Savings,"Netflix, OTT",1400.0,7900.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Harshit Shinde,22.0,Male,Parbhani,B.Tech,8.1,Yes (3 months),1015L,No,Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,1250000.0,0,0,3,1,1,2,2.0,80.0,Low Risk
+Neha Kulkarni,19.0,Female,Akola,B.Sc,7.0,No,<1L,Yes (?9000),No,Student,OTT,750.0,5400.0,Occasional,50000.0,9000,1,0,0,0,1,1.0,65.0,Medium Risk
+Pratik Salunkhe,20.0,Male,Jalna,Diploma,6.5,No,610L,No,No,Student,Gym,500.0,4300.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Tanvi Joshi,22.0,Female,Pune,MBA,8.3,Yes (4 months),13L,Yes (?7000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,200000.0,7000,1,4,1,1,2,2.0,65.0,Medium Risk
+Omkar Bhosale,21.0,Male,Mumbai,BCA,7.6,Yes (2 months),36L,Yes (?10000),No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,450000.0,10000,1,2,1,0,2,1.0,70.0,Medium Risk
+Rutuja Naik,23.0,Female,Goa,M.Tech,9.0,Yes (5 months),610L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11500.0,Regular,800000.0,0,0,5,1,1,2,2.0,80.0,Low Risk
+Nikhil Jagtap,20.0,Male,Pune,B.Com,6.9,No,<1L,Yes (?6000),No,Student,"OTT, Gym",850.0,5700.0,,50000.0,6000,1,0,0,0,2,0.0,50.0,High Risk
+Aakriti Mehta,21.0,Female,Delhi,B.Sc,8.1,Yes (2 months),36L,Yes (?14000),No,Student,"Netflix, Gym",1100.0,7600.0,Regular,450000.0,14000,1,2,1,0,2,2.0,80.0,Low Risk
+Rohan Chavan,22.0,Male,Pune,B.Tech,7.8,Yes (3 months),1015L,No,Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,1250000.0,0,0,3,1,1,2,1.0,70.0,Medium Risk
+Charvi Nair,23.0,Female,Kochi,MBA,8.6,Yes (5 months),<1L,Yes (?8000),Personal Loan,Joint,"Netflix, Spotify",2300.0,11100.0,Regular,50000.0,8000,1,5,1,1,2,2.0,65.0,Medium Risk
+Aditya Gokhale,20.0,Male,Mumbai,BCA,7.2,No,36L,Yes (?13000),No,Student,OTT,850.0,5300.0,,450000.0,13000,1,0,0,0,1,0.0,65.0,Medium Risk
+Sneha Bhonsale,22.0,Female,Nashik,M.Tech,9.1,Yes (6 months),610L,No,Education Loan,Savings,"Netflix, OTT",2500.0,11000.0,Regular,800000.0,0,0,6,1,1,2,2.0,80.0,Low Risk
+Kunal Deshmukh,20.0,Male,Nagpur,B.Com,6.8,No,13L,Yes (?10000),No,Student,Gym,600.0,4900.0,,200000.0,10000,1,0,0,0,1,0.0,55.0,Medium Risk
+Meher Thombre,21.0,Female,Aurangabad,BBA,7.7,Yes (1 month),<1L,Yes (?6000),No,Savings,"OTT, Spotify",950.0,6800.0,Occasional,50000.0,6000,1,1,1,0,2,1.0,65.0,Medium Risk
+Krishan Kale,22.0,Male,Jalgaon,MBA,8.4,Yes (4 months),610L,No,Personal Loan,Joint,"Netflix, Gym",2000.0,10600.0,Regular,800000.0,0,0,4,1,1,2,2.0,70.0,Medium Risk
+Ananya Salvi,20.0,Female,Sangli,B.Sc,7.1,No,36L,Yes (?16000),No,Student,Spotify,700.0,5000.0,Occasional,450000.0,16000,1,0,0,0,1,1.0,70.0,Medium Risk
+Ritesh Gawande,21.0,Male,Ratnagiri,B.Tech,8.0,Yes (2 months),1015L,No,Education Loan,Savings,"OTT, Gym",1500.0,8700.0,Regular,1250000.0,0,0,2,1,1,2,2.0,80.0,Low Risk
+Sneha Lokhande,22.0,Female,Solapur,M.Sc,8.9,Yes (5 months),<1L,Yes (?9000),No,Joint,"Netflix, Spotify",2200.0,10800.0,Regular,50000.0,9000,1,5,1,0,2,2.0,75.0,Low Risk
+Abhishek More,20.0,Male,Akola,B.Com,6.7,No,36L,Yes (?14000),No,Student,"OTT, Gym",800.0,5600.0,,450000.0,14000,1,0,0,0,2,0.0,55.0,Medium Risk
+Pooja Raut,21.0,Female,Beed,BBA,7.5,Yes (2 months),610L,No,No,Savings,"Netflix, OTT",1400.0,7900.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Harshad Jagtap,22.0,Male,Latur,B.Tech,8.1,Yes (3 months),13L,Yes (?11000),Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,200000.0,11000,1,3,1,1,2,2.0,70.0,Medium Risk
+Riya Mahajan,19.0,Female,Washim,B.Sc,7.0,No,<1L,Yes (?6000),No,Student,OTT,750.0,5400.0,Occasional,50000.0,6000,1,0,0,0,1,1.0,65.0,Medium Risk
+Akshay Pawar,20.0,Male,Yavatmal,Diploma,6.5,No,610L,No,No,Student,Gym,500.0,4300.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Tanvi Shinde,22.0,Female,Parbhani,MBA,8.3,Yes (4 months),36L,Yes (?12000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,450000.0,12000,1,4,1,1,2,2.0,70.0,Medium Risk
+Omkar Kulkarni,21.0,Male,Pune,BCA,7.6,Yes (2 months),610L,No,No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Ayesha Rathod,21.0,Female,Indore,B.Sc,8.2,Yes (2 months),1015L,No,No,Student,"Netflix, Gym",1100.0,7600.0,Regular,1250000.0,0,0,2,1,0,2,2.0,85.0,Low Risk
+Tushar Khatri,22.0,Male,Bhopal,B.Tech,7.9,Yes (3 months),<1L,Yes (?9000),Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,50000.0,9000,1,3,1,1,2,1.0,60.0,Medium Risk
+Aastha Chavan,21.0,Female,Pune,B.Sc,8.0,Yes (2 months),610L,No,No,Student,"Netflix, Gym",1100.0,7600.0,Regular,800000.0,0,0,2,1,0,2,2.0,80.0,Low Risk
+Raghav Pawar,22.0,Male,Mumbai,B.Tech,7.9,Yes (3 months),13L,Yes (?7000),Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,200000.0,7000,1,3,1,1,2,1.0,60.0,Medium Risk
+Simran Lokhande,23.0,Female,Nashik,MBA,8.6,Yes (5 months),36L,Yes (?10000),Personal Loan,Joint,"Netflix, Spotify",2300.0,11100.0,Regular,450000.0,10000,1,5,1,1,2,2.0,70.0,Medium Risk
+Arjun Salvi,20.0,Male,Nagpur,BCA,7.2,No,610L,No,No,Student,OTT,850.0,5300.0,,800000.0,0,0,0,0,0,1,0.0,65.0,Medium Risk
+Ishita Gokhale,22.0,Female,Aurangabad,M.Tech,9.1,Yes (6 months),<1L,Yes (?6000),Education Loan,Savings,"Netflix, OTT",2500.0,11000.0,Regular,50000.0,6000,1,6,1,1,2,2.0,75.0,Low Risk
+Soham Jagtap,20.0,Male,Jalgaon,B.Com,6.8,No,36L,Yes (?14000),No,Student,Gym,600.0,4900.0,,450000.0,14000,1,0,0,0,1,0.0,60.0,Medium Risk
+Meher Patil,21.0,Female,Sangli,BBA,7.7,Yes (1 month),1015L,No,No,Savings,"OTT, Spotify",950.0,6800.0,Occasional,1250000.0,0,0,1,1,0,2,1.0,75.0,Low Risk
+Krishan Raut,22.0,Male,Beed,MBA,8.4,Yes (4 months),<1L,Yes (?8000),Personal Loan,Joint,"Netflix, Gym",2000.0,10600.0,Regular,50000.0,8000,1,4,1,1,2,2.0,65.0,Medium Risk
+Ananya Pawaskar,20.0,Female,Latur,B.Sc,7.1,No,36L,Yes (?13000),No,Student,Spotify,700.0,5000.0,Occasional,450000.0,13000,1,0,0,0,1,1.0,70.0,Medium Risk
+Ritesh Salunkhe,21.0,Male,Akola,B.Tech,8.0,Yes (2 months),610L,No,Education Loan,Savings,"OTT, Gym",1500.0,8700.0,Regular,800000.0,0,0,2,1,1,2,2.0,75.0,Low Risk
+Sneha Joshi,22.0,Female,Nanded,M.Sc,8.9,Yes (5 months),13L,Yes (?10000),No,Joint,"Netflix, Spotify",2200.0,10800.0,Regular,200000.0,10000,1,5,1,0,2,2.0,75.0,Low Risk
+Aditya Rane,20.0,Male,Washim,B.Com,6.7,No,<1L,Yes (?6000),No,Student,"OTT, Gym",800.0,5600.0,,50000.0,6000,1,0,0,0,2,0.0,50.0,High Risk
+Pooja Kulkarni,21.0,Female,Yavatmal,BBA,7.5,Yes (2 months),610L,No,No,Savings,"Netflix, OTT",1400.0,7900.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Harshad Pawar,22.0,Male,Parbhani,B.Tech,8.1,Yes (3 months),36L,Yes (?16000),Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,450000.0,16000,1,3,1,1,2,2.0,75.0,Low Risk
+Riya Jadhav,19.0,Female,Amravati,B.Sc,7.0,No,1015L,No,No,Student,OTT,750.0,5400.0,Occasional,1250000.0,0,0,0,0,0,1,1.0,75.0,Low Risk
+Akshay Gawande,20.0,Male,Ratnagiri,Diploma,6.5,No,<1L,Yes (?9000),No,Student,Gym,500.0,4300.0,,50000.0,9000,1,0,0,0,1,0.0,55.0,Medium Risk
+Tanvi More,22.0,Female,Navi Mumbai,MBA,8.3,Yes (4 months),36L,Yes (?12000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,450000.0,12000,1,4,1,1,2,2.0,70.0,Medium Risk
+Omkar Patil,21.0,Male,Pune,BCA,7.6,Yes (2 months),610L,No,No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Rutuja Salvi,23.0,Female,Mumbai,M.Tech,9.0,Yes (5 months),1015L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11500.0,Regular,1250000.0,0,0,5,1,1,2,2.0,85.0,Low Risk
+Nikhil Lokhande,20.0,Male,Nashik,B.Com,6.9,No,<1L,Yes (?9000),No,Student,"OTT, Gym",850.0,5700.0,,50000.0,9000,1,0,0,0,2,0.0,50.0,High Risk
+Vaishnavi Gokhale,21.0,Female,Nagpur,BBA,7.4,Yes (2 months),610L,No,No,Savings,"Netflix, OTT",1300.0,7800.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Shubham Jagtap,22.0,Male,Aurangabad,B.Tech,8.2,Yes (3 months),13L,Yes (?7000),Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,200000.0,7000,1,3,1,1,2,2.0,70.0,Medium Risk
+Komal Pawar,19.0,Female,Jalgaon,B.Sc,7.0,No,36L,Yes (?10000),No,Student,OTT,750.0,5600.0,Occasional,450000.0,10000,1,0,0,0,1,1.0,70.0,Medium Risk
+Akshay Salunkhe,20.0,Male,Sangli,Diploma,6.5,No,610L,No,No,Student,Gym,500.0,4300.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Tanvi Jagtap,22.0,Female,Beed,MBA,8.3,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,50000.0,6000,1,4,1,1,2,2.0,65.0,Medium Risk
+Nilesh Rane,21.0,Male,Latur,BCA,7.6,Yes (2 months),36L,Yes (?14000),No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,450000.0,14000,1,2,1,0,2,1.0,70.0,Medium Risk
+Shruti Joshi,23.0,Female,Akola,M.Tech,9.0,Yes (5 months),1015L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11500.0,Regular,1250000.0,0,0,5,1,1,2,2.0,85.0,Low Risk
+Aishwarya Shetty,21.0,Female,Bengaluru,B.Sc,8.0,Yes (2 months),<1L,Yes (?8000),No,Student,"Netflix, Gym",1100.0,7600.0,Regular,50000.0,8000,1,2,1,0,2,2.0,75.0,Low Risk
+Raghav Desai,22.0,Male,Ahmedabad,B.Tech,7.9,Yes (3 months),36L,Yes (?13000),Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,450000.0,13000,1,3,1,1,2,1.0,65.0,Medium Risk
+Simran Kapoor,23.0,Female,Chandigarh,MBA,8.6,Yes (5 months),610L,No,Personal Loan,Joint,"Netflix, Spotify",2300.0,11100.0,Regular,800000.0,0,0,5,1,1,2,2.0,70.0,Medium Risk
+Arjun Mehta,20.0,Male,Jaipur,BCA,7.2,No,13L,Yes (?10000),No,Student,OTT,850.0,5300.0,,200000.0,10000,1,0,0,0,1,0.0,60.0,Medium Risk
+Ishita Sharma,22.0,Female,Delhi,M.Tech,9.1,Yes (6 months),<1L,Yes (?6000),Education Loan,Savings,"Netflix, OTT",2500.0,11000.0,Regular,50000.0,6000,1,6,1,1,2,2.0,75.0,Low Risk
+Soham Banerjee,20.0,Male,Kolkata,B.Com,6.8,No,610L,No,No,Student,Gym,600.0,4900.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Meher Singh,21.0,Female,Lucknow,BBA,7.7,Yes (1 month),36L,Yes (?16000),No,Savings,"OTT, Spotify",950.0,6800.0,Occasional,450000.0,16000,1,1,1,0,2,1.0,70.0,Medium Risk
+Krishan Verma,22.0,Male,Kanpur,MBA,8.4,Yes (4 months),36L,Yes (?12000),Personal Loan,Joint,"Netflix, Gym",2000.0,10600.0,Regular,450000.0,12000,1,4,1,1,2,2.0,70.0,Medium Risk
+Ananya Yadav,20.0,Female,Varanasi,B.Sc,7.1,No,610L,No,No,Student,Spotify,700.0,5000.0,Occasional,800000.0,0,0,0,0,0,1,1.0,70.0,Medium Risk
+Ritesh Tiwari,21.0,Male,Gwalior,B.Tech,8.0,Yes (2 months),36L,Yes (?11000),Education Loan,Savings,"OTT, Gym",1500.0,8700.0,Regular,450000.0,11000,1,2,1,1,2,2.0,75.0,Low Risk
+Sneha Chauhan,22.0,Female,Bhopal,M.Sc,8.9,Yes (5 months),610L,No,No,Joint,"Netflix, Spotify",2200.0,10800.0,Regular,800000.0,0,0,5,1,0,2,2.0,80.0,Low Risk
+Aditya Singh,20.0,Male,Patna,B.Com,6.7,No,1015L,No,No,Student,"OTT, Gym",800.0,5600.0,,1250000.0,0,0,0,0,0,2,0.0,60.0,Medium Risk
+Pooja Agarwal,21.0,Female,Ranchi,BBA,7.5,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1400.0,7900.0,Occasional,50000.0,9000,1,2,1,0,2,1.0,65.0,Medium Risk
+Harshad Sinha,22.0,Male,Raipur,B.Tech,8.1,Yes (3 months),610L,No,Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,800000.0,0,0,3,1,1,2,2.0,75.0,Low Risk
+Riya Bhattacharya,19.0,Female,Siliguri,B.Sc,7.0,No,13L,Yes (?7000),No,Student,OTT,750.0,5400.0,Occasional,200000.0,7000,1,0,0,0,1,1.0,65.0,Medium Risk
+Akshay Das,20.0,Male,Bhubaneswar,Diploma,6.5,No,36L,Yes (?10000),No,Student,Gym,500.0,4300.0,,450000.0,10000,1,0,0,0,1,0.0,60.0,Medium Risk
+Tanvi Ghosh,22.0,Female,Durgapur,MBA,8.3,Yes (4 months),610L,No,Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,800000.0,0,0,4,1,1,2,2.0,70.0,Medium Risk
+Nilesh Roy,21.0,Male,Asansol,BCA,7.6,Yes (2 months),<1L,Yes (?6000),No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,50000.0,6000,1,2,1,0,2,1.0,65.0,Medium Risk
+Shruti Das,23.0,Female,Guwahati,M.Tech,9.0,Yes (5 months),36L,Yes (?14000),Education Loan,Joint,"Netflix, OTT",2400.0,11500.0,Regular,450000.0,14000,1,5,1,1,2,2.0,80.0,Low Risk
+Nikhil Sen,20.0,Male,Jamshedpur,B.Com,6.9,No,1015L,No,No,Student,"OTT, Gym",850.0,5700.0,,1250000.0,0,0,0,0,0,2,0.0,60.0,Medium Risk
+Vaishnavi Mishra,21.0,Female,Dehradun,BBA,7.4,Yes (2 months),<1L,Yes (?8000),No,Savings,"Netflix, OTT",1300.0,7800.0,Occasional,50000.0,8000,1,2,1,0,2,1.0,65.0,Medium Risk
+Shubham Rawat,22.0,Male,Nainital,B.Tech,8.2,Yes (3 months),36L,Yes (?13000),Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,450000.0,13000,1,3,1,1,2,2.0,75.0,Low Risk
+Komal Pandey,19.0,Female,Meerut,B.Sc,7.0,No,610L,No,No,Student,OTT,750.0,5600.0,Occasional,800000.0,0,0,0,0,0,1,1.0,70.0,Medium Risk
+Akshay Yadav,20.0,Male,Aligarh,Diploma,6.5,No,13L,Yes (?10000),No,Student,Gym,500.0,4300.0,,200000.0,10000,1,0,0,0,1,0.0,55.0,Medium Risk
+Tanvi Saxena,22.0,Female,Moradabad,MBA,8.3,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,50000.0,6000,1,4,1,1,2,2.0,65.0,Medium Risk
+Aastha Pawar,21.0,Female,Pune,B.Sc,8.1,Yes (2 months),610L,No,No,Student,"Netflix, Gym",1100.0,7600.0,Regular,800000.0,0,0,2,1,0,2,2.0,80.0,Low Risk
+Raghav Jadhav,22.0,Male,Mumbai,B.Tech,7.8,Yes (3 months),36L,Yes (?16000),Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,450000.0,16000,1,3,1,1,2,1.0,65.0,Medium Risk
+Simran Gokhale,23.0,Female,Nashik,MBA,8.6,Yes (5 months),1015L,No,Personal Loan,Joint,"Netflix, Spotify",2300.0,11100.0,Regular,1250000.0,0,0,5,1,1,2,2.0,75.0,Low Risk
+Arjun Salunkhe,20.0,Male,Nagpur,BCA,7.2,No,<1L,Yes (?9000),No,Student,OTT,850.0,5300.0,,50000.0,9000,1,0,0,0,1,0.0,60.0,Medium Risk
+Ishita Rane,22.0,Female,Aurangabad,M.Tech,9.1,Yes (6 months),36L,Yes (?14000),Education Loan,Savings,"Netflix, OTT",2500.0,11000.0,Regular,450000.0,14000,1,6,1,1,2,2.0,80.0,Low Risk
+Soham Shinde,20.0,Male,Jalgaon,B.Com,6.8,No,610L,No,No,Student,Gym,600.0,4900.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Meher Kulkarni,21.0,Female,Sangli,BBA,7.7,Yes (1 month),13L,Yes (?11000),No,Savings,"OTT, Spotify",950.0,6800.0,Occasional,200000.0,11000,1,1,1,0,2,1.0,65.0,Medium Risk
+Krishan Gawande,22.0,Male,Beed,MBA,8.4,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Gym",2000.0,10600.0,Regular,50000.0,6000,1,4,1,1,2,2.0,65.0,Medium Risk
+Ananya Patil,20.0,Female,Latur,B.Sc,7.1,No,610L,No,No,Student,Spotify,700.0,5000.0,Occasional,800000.0,0,0,0,0,0,1,1.0,70.0,Medium Risk
+Ritesh Lokhande,21.0,Male,Akola,B.Tech,8.0,Yes (2 months),36L,Yes (?16000),Education Loan,Savings,"OTT, Gym",1500.0,8700.0,Regular,450000.0,16000,1,2,1,1,2,2.0,75.0,Low Risk
+Sneha Salvi,22.0,Female,Nanded,M.Sc,8.9,Yes (5 months),1015L,No,No,Joint,"Netflix, Spotify",2200.0,10800.0,Regular,1250000.0,0,0,5,1,0,2,2.0,85.0,Low Risk
+Aditya Gawande,20.0,Male,Washim,B.Com,6.7,No,36L,Yes (?11000),No,Student,"OTT, Gym",800.0,5600.0,,450000.0,11000,1,0,0,0,2,0.0,55.0,Medium Risk
+Pooja Pawaskar,21.0,Female,Yavatmal,BBA,7.5,Yes (2 months),610L,No,No,Savings,"Netflix, OTT",1400.0,7900.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Harshad Jadhav,22.0,Male,Parbhani,B.Tech,8.1,Yes (3 months),1015L,No,Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,1250000.0,0,0,3,1,1,2,2.0,80.0,Low Risk
+Riya Gokhale,19.0,Female,Amravati,B.Sc,7.0,No,<1L,Yes (?9000),No,Student,OTT,750.0,5400.0,Occasional,50000.0,9000,1,0,0,0,1,1.0,65.0,Medium Risk
+Akshay Salunkhe,20.0,Male,Ratnagiri,Diploma,6.5,No,610L,No,No,Student,Gym,500.0,4300.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Tanvi Joshi,22.0,Female,Navi Mumbai,MBA,8.3,Yes (4 months),13L,Yes (?7000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,200000.0,7000,1,4,1,1,2,2.0,65.0,Medium Risk
+Omkar Pawar,21.0,Male,Pune,BCA,7.6,Yes (2 months),36L,Yes (?10000),No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,450000.0,10000,1,2,1,0,2,1.0,70.0,Medium Risk
+Rutuja Jadhav,23.0,Female,Mumbai,M.Tech,9.0,Yes (5 months),610L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11500.0,Regular,800000.0,0,0,5,1,1,2,2.0,80.0,Low Risk
+Nikhil Pawaskar,20.0,Male,Nashik,B.Com,6.9,No,<1L,Yes (?6000),No,Student,"OTT, Gym",850.0,5700.0,,50000.0,6000,1,0,0,0,2,0.0,50.0,High Risk
+Vaishnavi Salvi,21.0,Female,Nagpur,BBA,7.4,Yes (2 months),36L,Yes (?14000),No,Savings,"Netflix, OTT",1300.0,7800.0,Occasional,450000.0,14000,1,2,1,0,2,1.0,70.0,Medium Risk
+Shubham Kulkarni,22.0,Male,Aurangabad,B.Tech,8.2,Yes (3 months),1015L,No,Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,1250000.0,0,0,3,1,1,2,2.0,80.0,Low Risk
+Komal Gawande,19.0,Female,Jalgaon,B.Sc,7.0,No,<1L,Yes (?8000),No,Student,OTT,750.0,5600.0,Occasional,50000.0,8000,1,0,0,0,1,1.0,65.0,Medium Risk
+Akshay Jagtap,20.0,Male,Sangli,Diploma,6.5,No,36L,Yes (?13000),No,Student,Gym,500.0,4300.0,,450000.0,13000,1,0,0,0,1,0.0,60.0,Medium Risk
+Tanvi Salunkhe,22.0,Female,Beed,MBA,8.3,Yes (4 months),610L,No,Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,800000.0,0,0,4,1,1,2,2.0,70.0,Medium Risk
+Aishwarya More,21.0,Female,Pune,B.Sc,8.2,Yes (2 months),13L,Yes (?10000),No,Student,"Netflix, Gym",1100.0,7600.0,Regular,200000.0,10000,1,2,1,0,2,2.0,75.0,Low Risk
+Raghav Kulkarni,22.0,Male,Mumbai,B.Tech,7.8,Yes (3 months),<1L,Yes (?6000),Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,50000.0,6000,1,3,1,1,2,1.0,60.0,Medium Risk
+Simran Salvi,23.0,Female,Nashik,MBA,8.6,Yes (5 months),610L,No,Personal Loan,Joint,"Netflix, Spotify",2300.0,11100.0,Regular,800000.0,0,0,5,1,1,2,2.0,70.0,Medium Risk
+Arjun Pawar,20.0,Male,Nagpur,BCA,7.2,No,36L,Yes (?16000),No,Student,OTT,850.0,5300.0,,450000.0,16000,1,0,0,0,1,0.0,65.0,Medium Risk
+Ishita Jagtap,22.0,Female,Aurangabad,M.Tech,9.1,Yes (6 months),1015L,No,Education Loan,Savings,"Netflix, OTT",2500.0,11000.0,Regular,1250000.0,0,0,6,1,1,2,2.0,85.0,Low Risk
+Soham Gokhale,20.0,Male,Jalgaon,B.Com,6.8,No,<1L,Yes (?9000),No,Student,Gym,600.0,4900.0,,50000.0,9000,1,0,0,0,1,0.0,55.0,Medium Risk
+Meher Salunkhe,21.0,Female,Sangli,BBA,7.7,Yes (1 month),36L,Yes (?14000),No,Savings,"OTT, Spotify",950.0,6800.0,Occasional,450000.0,14000,1,1,1,0,2,1.0,70.0,Medium Risk
+Krishan Jadhav,22.0,Male,Beed,MBA,8.4,Yes (4 months),610L,No,Personal Loan,Joint,"Netflix, Gym",2000.0,10600.0,Regular,800000.0,0,0,4,1,1,2,2.0,70.0,Medium Risk
+Ananya Lokhande,20.0,Female,Latur,B.Sc,7.1,No,13L,Yes (?11000),No,Student,Spotify,700.0,5000.0,Occasional,200000.0,11000,1,0,0,0,1,1.0,65.0,Medium Risk
+Ritesh Salvi,21.0,Male,Akola,B.Tech,8.0,Yes (2 months),<1L,Yes (?6000),Education Loan,Savings,"OTT, Gym",1500.0,8700.0,Regular,50000.0,6000,1,2,1,1,2,2.0,70.0,Medium Risk
+Sneha Gokhale,22.0,Female,Nanded,M.Sc,8.9,Yes (5 months),610L,No,No,Joint,"Netflix, Spotify",2200.0,10800.0,Regular,800000.0,0,0,5,1,0,2,2.0,80.0,Low Risk
+Aditya Jagtap,20.0,Male,Washim,B.Com,6.7,No,36L,Yes (?12000),No,Student,"OTT, Gym",800.0,5600.0,,450000.0,12000,1,0,0,0,2,0.0,55.0,Medium Risk
+Harshad Pawaskar,22.0,Male,Parbhani,B.Tech,8.1,Yes (3 months),610L,No,Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,800000.0,0,0,3,1,1,2,2.0,75.0,Low Risk
+Riya Salunkhe,19.0,Female,Amravati,B.Sc,7.0,No,1015L,No,No,Student,OTT,750.0,5400.0,Occasional,1250000.0,0,0,0,0,0,1,1.0,75.0,Low Risk
+Akshay Gokhale,20.0,Male,Ratnagiri,Diploma,6.5,No,<1L,Yes (?9000),No,Student,Gym,500.0,4300.0,,50000.0,9000,1,0,0,0,1,0.0,55.0,Medium Risk
+Tanvi Jadhav,22.0,Female,Navi Mumbai,MBA,8.3,Yes (4 months),610L,No,Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,800000.0,0,0,4,1,1,2,2.0,70.0,Medium Risk
+Rutuja Pawar,23.0,Female,Mumbai,M.Tech,9.0,Yes (5 months),13L,Yes (?7000),Education Loan,Joint,"Netflix, OTT",2400.0,11500.0,Regular,200000.0,7000,1,5,1,1,2,2.0,75.0,Low Risk
+Nikhil Salunkhe,20.0,Male,Nashik,B.Com,6.9,No,36L,Yes (?10000),No,Student,"OTT, Gym",850.0,5700.0,,450000.0,10000,1,0,0,0,2,0.0,55.0,Medium Risk
+Vaishnavi Jagtap,21.0,Female,Nagpur,BBA,7.4,Yes (2 months),610L,No,No,Savings,"Netflix, OTT",1300.0,7800.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Shubham Gawande,22.0,Male,Aurangabad,B.Tech,8.2,Yes (3 months),<1L,Yes (?6000),Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,50000.0,6000,1,3,1,1,2,2.0,70.0,Medium Risk
+Komal Shinde,19.0,Female,Jalgaon,B.Sc,7.0,No,36L,Yes (?14000),No,Student,OTT,750.0,5600.0,Occasional,450000.0,14000,1,0,0,0,1,1.0,70.0,Medium Risk
+Akshay Lokhande,20.0,Male,Sangli,Diploma,6.5,No,1015L,No,No,Student,Gym,500.0,4300.0,,1250000.0,0,0,0,0,0,1,0.0,65.0,Medium Risk
+Tanvi Gawande,22.0,Female,Beed,MBA,8.3,Yes (4 months),<1L,Yes (?8000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,50000.0,8000,1,4,1,1,2,2.0,65.0,Medium Risk
+Nilesh Jadhav,21.0,Male,Latur,BCA,7.6,Yes (2 months),36L,Yes (?13000),No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,450000.0,13000,1,2,1,0,2,1.0,70.0,Medium Risk
+Aishwarya Rane,21.0,Female,Pune,B.Sc,8.2,Yes (2 months),610L,No,No,Student,"Netflix, Gym",1100.0,7600.0,Regular,800000.0,0,0,2,1,0,2,2.0,80.0,Low Risk
+Raghav Pawaskar,22.0,Male,Mumbai,B.Tech,7.8,Yes (3 months),13L,Yes (?10000),Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,200000.0,10000,1,3,1,1,2,1.0,60.0,Medium Risk
+Simran Jadhav,23.0,Female,Nashik,MBA,8.6,Yes (5 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2300.0,11100.0,Regular,50000.0,6000,1,5,1,1,2,2.0,65.0,Medium Risk
+Arjun Kulkarni,20.0,Male,Nagpur,BCA,7.2,No,610L,No,No,Student,OTT,850.0,5300.0,,800000.0,0,0,0,0,0,1,0.0,65.0,Medium Risk
+Ishita Salvi,22.0,Female,Aurangabad,M.Tech,9.1,Yes (6 months),36L,Yes (?16000),Education Loan,Savings,"Netflix, OTT",2500.0,11000.0,Regular,450000.0,16000,1,6,1,1,2,2.0,80.0,Low Risk
+Soham Gawande,20.0,Male,Jalgaon,B.Com,6.8,No,1015L,No,No,Student,Gym,600.0,4900.0,,1250000.0,0,0,0,0,0,1,0.0,65.0,Medium Risk
+Meher Lokhande,21.0,Female,Sangli,BBA,7.7,Yes (1 month),<1L,Yes (?9000),No,Savings,"OTT, Spotify",950.0,6800.0,Occasional,50000.0,9000,1,1,1,0,2,1.0,65.0,Medium Risk
+Krishan Jagtap,22.0,Male,Beed,MBA,8.4,Yes (4 months),36L,Yes (?14000),Personal Loan,Joint,"Netflix, Gym",2000.0,10600.0,Regular,450000.0,14000,1,4,1,1,2,2.0,70.0,Medium Risk
+Ritesh Shinde,21.0,Male,Akola,B.Tech,8.0,Yes (2 months),610L,No,Education Loan,Savings,"OTT, Gym",1500.0,8700.0,Regular,800000.0,0,0,2,1,1,2,2.0,75.0,Low Risk
+Aditya Salunkhe,20.0,Male,Washim,B.Com,6.7,No,13L,Yes (?11000),No,Student,"OTT, Gym",800.0,5600.0,,200000.0,11000,1,0,0,0,2,0.0,50.0,High Risk
+Tanvi Pawaskar,22.0,Female,Navi Mumbai,MBA,8.3,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,50000.0,6000,1,4,1,1,2,2.0,65.0,Medium Risk
+Omkar Salvi,21.0,Male,Pune,BCA,7.6,Yes (2 months),610L,No,No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Rutuja Lokhande,23.0,Female,Mumbai,M.Tech,9.0,Yes (5 months),36L,Yes (?12000),Education Loan,Joint,"Netflix, OTT",2400.0,11500.0,Regular,450000.0,12000,1,5,1,1,2,2.0,80.0,Low Risk
+Nikhil Jagtap,20.0,Male,Nashik,B.Com,6.9,No,610L,No,No,Student,"OTT, Gym",850.0,5700.0,,800000.0,0,0,0,0,0,2,0.0,55.0,Medium Risk
+Vaishnavi Patil,21.0,Female,Nagpur,BBA,7.4,Yes (2 months),1015L,No,No,Savings,"Netflix, OTT",1300.0,7800.0,Occasional,1250000.0,0,0,2,1,0,2,1.0,75.0,Low Risk
+Shubham Gokhale,22.0,Male,Aurangabad,B.Tech,8.2,Yes (3 months),<1L,Yes (?9000),Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,50000.0,9000,1,3,1,1,2,2.0,70.0,Medium Risk
+Komal Jadhav,19.0,Female,Jalgaon,B.Sc,7.0,No,610L,No,No,Student,OTT,750.0,5600.0,Occasional,800000.0,0,0,0,0,0,1,1.0,70.0,Medium Risk
+Akshay Pawar,20.0,Male,Sangli,Diploma,6.5,No,13L,Yes (?7000),No,Student,Gym,500.0,4300.0,,200000.0,7000,1,0,0,0,1,0.0,55.0,Medium Risk
+Aanya Gokhale,21.0,Female,Pune,B.Sc,8.1,Yes (2 months),36L,Yes (?10000),No,Student,"Netflix, Gym",1100.0,7600.0,Regular,450000.0,10000,1,2,1,0,2,2.0,80.0,Low Risk
+Simran Pawar,23.0,Female,Nashik,MBA,8.6,Yes (5 months),610L,No,Personal Loan,Joint,"Netflix, Spotify",2300.0,11100.0,Regular,800000.0,0,0,5,1,1,2,2.0,70.0,Medium Risk
+Arjun Jadhav,20.0,Male,Nagpur,BCA,7.2,No,<1L,Yes (?6000),No,Student,OTT,850.0,5300.0,,50000.0,6000,1,0,0,0,1,0.0,60.0,Medium Risk
+Ishita Kulkarni,22.0,Female,Aurangabad,M.Tech,9.1,Yes (6 months),36L,Yes (?14000),Education Loan,Savings,"Netflix, OTT",2500.0,11000.0,Regular,450000.0,14000,1,6,1,1,2,2.0,80.0,Low Risk
+Soham Lokhande,20.0,Male,Jalgaon,B.Com,6.8,No,1015L,No,No,Student,Gym,600.0,4900.0,,1250000.0,0,0,0,0,0,1,0.0,65.0,Medium Risk
+Meher Jagtap,21.0,Female,Sangli,BBA,7.7,Yes (1 month),<1L,Yes (?8000),No,Savings,"OTT, Spotify",950.0,6800.0,Occasional,50000.0,8000,1,1,1,0,2,1.0,65.0,Medium Risk
+Krishan Gokhale,22.0,Male,Beed,MBA,8.4,Yes (4 months),36L,Yes (?13000),Personal Loan,Joint,"Netflix, Gym",2000.0,10600.0,Regular,450000.0,13000,1,4,1,1,2,2.0,70.0,Medium Risk
+Ananya Salvi,20.0,Female,Latur,B.Sc,7.1,No,610L,No,No,Student,Spotify,700.0,5000.0,Occasional,800000.0,0,0,0,0,0,1,1.0,70.0,Medium Risk
+Ritesh Jagtap,21.0,Male,Akola,B.Tech,8.0,Yes (2 months),13L,Yes (?10000),Education Loan,Savings,"OTT, Gym",1500.0,8700.0,Regular,200000.0,10000,1,2,1,1,2,2.0,70.0,Medium Risk
+Sneha Pawaskar,22.0,Female,Nanded,M.Sc,8.9,Yes (5 months),<1L,Yes (?6000),No,Joint,"Netflix, Spotify",2200.0,10800.0,Regular,50000.0,6000,1,5,1,0,2,2.0,75.0,Low Risk
+Aditya Gokhale,20.0,Male,Washim,B.Com,6.7,No,610L,No,No,Student,"OTT, Gym",800.0,5600.0,,800000.0,0,0,0,0,0,2,0.0,55.0,Medium Risk
+Pooja Salunkhe,21.0,Female,Yavatmal,BBA,7.5,Yes (2 months),36L,Yes (?16000),No,Savings,"Netflix, OTT",1400.0,7900.0,Occasional,450000.0,16000,1,2,1,0,2,1.0,70.0,Medium Risk
+Harshad Kulkarni,22.0,Male,Parbhani,B.Tech,8.1,Yes (3 months),1015L,No,Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,1250000.0,0,0,3,1,1,2,2.0,80.0,Low Risk
+Akshay Jagtap,20.0,Male,Ratnagiri,Diploma,6.5,No,<1L,Yes (?9000),No,Student,Gym,500.0,4300.0,,50000.0,9000,1,0,0,0,1,0.0,55.0,Medium Risk
+Tanvi Gokhale,22.0,Female,Navi Mumbai,MBA,8.3,Yes (4 months),36L,Yes (?14000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,450000.0,14000,1,4,1,1,2,2.0,70.0,Medium Risk
+Omkar Jadhav,21.0,Male,Pune,BCA,7.6,Yes (2 months),610L,No,No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Rutuja Salunkhe,23.0,Female,Mumbai,M.Tech,9.0,Yes (5 months),13L,Yes (?11000),Education Loan,Joint,"Netflix, OTT",2400.0,11500.0,Regular,200000.0,11000,1,5,1,1,2,2.0,75.0,Low Risk
+Nikhil Pawar,20.0,Male,Nashik,B.Com,6.9,No,<1L,Yes (?6000),No,Student,"OTT, Gym",850.0,5700.0,,50000.0,6000,1,0,0,0,2,0.0,50.0,High Risk
+Vaishnavi Jadhav,21.0,Female,Nagpur,BBA,7.4,Yes (2 months),610L,No,No,Savings,"Netflix, OTT",1300.0,7800.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Shubham Lokhande,22.0,Male,Aurangabad,B.Tech,8.2,Yes (3 months),36L,Yes (?16000),Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,450000.0,16000,1,3,1,1,2,2.0,75.0,Low Risk
+Komal Salvi,19.0,Female,Jalgaon,B.Sc,7.0,No,36L,Yes (?12000),No,Student,OTT,750.0,5600.0,Occasional,450000.0,12000,1,0,0,0,1,1.0,70.0,Medium Risk
+Akshay Kulkarni,20.0,Male,Sangli,Diploma,6.5,No,610L,No,No,Student,Gym,500.0,4300.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Raghav Jagtap,22.0,Male,Mumbai,B.Tech,7.8,Yes (3 months),1015L,No,Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,1250000.0,0,0,3,1,1,2,1.0,70.0,Medium Risk
+Simran Gawande,23.0,Female,Nashik,MBA,8.6,Yes (5 months),<1L,Yes (?9000),Personal Loan,Joint,"Netflix, Spotify",2300.0,11100.0,Regular,50000.0,9000,1,5,1,1,2,2.0,65.0,Medium Risk
+Ishita Pawar,22.0,Female,Aurangabad,M.Tech,9.1,Yes (6 months),610L,No,Education Loan,Savings,"Netflix, OTT",2500.0,11000.0,Regular,800000.0,0,0,6,1,1,2,2.0,80.0,Low Risk
+Soham Salunkhe,20.0,Male,Jalgaon,B.Com,6.8,No,13L,Yes (?7000),No,Student,Gym,600.0,4900.0,,200000.0,7000,1,0,0,0,1,0.0,55.0,Medium Risk
+Meher Gokhale,21.0,Female,Sangli,BBA,7.7,Yes (1 month),36L,Yes (?10000),No,Savings,"OTT, Spotify",950.0,6800.0,Occasional,450000.0,10000,1,1,1,0,2,1.0,70.0,Medium Risk
+Krishan Lokhande,22.0,Male,Beed,MBA,8.4,Yes (4 months),610L,No,Personal Loan,Joint,"Netflix, Gym",2000.0,10600.0,Regular,800000.0,0,0,4,1,1,2,2.0,70.0,Medium Risk
+Ananya Jagtap,20.0,Female,Latur,B.Sc,7.1,No,<1L,Yes (?6000),No,Student,Spotify,700.0,5000.0,Occasional,50000.0,6000,1,0,0,0,1,1.0,65.0,Medium Risk
+Ritesh Pawar,21.0,Male,Akola,B.Tech,8.0,Yes (2 months),36L,Yes (?14000),Education Loan,Savings,"OTT, Gym",1500.0,8700.0,Regular,450000.0,14000,1,2,1,1,2,2.0,75.0,Low Risk
+Aditya Lokhande,20.0,Male,Washim,B.Com,6.7,No,1015L,No,No,Student,"OTT, Gym",800.0,5600.0,,1250000.0,0,0,0,0,0,2,0.0,60.0,Medium Risk
+Pooja Gokhale,21.0,Female,Yavatmal,BBA,7.5,Yes (2 months),<1L,Yes (?8000),No,Savings,"Netflix, OTT",1400.0,7900.0,Occasional,50000.0,8000,1,2,1,0,2,1.0,65.0,Medium Risk
+Harshad Jagtap,22.0,Male,Parbhani,B.Tech,8.1,Yes (3 months),36L,Yes (?13000),Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,450000.0,13000,1,3,1,1,2,2.0,75.0,Low Risk
+Riya Pawaskar,19.0,Female,Amravati,B.Sc,7.0,No,610L,No,No,Student,OTT,750.0,5400.0,Occasional,800000.0,0,0,0,0,0,1,1.0,70.0,Medium Risk
+Akshay Salvi,20.0,Male,Ratnagiri,Diploma,6.5,No,13L,Yes (?10000),No,Student,Gym,500.0,4300.0,,200000.0,10000,1,0,0,0,1,0.0,55.0,Medium Risk
+Tanvi Lokhande,22.0,Female,Navi Mumbai,MBA,8.3,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,50000.0,6000,1,4,1,1,2,2.0,65.0,Medium Risk
+Rutuja Jagtap,23.0,Female,Mumbai,M.Tech,9.0,Yes (5 months),610L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11500.0,Regular,800000.0,0,0,5,1,1,2,2.0,80.0,Low Risk
+Nikhil Gokhale,20.0,Male,Nashik,B.Com,6.9,No,36L,Yes (?16000),No,Student,"OTT, Gym",850.0,5700.0,,450000.0,16000,1,0,0,0,2,0.0,55.0,Medium Risk
+Shubham Pawaskar,22.0,Male,Aurangabad,B.Tech,8.2,Yes (3 months),1015L,No,Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,1250000.0,0,0,3,1,1,2,2.0,80.0,Low Risk
+Komal Lokhande,19.0,Female,Jalgaon,B.Sc,7.0,No,<1L,Yes (?9000),No,Student,OTT,750.0,5600.0,Occasional,50000.0,9000,1,0,0,0,1,1.0,65.0,Medium Risk
+Akshay Jadhav,20.0,Male,Sangli,Diploma,6.5,No,36L,Yes (?14000),No,Student,Gym,500.0,4300.0,,450000.0,14000,1,0,0,0,1,0.0,60.0,Medium Risk
+Tanvi Pawar,22.0,Female,Beed,MBA,8.3,Yes (4 months),610L,No,Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,800000.0,0,0,4,1,1,2,2.0,70.0,Medium Risk
+Aanya Salvi,21.0,Female,Pune,B.Sc,8.1,Yes (2 months),13L,Yes (?11000),No,Student,"Netflix, Gym",1100.0,7600.0,Regular,200000.0,11000,1,2,1,0,2,2.0,75.0,Low Risk
+Raghav Gokhale,22.0,Male,Mumbai,B.Tech,7.9,Yes (3 months),<1L,Yes (?6000),Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,50000.0,6000,1,3,1,1,2,1.0,60.0,Medium Risk
+Arjun Jagtap,20.0,Male,Nagpur,BCA,7.2,No,610L,No,No,Student,OTT,850.0,5300.0,,800000.0,0,0,0,0,0,1,0.0,65.0,Medium Risk
+Ishita Gawande,22.0,Female,Aurangabad,M.Tech,9.1,Yes (6 months),36L,Yes (?12000),Education Loan,Savings,"Netflix, OTT",2500.0,11000.0,Regular,450000.0,12000,1,6,1,1,2,2.0,80.0,Low Risk
+Soham Kulkarni,20.0,Male,Jalgaon,B.Com,6.8,No,610L,No,No,Student,Gym,600.0,4900.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Meher Pawar,21.0,Female,Sangli,BBA,7.7,Yes (1 month),1015L,No,No,Savings,"OTT, Spotify",950.0,6800.0,Occasional,1250000.0,0,0,1,1,0,2,1.0,75.0,Low Risk
+Krishan Salvi,22.0,Male,Beed,MBA,8.4,Yes (4 months),<1L,Yes (?9000),Personal Loan,Joint,"Netflix, Gym",2000.0,10600.0,Regular,50000.0,9000,1,4,1,1,2,2.0,65.0,Medium Risk
+Ritesh Gokhale,21.0,Male,Akola,B.Tech,8.0,Yes (2 months),610L,No,Education Loan,Savings,"OTT, Gym",1500.0,8700.0,Regular,800000.0,0,0,2,1,1,2,2.0,75.0,Low Risk
+Sneha Jagtap,22.0,Female,Nanded,M.Sc,8.9,Yes (5 months),13L,Yes (?7000),No,Joint,"Netflix, Spotify",2200.0,10800.0,Regular,200000.0,7000,1,5,1,0,2,2.0,75.0,Low Risk
+Aditya Pawar,20.0,Male,Washim,B.Com,6.7,No,36L,Yes (?10000),No,Student,"OTT, Gym",800.0,5600.0,,450000.0,10000,1,0,0,0,2,0.0,55.0,Medium Risk
+Pooja Gawande,21.0,Female,Yavatmal,BBA,7.5,Yes (2 months),610L,No,No,Savings,"Netflix, OTT",1400.0,7900.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Harshad Lokhande,22.0,Male,Parbhani,B.Tech,8.1,Yes (3 months),<1L,Yes (?6000),Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,50000.0,6000,1,3,1,1,2,2.0,70.0,Medium Risk
+Riya Salvi,19.0,Female,Amravati,B.Sc,7.0,No,36L,Yes (?14000),No,Student,OTT,750.0,5400.0,Occasional,450000.0,14000,1,0,0,0,1,1.0,70.0,Medium Risk
+Akshay Pawaskar,20.0,Male,Ratnagiri,Diploma,6.5,No,1015L,No,No,Student,Gym,500.0,4300.0,,1250000.0,0,0,0,0,0,1,0.0,65.0,Medium Risk
+Tanvi Jagtap,22.0,Female,Navi Mumbai,MBA,8.3,Yes (4 months),<1L,Yes (?8000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,50000.0,8000,1,4,1,1,2,2.0,65.0,Medium Risk
+Omkar Lokhande,21.0,Male,Pune,BCA,7.6,Yes (2 months),36L,Yes (?13000),No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,450000.0,13000,1,2,1,0,2,1.0,70.0,Medium Risk
+Rutuja Pawaskar,23.0,Female,Mumbai,M.Tech,9.0,Yes (5 months),610L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11500.0,Regular,800000.0,0,0,5,1,1,2,2.0,80.0,Low Risk
+Nikhil Salvi,20.0,Male,Nashik,B.Com,6.9,No,13L,Yes (?10000),No,Student,"OTT, Gym",850.0,5700.0,,200000.0,10000,1,0,0,0,2,0.0,50.0,High Risk
+Shubham Salvi,22.0,Male,Aurangabad,B.Tech,8.2,Yes (3 months),<1L,Yes (?6000),Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,50000.0,6000,1,3,1,1,2,2.0,70.0,Medium Risk
+Tanvi Gokhale,22.0,Female,Beed,MBA,8.3,Yes (4 months),610L,No,Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,800000.0,0,0,4,1,1,2,2.0,70.0,Medium Risk
+Aastha Rane,21.0,Female,Pune,B.Sc,8.1,Yes (2 months),36L,Yes (?16000),No,Student,"Netflix, Gym",1100.0,7600.0,Regular,450000.0,16000,1,2,1,0,2,2.0,80.0,Low Risk
+Aanya Pawar,21.0,Female,Pune,B.Sc,8.0,Yes (2 months),1015L,No,No,Student,"Netflix, Gym",1100.0,7600.0,Regular,1250000.0,0,0,2,1,0,2,2.0,85.0,Low Risk
+Raghav Lokhande,22.0,Male,Mumbai,B.Tech,7.8,Yes (3 months),<1L,Yes (?9000),Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,50000.0,9000,1,3,1,1,2,1.0,60.0,Medium Risk
+Simran Jagtap,23.0,Female,Nashik,MBA,8.6,Yes (5 months),36L,Yes (?14000),Personal Loan,Joint,"Netflix, Spotify",2300.0,11100.0,Regular,450000.0,14000,1,5,1,1,2,2.0,70.0,Medium Risk
+Soham Jadhav,20.0,Male,Jalgaon,B.Com,6.8,No,610L,No,No,Student,Gym,600.0,4900.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Meher Salvi,21.0,Female,Sangli,BBA,7.7,Yes (1 month),13L,Yes (?11000),No,Savings,"OTT, Spotify",950.0,6800.0,Occasional,200000.0,11000,1,1,1,0,2,1.0,65.0,Medium Risk
+Ananya Jadhav,20.0,Female,Latur,B.Sc,7.1,No,<1L,Yes (?6000),No,Student,Spotify,700.0,5000.0,Occasional,50000.0,6000,1,0,0,0,1,1.0,65.0,Medium Risk
+Sneha Pawar,22.0,Female,Nanded,M.Sc,8.9,Yes (5 months),36L,Yes (?11000),No,Joint,"Netflix, Spotify",2200.0,10800.0,Regular,450000.0,11000,1,5,1,0,2,2.0,80.0,Low Risk
+Pooja Lokhande,21.0,Female,Yavatmal,BBA,7.5,Yes (2 months),610L,No,No,Savings,"Netflix, OTT",1400.0,7900.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Riya Lokhande,19.0,Female,Amravati,B.Sc,7.0,No,1015L,No,No,Student,OTT,750.0,5400.0,Occasional,1250000.0,0,0,0,0,0,1,1.0,75.0,Low Risk
+Aastha Pawar,21.0,Female,Pune,B.Sc,8.0,Yes (2 months),<1L,Yes (?9000),No,Student,"Netflix, Gym",1100.0,7600.0,Regular,50000.0,9000,1,2,1,0,2,2.0,75.0,Low Risk
+Raghav Salvi,22.0,Male,Mumbai,B.Tech,7.8,Yes (3 months),610L,No,Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,800000.0,0,0,3,1,1,2,1.0,65.0,Medium Risk
+Arjun Gokhale,20.0,Male,Nagpur,BCA,7.2,No,13L,Yes (?7000),No,Student,OTT,850.0,5300.0,,200000.0,7000,1,0,0,0,1,0.0,60.0,Medium Risk
+Ishita Jadhav,22.0,Female,Aurangabad,M.Tech,9.1,Yes (6 months),36L,Yes (?10000),Education Loan,Savings,"Netflix, OTT",2500.0,11000.0,Regular,450000.0,10000,1,6,1,1,2,2.0,80.0,Low Risk
+Ritesh Jadhav,21.0,Male,Akola,B.Tech,8.0,Yes (2 months),610L,No,Education Loan,Savings,"OTT, Gym",1500.0,8700.0,Regular,800000.0,0,0,2,1,1,2,2.0,75.0,Low Risk
+Sneha Lokhande,22.0,Female,Nanded,M.Sc,8.9,Yes (5 months),<1L,Yes (?6000),No,Joint,"Netflix, Spotify",2200.0,10800.0,Regular,50000.0,6000,1,5,1,0,2,2.0,75.0,Low Risk
+Harshad Salvi,22.0,Male,Parbhani,B.Tech,8.1,Yes (3 months),36L,Yes (?14000),Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,450000.0,14000,1,3,1,1,2,2.0,75.0,Low Risk
+Riya Jagtap,19.0,Female,Amravati,B.Sc,7.0,No,1015L,No,No,Student,OTT,750.0,5400.0,Occasional,1250000.0,0,0,0,0,0,1,1.0,75.0,Low Risk
+Akshay Lokhande,20.0,Male,Ratnagiri,Diploma,6.5,No,<1L,Yes (?8000),No,Student,Gym,500.0,4300.0,,50000.0,8000,1,0,0,0,1,0.0,55.0,Medium Risk
+Tanvi Salvi,22.0,Female,Navi Mumbai,MBA,8.3,Yes (4 months),36L,Yes (?13000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,450000.0,13000,1,4,1,1,2,2.0,70.0,Medium Risk
+Omkar Gokhale,21.0,Male,Pune,BCA,7.6,Yes (2 months),610L,No,No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Vaishnavi Pawar,21.0,Female,Nagpur,BBA,7.4,Yes (2 months),13L,Yes (?10000),No,Savings,"Netflix, OTT",1300.0,7800.0,Occasional,200000.0,10000,1,2,1,0,2,1.0,65.0,Medium Risk
+Komal Gokhale,19.0,Female,Jalgaon,B.Sc,7.0,No,<1L,Yes (?6000),No,Student,OTT,750.0,5600.0,Occasional,50000.0,6000,1,0,0,0,1,1.0,65.0,Medium Risk
+Aastha Salvi,21.0,Female,Pune,B.Sc,8.0,Yes (2 months),610L,No,No,Student,"Netflix, Gym",1100.0,7600.0,Regular,800000.0,0,0,2,1,0,2,2.0,80.0,Low Risk
+Arjun Lokhande,20.0,Male,Nagpur,BCA,7.2,No,36L,Yes (?16000),No,Student,OTT,850.0,5300.0,,450000.0,16000,1,0,0,0,1,0.0,65.0,Medium Risk
+Soham Salvi,20.0,Male,Jalgaon,B.Com,6.8,No,1015L,No,No,Student,Gym,600.0,4900.0,,1250000.0,0,0,0,0,0,1,0.0,65.0,Medium Risk
+Pooja Salvi,21.0,Female,Yavatmal,BBA,7.5,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1400.0,7900.0,Occasional,50000.0,9000,1,2,1,0,2,1.0,65.0,Medium Risk
+Harshad Gokhale,22.0,Male,Parbhani,B.Tech,8.1,Yes (3 months),36L,Yes (?14000),Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,450000.0,14000,1,3,1,1,2,2.0,75.0,Low Risk
+Akshay Jadhav,20.0,Male,Ratnagiri,Diploma,6.5,No,610L,No,No,Student,Gym,500.0,4300.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Nikhil Jadhav,20.0,Male,Nashik,B.Com,6.9,No,13L,Yes (?11000),No,Student,"OTT, Gym",850.0,5700.0,,200000.0,11000,1,0,0,0,2,0.0,50.0,High Risk
+Akshay Salvi,20.0,Male,Sangli,Diploma,6.5,No,<1L,Yes (?6000),No,Student,Gym,500.0,4300.0,,50000.0,6000,1,0,0,0,1,0.0,55.0,Medium Risk
+Raghav Lokhande,22.0,Male,Mumbai,B.Tech,7.9,Yes (3 months),610L,No,Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,800000.0,0,0,3,1,1,2,1.0,65.0,Medium Risk
+Aanya Lokhande,21.0,Female,Pune,B.Sc,8.1,Yes (2 months),36L,Yes (?12000),No,Student,"Netflix, Gym",1100.0,7600.0,Regular,450000.0,12000,1,2,1,0,2,2.0,80.0,Low Risk
+Raghav Jadhav,22.0,Male,Mumbai,B.Tech,7.9,Yes (3 months),610L,No,Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,800000.0,0,0,3,1,1,2,1.0,65.0,Medium Risk
+Ananya Gokhale,20.0,Female,Latur,B.Sc,7.1,No,1015L,No,No,Student,Spotify,700.0,5000.0,Occasional,1250000.0,0,0,0,0,0,1,1.0,75.0,Low Risk
+Sneha Jadhav,22.0,Female,Nanded,M.Sc,8.9,Yes (5 months),<1L,Yes (?9000),No,Joint,"Netflix, Spotify",2200.0,10800.0,Regular,50000.0,9000,1,5,1,0,2,2.0,75.0,Low Risk
+Pooja Pawar,21.0,Female,Yavatmal,BBA,7.5,Yes (2 months),610L,No,No,Savings,"Netflix, OTT",1400.0,7900.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Vaishnavi Lokhande,21.0,Female,Nagpur,BBA,7.4,Yes (2 months),13L,Yes (?7000),No,Savings,"Netflix, OTT",1300.0,7800.0,Occasional,200000.0,7000,1,2,1,0,2,1.0,65.0,Medium Risk
+Shubham Jadhav,22.0,Male,Aurangabad,B.Tech,8.2,Yes (3 months),36L,Yes (?10000),Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,450000.0,10000,1,3,1,1,2,2.0,75.0,Low Risk
+Shubham Pawar,22.0,Male,Aurangabad,B.Tech,8.2,Yes (3 months),610L,No,Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,800000.0,0,0,3,1,1,2,2.0,75.0,Low Risk
+Akshay Pawar,20.0,Male,Ratnagiri,Diploma,6.5,No,<1L,Yes (?6000),No,Student,Gym,500.0,4300.0,,50000.0,6000,1,0,0,0,1,0.0,55.0,Medium Risk
+Nivedita Menon,21.0,Female,Kochi,B.Sc,8.2,Yes (2 months),36L,Yes (?14000),No,Student,"Netflix, Gym",1150.0,7800.0,Regular,450000.0,14000,1,2,1,0,2,2.0,80.0,Low Risk
+Arvind Barua,22.0,Male,Guwahati,B.Tech,7.7,Yes (3 months),1015L,No,Education Loan,Savings,"OTT, Gym",1250.0,8300.0,Occasional,1250000.0,0,0,3,1,1,2,1.0,70.0,Medium Risk
+Roshni DâSouza,23.0,Female,Mangalore,MBA,8.5,Yes (5 months),<1L,Yes (?8000),Personal Loan,Joint,"Netflix, Spotify",2350.0,11200.0,Regular,50000.0,8000,1,5,1,1,2,2.0,65.0,Medium Risk
+Pratiksha Bhoi,20.0,Female,Bhubaneswar,BCA,7.3,No,36L,Yes (?13000),No,Student,OTT,900.0,5400.0,,450000.0,13000,1,0,0,0,1,0.0,65.0,Medium Risk
+Faizan Shaikh,22.0,Male,Bhopal,M.Tech,9.0,Yes (6 months),610L,No,Education Loan,Savings,"Netflix, OTT",2450.0,11100.0,Regular,800000.0,0,0,6,1,1,2,2.0,80.0,Low Risk
+Lavanya Iyer,20.0,Female,Chennai,B.Com,6.9,No,13L,Yes (?10000),No,Student,Gym,650.0,4800.0,,200000.0,10000,1,0,0,0,1,0.0,55.0,Medium Risk
+Tenzin Norbu,21.0,Male,Dharamshala,BBA,7.6,Yes (1 month),<1L,Yes (?6000),No,Savings,"OTT, Spotify",1000.0,6900.0,Occasional,50000.0,6000,1,1,1,0,2,1.0,65.0,Medium Risk
+Snehal Patankar,22.0,Female,Kolhapur,MBA,8.3,Yes (4 months),610L,No,Personal Loan,Joint,"Netflix, Gym",2050.0,10500.0,Regular,800000.0,0,0,4,1,1,2,2.0,70.0,Medium Risk
+Abhishek Rathi,20.0,Male,Indore,B.Sc,7.0,No,36L,Yes (?16000),No,Student,Spotify,750.0,5100.0,Occasional,450000.0,16000,1,0,0,0,1,1.0,70.0,Medium Risk
+Devika Nair,21.0,Female,Thiruvananthapuram,B.Tech,8.1,Yes (2 months),1015L,No,Education Loan,Savings,"OTT, Gym",1450.0,8600.0,Regular,1250000.0,0,0,2,1,1,2,2.0,80.0,Low Risk
+Rameshwar Yadav,22.0,Male,Varanasi,M.Sc,8.8,Yes (5 months),<1L,Yes (?9000),No,Joint,"Netflix, Spotify",2150.0,10900.0,Regular,50000.0,9000,1,5,1,0,2,2.0,75.0,Low Risk
+Anushka Bhagat,20.0,Female,Raipur,B.Com,6.6,No,36L,Yes (?14000),No,Student,"OTT, Gym",850.0,5500.0,,450000.0,14000,1,0,0,0,2,0.0,55.0,Medium Risk
+Harshit Meena,21.0,Male,Jaipur,BBA,7.5,Yes (2 months),610L,No,No,Savings,"Netflix, OTT",1350.0,7700.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Ayesha Mirza,22.0,Female,Srinagar,B.Tech,8.2,Yes (3 months),13L,Yes (?11000),Education Loan,Savings,"Spotify, Gym",1550.0,8900.0,Regular,200000.0,11000,1,3,1,1,2,2.0,70.0,Medium Risk
+Karthikeya Reddy,19.0,Male,Hyderabad,B.Sc,7.1,No,<1L,Yes (?6000),No,Student,OTT,800.0,5300.0,Occasional,50000.0,6000,1,0,0,0,1,1.0,65.0,Medium Risk
+Nandini Chatterjee,20.0,Female,Kolkata,Diploma,6.4,No,610L,No,No,Student,Gym,550.0,4200.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Aravindh Rajan,22.0,Male,Coimbatore,MBA,8.2,Yes (4 months),36L,Yes (?12000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10300.0,Regular,450000.0,12000,1,4,1,1,2,2.0,70.0,Medium Risk
+Priya Chauhan,21.0,Female,Ahmedabad,BCA,7.7,Yes (2 months),610L,No,No,Savings,"OTT, Gym",1250.0,7700.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Manjeet Singh,23.0,Male,Chandigarh,M.Tech,9.0,Yes (5 months),1015L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11400.0,Regular,1250000.0,0,0,5,1,1,2,2.0,85.0,Low Risk
+Ritu Kumari,20.0,Female,Ranchi,B.Com,6.8,No,<1L,Yes (?9000),No,Student,"OTT, Gym",850.0,5600.0,,50000.0,9000,1,0,0,0,2,0.0,50.0,High Risk
+Vishal Parmar,21.0,Male,Surat,BBA,7.3,Yes (2 months),610L,No,No,Savings,"Netflix, OTT",1300.0,7900.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Shreya Joshi,22.0,Female,Nashik,B.Tech,8.3,Yes (3 months),13L,Yes (?7000),Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,200000.0,7000,1,3,1,1,2,2.0,70.0,Medium Risk
+Tushar Bansal,19.0,Male,Ludhiana,B.Sc,7.0,No,36L,Yes (?10000),No,Student,OTT,750.0,5500.0,Occasional,450000.0,10000,1,0,0,0,1,1.0,70.0,Medium Risk
+Rachana Deshmukh,20.0,Female,Nagpur,Diploma,6.5,No,610L,No,No,Student,Gym,500.0,4300.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Ishaan Bhattacharya,21.0,Male,Kolkata,B.Sc,8.0,Yes (2 months),<1L,Yes (?6000),No,Student,"Netflix, Gym",1100.0,7600.0,Regular,50000.0,6000,1,2,1,0,2,2.0,75.0,Low Risk
+Aaliya Khan,22.0,Female,Lucknow,B.Tech,7.9,Yes (3 months),36L,Yes (?14000),Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,450000.0,14000,1,3,1,1,2,1.0,65.0,Medium Risk
+Ritesh Shetty,23.0,Male,Mangalore,MBA,8.6,Yes (5 months),1015L,No,Personal Loan,Joint,"Netflix, Spotify",2300.0,11100.0,Regular,1250000.0,0,0,5,1,1,2,2.0,75.0,Low Risk
+Kavya Rawat,20.0,Female,Dehradun,BCA,7.2,No,<1L,Yes (?8000),No,Student,OTT,850.0,5300.0,,50000.0,8000,1,0,0,0,1,0.0,60.0,Medium Risk
+Arman Dey,22.0,Male,Siliguri,M.Tech,9.1,Yes (6 months),36L,Yes (?13000),Education Loan,Savings,"Netflix, OTT",2500.0,11000.0,Regular,450000.0,13000,1,6,1,1,2,2.0,80.0,Low Risk
+Shruti Pillai,20.0,Female,Kochi,B.Com,6.8,No,610L,No,No,Student,Gym,600.0,4900.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Nikhil Chauhan,21.0,Male,Shimla,BBA,7.7,Yes (1 month),13L,Yes (?10000),No,Savings,"OTT, Spotify",950.0,6800.0,Occasional,200000.0,10000,1,1,1,0,2,1.0,65.0,Medium Risk
+Sneha Ramesh,22.0,Female,Madurai,MBA,8.4,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Gym",2000.0,10600.0,Regular,50000.0,6000,1,4,1,1,2,2.0,65.0,Medium Risk
+Aniket Das,20.0,Male,Jamshedpur,B.Sc,7.1,No,610L,No,No,Student,Spotify,700.0,5000.0,Occasional,800000.0,0,0,0,0,0,1,1.0,70.0,Medium Risk
+Vaidehi Joshi,21.0,Female,Nashik,B.Tech,8.0,Yes (2 months),36L,Yes (?16000),Education Loan,Savings,"OTT, Gym",1500.0,8700.0,Regular,450000.0,16000,1,2,1,1,2,2.0,75.0,Low Risk
+Raghunandan Verma,22.0,Male,Kanpur,M.Sc,8.9,Yes (5 months),1015L,No,No,Joint,"Netflix, Spotify",2200.0,10800.0,Regular,1250000.0,0,0,5,1,0,2,2.0,85.0,Low Risk
+Charvi Mehta,20.0,Female,Rajkot,B.Com,6.7,No,<1L,Yes (?9000),No,Student,"OTT, Gym",800.0,5600.0,,50000.0,9000,1,0,0,0,2,0.0,50.0,High Risk
+Harshil Patel,21.0,Male,Vadodara,BBA,7.5,Yes (2 months),36L,Yes (?14000),No,Savings,"Netflix, OTT",1400.0,7900.0,Occasional,450000.0,14000,1,2,1,0,2,1.0,70.0,Medium Risk
+Nagma Siddiqui,22.0,Female,Aligarh,B.Tech,8.1,Yes (3 months),610L,No,Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,800000.0,0,0,3,1,1,2,2.0,75.0,Low Risk
+Rohan Thakur,19.0,Male,Solan,B.Sc,7.0,No,13L,Yes (?11000),No,Student,OTT,750.0,5400.0,Occasional,200000.0,11000,1,0,0,0,1,1.0,65.0,Medium Risk
+Ananya Mohanty,20.0,Female,Cuttack,Diploma,6.5,No,<1L,Yes (?6000),No,Student,Gym,500.0,4300.0,,50000.0,6000,1,0,0,0,1,0.0,55.0,Medium Risk
+Siddharth Kulkarni,22.0,Male,Pune,MBA,8.3,Yes (4 months),36L,Yes (?11000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,450000.0,11000,1,4,1,1,2,2.0,70.0,Medium Risk
+Bhavya Sharma,21.0,Female,Delhi,BCA,7.6,Yes (2 months),610L,No,No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Ajay Rajput,23.0,Male,Gwalior,M.Tech,9.0,Yes (5 months),1015L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11500.0,Regular,1250000.0,0,0,5,1,1,2,2.0,85.0,Low Risk
+Rachita Jain,20.0,Female,Ujjain,B.Com,6.9,No,<1L,Yes (?9000),No,Student,"OTT, Gym",850.0,5700.0,,50000.0,9000,1,0,0,0,2,0.0,50.0,High Risk
+Kunal Bhatia,21.0,Male,Amritsar,BBA,7.4,Yes (2 months),610L,No,No,Savings,"Netflix, OTT",1300.0,7800.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Shraddha Vyas,22.0,Female,Udaipur,B.Tech,8.2,Yes (3 months),13L,Yes (?7000),Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,200000.0,7000,1,3,1,1,2,2.0,70.0,Medium Risk
+Aamir Hussain,19.0,Male,Patna,B.Sc,7.0,No,36L,Yes (?10000),No,Student,OTT,750.0,5600.0,Occasional,450000.0,10000,1,0,0,0,1,1.0,70.0,Medium Risk
+Deepika Rane,20.0,Female,Panaji,Diploma,6.5,No,610L,No,No,Student,Gym,500.0,4300.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Riya Banerjee,21.0,Female,Kolkata,B.Sc,8.2,Yes (2 months),<1L,Yes (?6000),No,Student,"Netflix, Gym",1150.0,7800.0,Regular,50000.0,6000,1,2,1,0,2,2.0,75.0,Low Risk
+Adarsh Pillai,22.0,Male,Kochi,B.Tech,7.8,Yes (3 months),36L,Yes (?14000),Education Loan,Savings,"OTT, Gym",1250.0,8300.0,Occasional,450000.0,14000,1,3,1,1,2,1.0,65.0,Medium Risk
+Sana Qureshi,23.0,Female,Bhopal,MBA,8.5,Yes (5 months),1015L,No,Personal Loan,Joint,"Netflix, Spotify",2350.0,11200.0,Regular,1250000.0,0,0,5,1,1,2,2.0,75.0,Low Risk
+Raghavendra Joshi,20.0,Male,Hubli,BCA,7.3,No,<1L,Yes (?8000),No,Student,OTT,900.0,5400.0,,50000.0,8000,1,0,0,0,1,0.0,60.0,Medium Risk
+Nandita Reddy,22.0,Female,Hyderabad,M.Tech,9.0,Yes (6 months),36L,Yes (?13000),Education Loan,Savings,"Netflix, OTT",2450.0,11100.0,Regular,450000.0,13000,1,6,1,1,2,2.0,80.0,Low Risk
+Pranav Kapoor,20.0,Male,Chandigarh,B.Com,6.9,No,610L,No,No,Student,Gym,650.0,4800.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Ishika Sharma,21.0,Female,Jaipur,BBA,7.6,Yes (1 month),13L,Yes (?10000),No,Savings,"OTT, Spotify",1000.0,6900.0,Occasional,200000.0,10000,1,1,1,0,2,1.0,65.0,Medium Risk
+Aakash Bhatt,22.0,Male,Ahmedabad,MBA,8.3,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Gym",2050.0,10500.0,Regular,50000.0,6000,1,4,1,1,2,2.0,65.0,Medium Risk
+Snehal Desai,20.0,Female,Surat,B.Sc,7.0,No,610L,No,No,Student,Spotify,750.0,5100.0,Occasional,800000.0,0,0,0,0,0,1,1.0,70.0,Medium Risk
+Arvind Kumar,21.0,Male,Patna,B.Tech,8.1,Yes (2 months),36L,Yes (?16000),Education Loan,Savings,"OTT, Gym",1450.0,8600.0,Regular,450000.0,16000,1,2,1,1,2,2.0,75.0,Low Risk
+Shalini Nair,22.0,Female,Thiruvananthapuram,M.Sc,8.8,Yes (5 months),1015L,No,No,Joint,"Netflix, Spotify",2150.0,10900.0,Regular,1250000.0,0,0,5,1,0,2,2.0,85.0,Low Risk
+Devansh Singh,20.0,Male,Kanpur,B.Com,6.6,No,<1L,Yes (?9000),No,Student,"OTT, Gym",850.0,5500.0,,50000.0,9000,1,0,0,0,2,0.0,50.0,High Risk
+Aarti Mishra,21.0,Female,Varanasi,BBA,7.5,Yes (2 months),36L,Yes (?14000),No,Savings,"Netflix, OTT",1350.0,7700.0,Occasional,450000.0,14000,1,2,1,0,2,1.0,70.0,Medium Risk
+Zaid Khan,22.0,Male,Srinagar,B.Tech,8.2,Yes (3 months),610L,No,Education Loan,Savings,"Spotify, Gym",1550.0,8900.0,Regular,800000.0,0,0,3,1,1,2,2.0,75.0,Low Risk
+Mitali Das,19.0,Female,Silchar,B.Sc,7.1,No,13L,Yes (?11000),No,Student,OTT,800.0,5300.0,Occasional,200000.0,11000,1,0,0,0,1,1.0,65.0,Medium Risk
+Rakesh Chauhan,20.0,Male,Shimla,Diploma,6.4,No,<1L,Yes (?6000),No,Student,Gym,550.0,4200.0,,50000.0,6000,1,0,0,0,1,0.0,55.0,Medium Risk
+Anushka Jain,22.0,Female,Indore,MBA,8.2,Yes (4 months),36L,Yes (?11000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10300.0,Regular,450000.0,11000,1,4,1,1,2,2.0,70.0,Medium Risk
+Rohan Mehta,21.0,Male,Mumbai,BCA,7.7,Yes (2 months),610L,No,No,Savings,"OTT, Gym",1250.0,7700.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Priyanka Yadav,23.0,Female,Lucknow,M.Tech,9.0,Yes (5 months),1015L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11400.0,Regular,1250000.0,0,0,5,1,1,2,2.0,85.0,Low Risk
+Ankit Verma,20.0,Male,Gwalior,B.Com,6.8,No,<1L,Yes (?9000),No,Student,"OTT, Gym",850.0,5600.0,,50000.0,9000,1,0,0,0,2,0.0,50.0,High Risk
+Roshni Thakur,21.0,Female,Raipur,BBA,7.3,Yes (2 months),610L,No,No,Savings,"Netflix, OTT",1300.0,7900.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Aryan Bansal,22.0,Male,Ludhiana,B.Tech,8.3,Yes (3 months),13L,Yes (?7000),Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,200000.0,7000,1,3,1,1,2,2.0,70.0,Medium Risk
+Nisha Kumari,19.0,Female,Ranchi,B.Sc,7.0,No,36L,Yes (?10000),No,Student,OTT,750.0,5600.0,Occasional,450000.0,10000,1,0,0,0,1,1.0,70.0,Medium Risk
+Vishnu Mohan,20.0,Male,Kozhikode,Diploma,6.5,No,610L,No,No,Student,Gym,500.0,4300.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Aditi Ghosh,21.0,Female,Howrah,B.Sc,8.1,Yes (2 months),<1L,Yes (?6000),No,Student,"Netflix, Gym",1100.0,7600.0,Regular,50000.0,6000,1,2,1,0,2,2.0,75.0,Low Risk
+Rohan Nair,22.0,Male,Kochi,B.Tech,7.9,Yes (3 months),36L,Yes (?14000),Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,450000.0,14000,1,3,1,1,2,1.0,65.0,Medium Risk
+Meenal Kapoor,23.0,Female,Delhi,MBA,8.6,Yes (5 months),1015L,No,Personal Loan,Joint,"Netflix, Spotify",2300.0,11100.0,Regular,1250000.0,0,0,5,1,1,2,2.0,75.0,Low Risk
+Satyam Rathore,20.0,Male,Jabalpur,BCA,7.2,No,<1L,Yes (?8000),No,Student,OTT,850.0,5300.0,,50000.0,8000,1,0,0,0,1,0.0,60.0,Medium Risk
+Anushka Rane,22.0,Female,Pune,M.Tech,9.1,Yes (6 months),36L,Yes (?13000),Education Loan,Savings,"Netflix, OTT",2500.0,11000.0,Regular,450000.0,13000,1,6,1,1,2,2.0,80.0,Low Risk
+Ritesh Bhagat,20.0,Male,Nagpur,B.Com,6.8,No,610L,No,No,Student,Gym,600.0,4900.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Arvind Mishra,22.0,Male,Varanasi,MBA,8.4,Yes (4 months),13L,Yes (?10000),Personal Loan,Joint,"Netflix, Gym",2000.0,10600.0,Regular,200000.0,10000,1,4,1,1,2,2.0,65.0,Medium Risk
+Rachna Yadav,20.0,Female,Kanpur,B.Sc,7.1,No,<1L,Yes (?6000),No,Student,Spotify,700.0,5000.0,Occasional,50000.0,6000,1,0,0,0,1,1.0,65.0,Medium Risk
+Faizal Ansari,21.0,Male,Bhopal,B.Tech,8.0,Yes (2 months),610L,No,Education Loan,Savings,"OTT, Gym",1500.0,8700.0,Regular,800000.0,0,0,2,1,1,2,2.0,75.0,Low Risk
+Shreya Kulkarni,22.0,Female,Nashik,M.Sc,8.9,Yes (5 months),36L,Yes (?16000),No,Joint,"Netflix, Spotify",2200.0,10800.0,Regular,450000.0,16000,1,5,1,0,2,2.0,80.0,Low Risk
+Manish Rawat,20.0,Male,Dehradun,B.Com,6.7,No,1015L,No,No,Student,"OTT, Gym",800.0,5600.0,,1250000.0,0,0,0,0,0,2,0.0,60.0,Medium Risk
+Bhavna Joshi,21.0,Female,Indore,BBA,7.5,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1400.0,7900.0,Occasional,50000.0,9000,1,2,1,0,2,1.0,65.0,Medium Risk
+Zubin Irani,22.0,Male,Surat,B.Tech,8.1,Yes (3 months),36L,Yes (?14000),Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,450000.0,14000,1,3,1,1,2,2.0,75.0,Low Risk
+Rituja Patil,19.0,Female,Kolhapur,B.Sc,7.0,No,610L,No,No,Student,OTT,750.0,5400.0,Occasional,800000.0,0,0,0,0,0,1,1.0,70.0,Medium Risk
+Harsh Vora,20.0,Male,Rajkot,Diploma,6.5,No,13L,Yes (?11000),No,Student,Gym,500.0,4300.0,,200000.0,11000,1,0,0,0,1,0.0,55.0,Medium Risk
+Ayesha Siddiqui,22.0,Female,Aligarh,MBA,8.3,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,50000.0,6000,1,4,1,1,2,2.0,65.0,Medium Risk
+Karan Malhotra,21.0,Male,Ludhiana,BCA,7.6,Yes (2 months),36L,Yes (?11000),No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,450000.0,11000,1,2,1,0,2,1.0,70.0,Medium Risk
+Vaishali Deshmukh,23.0,Female,Aurangabad,M.Tech,9.0,Yes (5 months),610L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11500.0,Regular,800000.0,0,0,5,1,1,2,2.0,80.0,Low Risk
+Nitin Sharma,20.0,Male,Jaipur,B.Com,6.9,No,1015L,No,No,Student,"OTT, Gym",850.0,5700.0,,1250000.0,0,0,0,0,0,2,0.0,60.0,Medium Risk
+Shraddha Pandey,21.0,Female,Lucknow,BBA,7.4,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1300.0,7800.0,Occasional,50000.0,9000,1,2,1,0,2,1.0,65.0,Medium Risk
+Abhay Singh,22.0,Male,Gwalior,B.Tech,8.2,Yes (3 months),610L,No,Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,800000.0,0,0,3,1,1,2,2.0,75.0,Low Risk
+Komal Jain,19.0,Female,Ujjain,B.Sc,7.0,No,13L,Yes (?7000),No,Student,OTT,750.0,5600.0,Occasional,200000.0,7000,1,0,0,0,1,1.0,65.0,Medium Risk
+Arvindh Krishnan,20.0,Male,Coimbatore,Diploma,6.5,No,36L,Yes (?10000),No,Student,Gym,500.0,4300.0,,450000.0,10000,1,0,0,0,1,0.0,60.0,Medium Risk
+Neha Bhat,21.0,Female,Jammu,B.Sc,8.2,Yes (2 months),610L,No,No,Student,"Netflix, Gym",1150.0,7800.0,Regular,800000.0,0,0,2,1,0,2,2.0,80.0,Low Risk
+Arjun Das,22.0,Male,Kolkata,B.Tech,7.8,Yes (3 months),<1L,Yes (?6000),Education Loan,Savings,"OTT, Gym",1250.0,8300.0,Occasional,50000.0,6000,1,3,1,1,2,1.0,60.0,Medium Risk
+Ishita Raval,23.0,Female,Ahmedabad,MBA,8.5,Yes (5 months),36L,Yes (?14000),Personal Loan,Joint,"Netflix, Spotify",2350.0,11200.0,Regular,450000.0,14000,1,5,1,1,2,2.0,70.0,Medium Risk
+Rakesh Tiwari,20.0,Male,Gorakhpur,BCA,7.3,No,1015L,No,No,Student,OTT,900.0,5400.0,,1250000.0,0,0,0,0,0,1,0.0,70.0,Medium Risk
+Ananya Pillai,22.0,Female,Kochi,M.Tech,9.0,Yes (6 months),<1L,Yes (?8000),Education Loan,Savings,"Netflix, OTT",2450.0,11100.0,Regular,50000.0,8000,1,6,1,1,2,2.0,75.0,Low Risk
+Saurabh Chauhan,20.0,Male,Agra,B.Com,6.9,No,36L,Yes (?13000),No,Student,Gym,650.0,4800.0,,450000.0,13000,1,0,0,0,1,0.0,60.0,Medium Risk
+Roshni Shetty,21.0,Female,Mangalore,BBA,7.6,Yes (1 month),610L,No,No,Savings,"OTT, Spotify",1000.0,6900.0,Occasional,800000.0,0,0,1,1,0,2,1.0,70.0,Medium Risk
+Nitin Reddy,22.0,Male,Hyderabad,MBA,8.3,Yes (4 months),13L,Yes (?10000),Personal Loan,Joint,"Netflix, Gym",2050.0,10500.0,Regular,200000.0,10000,1,4,1,1,2,2.0,65.0,Medium Risk
+Priya Sinha,20.0,Female,Ranchi,B.Sc,7.0,No,<1L,Yes (?6000),No,Student,Spotify,750.0,5100.0,Occasional,50000.0,6000,1,0,0,0,1,1.0,65.0,Medium Risk
+Aditya Mehta,21.0,Male,Surat,B.Tech,8.1,Yes (2 months),610L,No,Education Loan,Savings,"OTT, Gym",1450.0,8600.0,Regular,800000.0,0,0,2,1,1,2,2.0,75.0,Low Risk
+Snehal Patil,22.0,Female,Pune,M.Sc,8.8,Yes (5 months),36L,Yes (?16000),No,Joint,"Netflix, Spotify",2150.0,10900.0,Regular,450000.0,16000,1,5,1,0,2,2.0,80.0,Low Risk
+Rajeev Sharma,20.0,Male,Jaipur,B.Com,6.6,No,1015L,No,No,Student,"OTT, Gym",850.0,5500.0,,1250000.0,0,0,0,0,0,2,0.0,60.0,Medium Risk
+Aishwarya Nair,21.0,Female,Thane,BBA,7.5,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1350.0,7700.0,Occasional,50000.0,9000,1,2,1,0,2,1.0,65.0,Medium Risk
+Imran Qureshi,22.0,Male,Bhopal,B.Tech,8.2,Yes (3 months),36L,Yes (?14000),Education Loan,Savings,"Spotify, Gym",1550.0,8900.0,Regular,450000.0,14000,1,3,1,1,2,2.0,75.0,Low Risk
+Ritu Meena,19.0,Female,Kota,B.Sc,7.1,No,610L,No,No,Student,OTT,800.0,5300.0,Occasional,800000.0,0,0,0,0,0,1,1.0,70.0,Medium Risk
+Deepak Verma,20.0,Male,Kanpur,Diploma,6.4,No,13L,Yes (?11000),No,Student,Gym,550.0,4200.0,,200000.0,11000,1,0,0,0,1,0.0,55.0,Medium Risk
+Shruti Desai,22.0,Female,Vadodara,MBA,8.2,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10300.0,Regular,50000.0,6000,1,4,1,1,2,2.0,65.0,Medium Risk
+Kunal Joshi,21.0,Male,Nashik,BCA,7.7,Yes (2 months),36L,Yes (?12000),No,Savings,"OTT, Gym",1250.0,7700.0,Occasional,450000.0,12000,1,2,1,0,2,1.0,70.0,Medium Risk
+Aarti Kumari,23.0,Female,Patna,M.Tech,9.0,Yes (5 months),610L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11400.0,Regular,800000.0,0,0,5,1,1,2,2.0,80.0,Low Risk
+Harsh Bansal,20.0,Male,Ludhiana,B.Com,6.8,No,1015L,No,No,Student,"OTT, Gym",850.0,5600.0,,1250000.0,0,0,0,0,0,2,0.0,60.0,Medium Risk
+Nandini Choudhury,21.0,Female,Siliguri,BBA,7.3,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1300.0,7900.0,Occasional,50000.0,9000,1,2,1,0,2,1.0,65.0,Medium Risk
+Aman Kapoor,22.0,Male,Chandigarh,B.Tech,8.3,Yes (3 months),610L,No,Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,800000.0,0,0,3,1,1,2,2.0,75.0,Low Risk
+Kavita Rao,19.0,Female,Mysuru,B.Sc,7.0,No,13L,Yes (?7000),No,Student,OTT,750.0,5600.0,Occasional,200000.0,7000,1,0,0,0,1,1.0,65.0,Medium Risk
+Praveen Mohanty,20.0,Male,Bhubaneswar,Diploma,6.5,No,36L,Yes (?10000),No,Student,Gym,500.0,4300.0,,450000.0,10000,1,0,0,0,1,0.0,60.0,Medium Risk
+Tanya Bhattacharya,21.0,Female,Kolkata,B.Sc,8.2,Yes (2 months),610L,No,No,Student,"Netflix, Gym",1150.0,7800.0,Regular,800000.0,0,0,2,1,0,2,2.0,80.0,Low Risk
+Aditya Rane,22.0,Male,Pune,B.Tech,7.8,Yes (3 months),<1L,Yes (?6000),Education Loan,Savings,"OTT, Gym",1250.0,8300.0,Occasional,50000.0,6000,1,3,1,1,2,1.0,60.0,Medium Risk
+Shalini Verma,23.0,Female,Lucknow,MBA,8.5,Yes (5 months),36L,Yes (?14000),Personal Loan,Joint,"Netflix, Spotify",2350.0,11200.0,Regular,450000.0,14000,1,5,1,1,2,2.0,70.0,Medium Risk
+Karan DâSouza,20.0,Male,Mangalore,BCA,7.3,No,1015L,No,No,Student,OTT,900.0,5400.0,,1250000.0,0,0,0,0,0,1,0.0,70.0,Medium Risk
+Ayesha Iqbal,22.0,Female,Srinagar,M.Tech,9.0,Yes (6 months),<1L,Yes (?8000),Education Loan,Savings,"Netflix, OTT",2450.0,11100.0,Regular,50000.0,8000,1,6,1,1,2,2.0,75.0,Low Risk
+Harshit Jain,20.0,Male,Indore,B.Com,6.9,No,36L,Yes (?13000),No,Student,Gym,650.0,4800.0,,450000.0,13000,1,0,0,0,1,0.0,60.0,Medium Risk
+Riya Shah,21.0,Female,Surat,BBA,7.6,Yes (1 month),610L,No,No,Savings,"OTT, Spotify",1000.0,6900.0,Occasional,800000.0,0,0,1,1,0,2,1.0,70.0,Medium Risk
+Arvindh Nair,22.0,Male,Kochi,MBA,8.3,Yes (4 months),13L,Yes (?10000),Personal Loan,Joint,"Netflix, Gym",2050.0,10500.0,Regular,200000.0,10000,1,4,1,1,2,2.0,65.0,Medium Risk
+Sneha Kumari,20.0,Female,Patna,B.Sc,7.0,No,<1L,Yes (?6000),No,Student,Spotify,750.0,5100.0,Occasional,50000.0,6000,1,0,0,0,1,1.0,65.0,Medium Risk
+Raghav Kapoor,21.0,Male,Delhi,B.Tech,8.1,Yes (2 months),610L,No,Education Loan,Savings,"OTT, Gym",1450.0,8600.0,Regular,800000.0,0,0,2,1,1,2,2.0,75.0,Low Risk
+Anjali Deshmukh,22.0,Female,Nagpur,M.Sc,8.8,Yes (5 months),36L,Yes (?16000),No,Joint,"Netflix, Spotify",2150.0,10900.0,Regular,450000.0,16000,1,5,1,0,2,2.0,80.0,Low Risk
+Manav Singh,20.0,Male,Kanpur,B.Com,6.6,No,1015L,No,No,Student,"OTT, Gym",850.0,5500.0,,1250000.0,0,0,0,0,0,2,0.0,60.0,Medium Risk
+Bhavika Joshi,21.0,Female,Nashik,BBA,7.5,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1350.0,7700.0,Occasional,50000.0,9000,1,2,1,0,2,1.0,65.0,Medium Risk
+Zaid Mir,22.0,Male,Baramulla,B.Tech,8.2,Yes (3 months),36L,Yes (?14000),Education Loan,Savings,"Spotify, Gym",1550.0,8900.0,Regular,450000.0,14000,1,3,1,1,2,2.0,75.0,Low Risk
+Mitali Rao,19.0,Female,Panaji,B.Sc,7.1,No,610L,No,No,Student,OTT,800.0,5300.0,Occasional,800000.0,0,0,0,0,0,1,1.0,70.0,Medium Risk
+Abhishek Yadav,20.0,Male,Varanasi,Diploma,6.4,No,13L,Yes (?11000),No,Student,Gym,550.0,4200.0,,200000.0,11000,1,0,0,0,1,0.0,55.0,Medium Risk
+Shraddha Menon,22.0,Female,Thiruvananthapuram,MBA,8.2,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10300.0,Regular,50000.0,6000,1,4,1,1,2,2.0,65.0,Medium Risk
+Tushar Bhagat,21.0,Male,Raipur,BCA,7.7,Yes (2 months),36L,Yes (?12000),No,Savings,"OTT, Gym",1250.0,7700.0,Occasional,450000.0,12000,1,2,1,0,2,1.0,70.0,Medium Risk
+Priyanka Das,23.0,Female,Guwahati,M.Tech,9.0,Yes (5 months),610L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11400.0,Regular,800000.0,0,0,5,1,1,2,2.0,80.0,Low Risk
+Arvind Kumar,20.0,Male,Ranchi,B.Com,6.8,No,1015L,No,No,Student,"OTT, Gym",850.0,5600.0,,1250000.0,0,0,0,0,0,2,0.0,60.0,Medium Risk
+Nandita Sen,21.0,Female,Asansol,BBA,7.3,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1300.0,7900.0,Occasional,50000.0,9000,1,2,1,0,2,1.0,65.0,Medium Risk
+Saurabh Kulkarni,22.0,Male,Solapur,B.Tech,8.3,Yes (3 months),610L,No,Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,800000.0,0,0,3,1,1,2,2.0,75.0,Low Risk
+Kavita Mishra,19.0,Female,Gaya,B.Sc,7.0,No,13L,Yes (?7000),No,Student,OTT,750.0,5600.0,Occasional,200000.0,7000,1,0,0,0,1,1.0,65.0,Medium Risk
+Vishal Mohanty,20.0,Male,Cuttack,Diploma,6.5,No,36L,Yes (?10000),No,Student,Gym,500.0,4300.0,,450000.0,10000,1,0,0,0,1,0.0,60.0,Medium Risk
+Radhika Sen,21.0,Female,Chandigarh,B.Sc,8.1,Yes (2 months),610L,No,No,Student,"Netflix, Gym",1100.0,7600.0,Regular,800000.0,0,0,2,1,0,2,2.0,80.0,Low Risk
+Arman Bhagat,22.0,Male,Pune,B.Tech,7.9,Yes (3 months),<1L,Yes (?6000),Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,50000.0,6000,1,3,1,1,2,1.0,60.0,Medium Risk
+Sneha Chatterjee,23.0,Female,Kolkata,MBA,8.6,Yes (5 months),36L,Yes (?14000),Personal Loan,Joint,"Netflix, Spotify",2300.0,11100.0,Regular,450000.0,14000,1,5,1,1,2,2.0,70.0,Medium Risk
+Pratiksha Rane,20.0,Female,Mumbai,BCA,7.2,No,1015L,No,No,Student,OTT,850.0,5300.0,,1250000.0,0,0,0,0,0,1,0.0,70.0,Medium Risk
+Faizan Khan,22.0,Male,Lucknow,M.Tech,9.1,Yes (6 months),<1L,Yes (?8000),Education Loan,Savings,"Netflix, OTT",2500.0,11000.0,Regular,50000.0,8000,1,6,1,1,2,2.0,75.0,Low Risk
+Lavanya Joshi,20.0,Female,Indore,B.Com,6.8,No,36L,Yes (?13000),No,Student,Gym,600.0,4900.0,,450000.0,13000,1,0,0,0,1,0.0,60.0,Medium Risk
+Tenzin Lhamo,21.0,Female,Dharamshala,BBA,7.7,Yes (1 month),610L,No,No,Savings,"OTT, Spotify",950.0,6800.0,Occasional,800000.0,0,0,1,1,0,2,1.0,70.0,Medium Risk
+Snehal Kulkarni,22.0,Male,Nashik,MBA,8.4,Yes (4 months),13L,Yes (?10000),Personal Loan,Joint,"Netflix, Gym",2000.0,10600.0,Regular,200000.0,10000,1,4,1,1,2,2.0,65.0,Medium Risk
+Ananya Das,20.0,Female,Bhubaneswar,B.Sc,7.1,No,<1L,Yes (?6000),No,Student,Spotify,700.0,5000.0,Occasional,50000.0,6000,1,0,0,0,1,1.0,65.0,Medium Risk
+Ritesh Iyer,21.0,Male,Chennai,B.Tech,8.0,Yes (2 months),610L,No,Education Loan,Savings,"OTT, Gym",1500.0,8700.0,Regular,800000.0,0,0,2,1,1,2,2.0,75.0,Low Risk
+Sneha Yadav,22.0,Female,Kanpur,M.Sc,8.9,Yes (5 months),36L,Yes (?16000),No,Joint,"Netflix, Spotify",2200.0,10800.0,Regular,450000.0,16000,1,5,1,0,2,2.0,80.0,Low Risk
+Aditya Chauhan,20.0,Male,Jaipur,B.Com,6.7,No,1015L,No,No,Student,"OTT, Gym",800.0,5600.0,,1250000.0,0,0,0,0,0,2,0.0,60.0,Medium Risk
+Pooja Nair,21.0,Female,Kochi,BBA,7.5,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1400.0,7900.0,Occasional,50000.0,9000,1,2,1,0,2,1.0,65.0,Medium Risk
+Harshad Patel,22.0,Male,Vadodara,B.Tech,8.1,Yes (3 months),36L,Yes (?14000),Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,450000.0,14000,1,3,1,1,2,2.0,75.0,Low Risk
+Riya Kumari,19.0,Female,Ranchi,B.Sc,7.0,No,610L,No,No,Student,OTT,750.0,5400.0,Occasional,800000.0,0,0,0,0,0,1,1.0,70.0,Medium Risk
+Akshay Mohanty,20.0,Male,Cuttack,Diploma,6.5,No,13L,Yes (?11000),No,Student,Gym,500.0,4300.0,,200000.0,11000,1,0,0,0,1,0.0,55.0,Medium Risk
+Tanvi Mehta,22.0,Female,Ahmedabad,MBA,8.3,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,50000.0,6000,1,4,1,1,2,2.0,65.0,Medium Risk
+Omkar Shetty,21.0,Male,Mangalore,BCA,7.6,Yes (2 months),36L,Yes (?11000),No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,450000.0,11000,1,2,1,0,2,1.0,70.0,Medium Risk
+Rutuja Pawar,23.0,Female,Sangli,M.Tech,9.0,Yes (5 months),610L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11500.0,Regular,800000.0,0,0,5,1,1,2,2.0,80.0,Low Risk
+Nikhil Barua,20.0,Male,Guwahati,B.Com,6.9,No,1015L,No,No,Student,"OTT, Gym",850.0,5700.0,,1250000.0,0,0,0,0,0,2,0.0,60.0,Medium Risk
+Vaishnavi Reddy,21.0,Female,Hyderabad,BBA,7.4,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1300.0,7800.0,Occasional,50000.0,9000,1,2,1,0,2,1.0,65.0,Medium Risk
+Shubham Ghosh,22.0,Male,Siliguri,B.Tech,8.2,Yes (3 months),610L,No,Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,800000.0,0,0,3,1,1,2,2.0,75.0,Low Risk
+Komal Sharma,19.0,Female,Udaipur,B.Sc,7.0,No,13L,Yes (?7000),No,Student,OTT,750.0,5600.0,Occasional,200000.0,7000,1,0,0,0,1,1.0,65.0,Medium Risk
+Akshay Pillai,20.0,Male,Thane,Diploma,6.5,No,36L,Yes (?10000),No,Student,Gym,500.0,4300.0,,450000.0,10000,1,0,0,0,1,0.0,60.0,Medium Risk
+Aastha Kapoor,21.0,Female,Delhi,B.Sc,8.2,Yes (2 months),610L,No,No,Student,"Netflix, Gym",1150.0,7800.0,Regular,800000.0,0,0,2,1,0,2,2.0,80.0,Low Risk
+Raghav Menon,22.0,Male,Kochi,B.Tech,7.8,Yes (3 months),<1L,Yes (?6000),Education Loan,Savings,"OTT, Gym",1250.0,8300.0,Occasional,50000.0,6000,1,3,1,1,2,1.0,60.0,Medium Risk
+Simran Chauhan,23.0,Female,Jaipur,MBA,8.5,Yes (5 months),36L,Yes (?14000),Personal Loan,Joint,"Netflix, Spotify",2350.0,11200.0,Regular,450000.0,14000,1,5,1,1,2,2.0,70.0,Medium Risk
+Arvindh Das,20.0,Male,Kolkata,BCA,7.3,No,1015L,No,No,Student,OTT,900.0,5400.0,,1250000.0,0,0,0,0,0,1,0.0,70.0,Medium Risk
+Ishita Reddy,22.0,Female,Hyderabad,M.Tech,9.0,Yes (6 months),<1L,Yes (?8000),Education Loan,Savings,"Netflix, OTT",2450.0,11100.0,Regular,50000.0,8000,1,6,1,1,2,2.0,75.0,Low Risk
+Soham Ghosh,20.0,Male,Siliguri,B.Com,6.9,No,36L,Yes (?13000),No,Student,Gym,650.0,4800.0,,450000.0,13000,1,0,0,0,1,0.0,60.0,Medium Risk
+Meher Sharma,21.0,Female,Chandigarh,BBA,7.6,Yes (1 month),610L,No,No,Savings,"OTT, Spotify",1000.0,6900.0,Occasional,800000.0,0,0,1,1,0,2,1.0,70.0,Medium Risk
+Krishan Pillai,22.0,Male,Thiruvananthapuram,MBA,8.3,Yes (4 months),13L,Yes (?10000),Personal Loan,Joint,"Netflix, Gym",2050.0,10500.0,Regular,200000.0,10000,1,4,1,1,2,2.0,65.0,Medium Risk
+Ananya Bhagat,20.0,Female,Bhopal,B.Sc,7.0,No,<1L,Yes (?6000),No,Student,Spotify,750.0,5100.0,Occasional,50000.0,6000,1,0,0,0,1,1.0,65.0,Medium Risk
+Ritesh Verma,21.0,Male,Kanpur,B.Tech,8.1,Yes (2 months),610L,No,Education Loan,Savings,"OTT, Gym",1450.0,8600.0,Regular,800000.0,0,0,2,1,1,2,2.0,75.0,Low Risk
+Sneha Patankar,22.0,Female,Nashik,M.Sc,8.8,Yes (5 months),36L,Yes (?16000),No,Joint,"Netflix, Spotify",2150.0,10900.0,Regular,450000.0,16000,1,5,1,0,2,2.0,80.0,Low Risk
+Aditya Joshi,20.0,Male,Pune,B.Com,6.6,No,1015L,No,No,Student,"OTT, Gym",850.0,5500.0,,1250000.0,0,0,0,0,0,2,0.0,60.0,Medium Risk
+Pooja Desai,21.0,Female,Surat,BBA,7.5,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1350.0,7700.0,Occasional,50000.0,9000,1,2,1,0,2,1.0,65.0,Medium Risk
+Harshad Singh,22.0,Male,Gwalior,B.Tech,8.2,Yes (3 months),36L,Yes (?14000),Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,450000.0,14000,1,3,1,1,2,2.0,75.0,Low Risk
+Riya Mishra,19.0,Female,Varanasi,B.Sc,7.1,No,610L,No,No,Student,OTT,800.0,5300.0,Occasional,800000.0,0,0,0,0,0,1,1.0,70.0,Medium Risk
+Akshay Bansal,20.0,Male,Ludhiana,Diploma,6.4,No,13L,Yes (?11000),No,Student,Gym,550.0,4200.0,,200000.0,11000,1,0,0,0,1,0.0,55.0,Medium Risk
+Tanvi Kumari,22.0,Female,Ranchi,MBA,8.2,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10300.0,Regular,50000.0,6000,1,4,1,1,2,2.0,65.0,Medium Risk
+Omkar Jadhav,21.0,Male,Aurangabad,BCA,7.7,Yes (2 months),36L,Yes (?12000),No,Savings,"OTT, Gym",1250.0,7700.0,Occasional,450000.0,12000,1,2,1,0,2,1.0,70.0,Medium Risk
+Rutuja Salvi,23.0,Female,Sangli,M.Tech,9.0,Yes (5 months),610L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11400.0,Regular,800000.0,0,0,5,1,1,2,2.0,80.0,Low Risk
+Nikhil Chauhan,20.0,Male,Jaipur,B.Com,6.8,No,1015L,No,No,Student,"OTT, Gym",850.0,5600.0,,1250000.0,0,0,0,0,0,2,0.0,60.0,Medium Risk
+Vaishnavi Pillai,21.0,Female,Kochi,BBA,7.3,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1300.0,7900.0,Occasional,50000.0,9000,1,2,1,0,2,1.0,65.0,Medium Risk
+Shubham Rathi,22.0,Male,Indore,B.Tech,8.3,Yes (3 months),610L,No,Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,800000.0,0,0,3,1,1,2,2.0,75.0,Low Risk
+Komal Bhatt,19.0,Female,Rajkot,B.Sc,7.0,No,13L,Yes (?7000),No,Student,OTT,750.0,5600.0,Occasional,200000.0,7000,1,0,0,0,1,1.0,65.0,Medium Risk
+Akshay Thakur,20.0,Male,Solan,Diploma,6.5,No,36L,Yes (?10000),No,Student,Gym,500.0,4300.0,,450000.0,10000,1,0,0,0,1,0.0,60.0,Medium Risk
+Nivedita Rao,21.0,Female,Bengaluru,B.Sc,8.2,Yes (2 months),610L,No,No,Student,"Netflix, Gym",1150.0,7800.0,Regular,800000.0,0,0,2,1,0,2,2.0,80.0,Low Risk
+Arvindh Sharma,22.0,Male,Jaipur,B.Tech,7.8,Yes (3 months),<1L,Yes (?6000),Education Loan,Savings,"OTT, Gym",1250.0,8300.0,Occasional,50000.0,6000,1,3,1,1,2,1.0,60.0,Medium Risk
+Roshni Nair,23.0,Female,Kochi,MBA,8.5,Yes (5 months),36L,Yes (?14000),Personal Loan,Joint,"Netflix, Spotify",2350.0,11200.0,Regular,450000.0,14000,1,5,1,1,2,2.0,70.0,Medium Risk
+Pranav Deshmukh,20.0,Male,Nagpur,BCA,7.3,No,1015L,No,No,Student,OTT,900.0,5400.0,,1250000.0,0,0,0,0,0,1,0.0,70.0,Medium Risk
+Ayesha Siddiqui,22.0,Female,Lucknow,M.Tech,9.0,Yes (6 months),<1L,Yes (?8000),Education Loan,Savings,"Netflix, OTT",2450.0,11100.0,Regular,50000.0,8000,1,6,1,1,2,2.0,75.0,Low Risk
+Harshit Patel,20.0,Male,Ahmedabad,B.Com,6.9,No,36L,Yes (?13000),No,Student,Gym,650.0,4800.0,,450000.0,13000,1,0,0,0,1,0.0,60.0,Medium Risk
+Sneha Joshi,21.0,Female,Nashik,BBA,7.6,Yes (1 month),610L,No,No,Savings,"OTT, Spotify",1000.0,6900.0,Occasional,800000.0,0,0,1,1,0,2,1.0,70.0,Medium Risk
+Kunal Mehta,22.0,Male,Mumbai,MBA,8.3,Yes (4 months),13L,Yes (?10000),Personal Loan,Joint,"Netflix, Gym",2050.0,10500.0,Regular,200000.0,10000,1,4,1,1,2,2.0,65.0,Medium Risk
+Anushka Banerjee,20.0,Female,Kolkata,B.Sc,7.0,No,<1L,Yes (?6000),No,Student,Spotify,750.0,5100.0,Occasional,50000.0,6000,1,0,0,0,1,1.0,65.0,Medium Risk
+Raghav Rathi,21.0,Male,Indore,B.Tech,8.1,Yes (2 months),610L,No,Education Loan,Savings,"OTT, Gym",1450.0,8600.0,Regular,800000.0,0,0,2,1,1,2,2.0,75.0,Low Risk
+Shreya Pillai,22.0,Female,Thane,M.Sc,8.8,Yes (5 months),36L,Yes (?16000),No,Joint,"Netflix, Spotify",2150.0,10900.0,Regular,450000.0,16000,1,5,1,0,2,2.0,80.0,Low Risk
+Manish Yadav,20.0,Male,Kanpur,B.Com,6.6,No,1015L,No,No,Student,"OTT, Gym",850.0,5500.0,,1250000.0,0,0,0,0,0,2,0.0,60.0,Medium Risk
+Bhavika Shah,21.0,Female,Surat,BBA,7.5,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1350.0,7700.0,Occasional,50000.0,9000,1,2,1,0,2,1.0,65.0,Medium Risk
+Zubair Khan,22.0,Male,Bhopal,B.Tech,8.2,Yes (3 months),36L,Yes (?14000),Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,450000.0,14000,1,3,1,1,2,2.0,75.0,Low Risk
+Ritu Kumari,19.0,Female,Ranchi,B.Sc,7.1,No,610L,No,No,Student,OTT,800.0,5300.0,Occasional,800000.0,0,0,0,0,0,1,1.0,70.0,Medium Risk
+Abhay Singh,20.0,Male,Varanasi,Diploma,6.4,No,13L,Yes (?11000),No,Student,Gym,550.0,4200.0,,200000.0,11000,1,0,0,0,1,0.0,55.0,Medium Risk
+Shraddha Iyer,22.0,Female,Chennai,MBA,8.2,Yes (4 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10300.0,Regular,50000.0,6000,1,4,1,1,2,2.0,65.0,Medium Risk
+Tushar Kulkarni,21.0,Male,Pune,BCA,7.7,Yes (2 months),36L,Yes (?12000),No,Savings,"OTT, Gym",1250.0,7700.0,Occasional,450000.0,12000,1,2,1,0,2,1.0,70.0,Medium Risk
+Priyanka Ghosh,23.0,Female,Siliguri,M.Tech,9.0,Yes (5 months),610L,No,Education Loan,Joint,"Netflix, OTT",2400.0,11400.0,Regular,800000.0,0,0,5,1,1,2,2.0,80.0,Low Risk
+Arvindh Chauhan,20.0,Male,Jaipur,B.Com,6.8,No,1015L,No,No,Student,"OTT, Gym",850.0,5600.0,,1250000.0,0,0,0,0,0,2,0.0,60.0,Medium Risk
+Nandini Reddy,21.0,Female,Hyderabad,BBA,7.3,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1300.0,7900.0,Occasional,50000.0,9000,1,2,1,0,2,1.0,65.0,Medium Risk
+Saurabh Joshi,22.0,Male,Nashik,B.Tech,8.3,Yes (3 months),610L,No,Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,800000.0,0,0,3,1,1,2,2.0,75.0,Low Risk
+Kavita Thakur,19.0,Female,Shimla,B.Sc,7.0,No,13L,Yes (?7000),No,Student,OTT,750.0,5600.0,Occasional,200000.0,7000,1,0,0,0,1,1.0,65.0,Medium Risk
+Riya Bhagat,21.0,Female,Pune,B.Sc,8.1,Yes (2 months),36L,Yes (?10000),No,Student,"Netflix, Gym",1100.0,7600.0,Regular,450000.0,10000,1,2,1,0,2,2.0,80.0,Low Risk
+Arjun Pillai,22.0,Male,Kochi,B.Tech,7.9,Yes (3 months),610L,No,Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,800000.0,0,0,3,1,1,2,1.0,65.0,Medium Risk
+Ishita Mehta,23.0,Female,Ahmedabad,MBA,8.6,Yes (5 months),<1L,Yes (?6000),Personal Loan,Joint,"Netflix, Spotify",2300.0,11100.0,Regular,50000.0,6000,1,5,1,1,2,2.0,65.0,Medium Risk
+Rakesh Chauhan,20.0,Male,Jaipur,BCA,7.2,No,36L,Yes (?14000),No,Student,OTT,850.0,5300.0,,450000.0,14000,1,0,0,0,1,0.0,65.0,Medium Risk
+Ananya Reddy,22.0,Female,Hyderabad,M.Tech,9.1,Yes (6 months),1015L,No,Education Loan,Savings,"Netflix, OTT",2500.0,11000.0,Regular,1250000.0,0,0,6,1,1,2,2.0,85.0,Low Risk
+Saurabh Ghosh,20.0,Male,Siliguri,B.Com,6.8,No,<1L,Yes (?8000),No,Student,Gym,600.0,4900.0,,50000.0,8000,1,0,0,0,1,0.0,55.0,Medium Risk
+Sneha Sharma,21.0,Female,Chandigarh,BBA,7.7,Yes (1 month),36L,Yes (?13000),No,Savings,"OTT, Spotify",950.0,6800.0,Occasional,450000.0,13000,1,1,1,0,2,1.0,70.0,Medium Risk
+Krishan Nair,22.0,Male,Thiruvananthapuram,MBA,8.4,Yes (4 months),610L,No,Personal Loan,Joint,"Netflix, Gym",2000.0,10600.0,Regular,800000.0,0,0,4,1,1,2,2.0,70.0,Medium Risk
+Ananya Yadav,20.0,Female,Kanpur,B.Sc,7.1,No,13L,Yes (?10000),No,Student,Spotify,700.0,5000.0,Occasional,200000.0,10000,1,0,0,0,1,1.0,65.0,Medium Risk
+Ritesh Joshi,21.0,Male,Nashik,B.Tech,8.0,Yes (2 months),<1L,Yes (?6000),Education Loan,Savings,"OTT, Gym",1500.0,8700.0,Regular,50000.0,6000,1,2,1,1,2,2.0,70.0,Medium Risk
+Sneha Banerjee,22.0,Female,Kolkata,M.Sc,8.9,Yes (5 months),610L,No,No,Joint,"Netflix, Spotify",2200.0,10800.0,Regular,800000.0,0,0,5,1,0,2,2.0,80.0,Low Risk
+Aditya Raval,20.0,Male,Rajkot,B.Com,6.7,No,36L,Yes (?16000),No,Student,"OTT, Gym",800.0,5600.0,,450000.0,16000,1,0,0,0,2,0.0,55.0,Medium Risk
+Pooja Kumari,21.0,Female,Ranchi,BBA,7.5,Yes (2 months),1015L,No,No,Savings,"Netflix, OTT",1400.0,7900.0,Occasional,1250000.0,0,0,2,1,0,2,1.0,75.0,Low Risk
+Harshad Singh,22.0,Male,Gwalior,B.Tech,8.1,Yes (3 months),<1L,Yes (?9000),Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,50000.0,9000,1,3,1,1,2,2.0,70.0,Medium Risk
+Riya Desai,19.0,Female,Surat,B.Sc,7.0,No,36L,Yes (?14000),No,Student,OTT,750.0,5400.0,Occasional,450000.0,14000,1,0,0,0,1,1.0,70.0,Medium Risk
+Akshay Verma,20.0,Male,Varanasi,Diploma,6.5,No,610L,No,No,Student,Gym,500.0,4300.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Tanvi Kulkarni,22.0,Female,Pune,MBA,8.3,Yes (4 months),13L,Yes (?11000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10200.0,Regular,200000.0,11000,1,4,1,1,2,2.0,65.0,Medium Risk
+Omkar Patil,21.0,Male,Kolhapur,BCA,7.6,Yes (2 months),<1L,Yes (?6000),No,Savings,"OTT, Gym",1200.0,7600.0,Occasional,50000.0,6000,1,2,1,0,2,1.0,65.0,Medium Risk
+Rutuja Jagtap,23.0,Female,Aurangabad,M.Tech,9.0,Yes (5 months),36L,Yes (?12000),Education Loan,Joint,"Netflix, OTT",2400.0,11500.0,Regular,450000.0,12000,1,5,1,1,2,2.0,80.0,Low Risk
+Nikhil Mishra,20.0,Male,Patna,B.Com,6.9,No,610L,No,No,Student,"OTT, Gym",850.0,5700.0,,800000.0,0,0,0,0,0,2,0.0,55.0,Medium Risk
+Vaishnavi Joshi,21.0,Female,Nagpur,BBA,7.4,Yes (2 months),1015L,No,No,Savings,"Netflix, OTT",1300.0,7800.0,Occasional,1250000.0,0,0,2,1,0,2,1.0,75.0,Low Risk
+Shubham Kulkarni,22.0,Male,Solapur,B.Tech,8.2,Yes (3 months),<1L,Yes (?9000),Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,50000.0,9000,1,3,1,1,2,2.0,70.0,Medium Risk
+Komal Reddy,19.0,Female,Warangal,B.Sc,7.0,No,610L,No,No,Student,OTT,750.0,5600.0,Occasional,800000.0,0,0,0,0,0,1,1.0,70.0,Medium Risk
+Aditi Sharma,21.0,Female,Jaipur,B.Sc,8.2,Yes (2 months),13L,Yes (?7000),No,Student,"Netflix, Gym",1150.0,7800.0,Regular,200000.0,7000,1,2,1,0,2,2.0,75.0,Low Risk
+Rohan Iyer,22.0,Male,Mumbai,B.Tech,7.8,Yes (3 months),36L,Yes (?10000),Education Loan,Savings,"OTT, Gym",1250.0,8300.0,Occasional,450000.0,10000,1,3,1,1,2,1.0,65.0,Medium Risk
+Meenal Reddy,23.0,Female,Hyderabad,MBA,8.5,Yes (5 months),610L,No,Personal Loan,Joint,"Netflix, Spotify",2350.0,11200.0,Regular,800000.0,0,0,5,1,1,2,2.0,70.0,Medium Risk
+Satyam Joshi,20.0,Male,Indore,BCA,7.3,No,<1L,Yes (?6000),No,Student,OTT,900.0,5400.0,,50000.0,6000,1,0,0,0,1,0.0,60.0,Medium Risk
+Anushka Ghosh,22.0,Female,Kolkata,M.Tech,9.0,Yes (6 months),36L,Yes (?14000),Education Loan,Savings,"Netflix, OTT",2450.0,11100.0,Regular,450000.0,14000,1,6,1,1,2,2.0,80.0,Low Risk
+Ritesh Singh,20.0,Male,Varanasi,B.Com,6.9,No,1015L,No,No,Student,Gym,650.0,4800.0,,1250000.0,0,0,0,0,0,1,0.0,65.0,Medium Risk
+Sneha Pillai,21.0,Female,Kochi,BBA,7.6,Yes (1 month),<1L,Yes (?8000),No,Savings,"OTT, Spotify",1000.0,6900.0,Occasional,50000.0,8000,1,1,1,0,2,1.0,65.0,Medium Risk
+Arvindh Kapoor,22.0,Male,Delhi,MBA,8.3,Yes (4 months),36L,Yes (?13000),Personal Loan,Joint,"Netflix, Gym",2050.0,10500.0,Regular,450000.0,13000,1,4,1,1,2,2.0,70.0,Medium Risk
+Rachna Kumari,20.0,Female,Patna,B.Sc,7.0,No,610L,No,No,Student,Spotify,750.0,5100.0,Occasional,800000.0,0,0,0,0,0,1,1.0,70.0,Medium Risk
+Faizan Qureshi,21.0,Male,Bhopal,B.Tech,8.1,Yes (2 months),13L,Yes (?10000),Education Loan,Savings,"OTT, Gym",1450.0,8600.0,Regular,200000.0,10000,1,2,1,1,2,2.0,70.0,Medium Risk
+Shreya Deshmukh,22.0,Female,Nagpur,M.Sc,8.8,Yes (5 months),<1L,Yes (?6000),No,Joint,"Netflix, Spotify",2150.0,10900.0,Regular,50000.0,6000,1,5,1,0,2,2.0,75.0,Low Risk
+Manav Chauhan,20.0,Male,Kanpur,B.Com,6.6,No,610L,No,No,Student,"OTT, Gym",850.0,5500.0,,800000.0,0,0,0,0,0,2,0.0,55.0,Medium Risk
+Bhavika Raval,21.0,Female,Ahmedabad,BBA,7.5,Yes (2 months),36L,Yes (?16000),No,Savings,"Netflix, OTT",1350.0,7700.0,Occasional,450000.0,16000,1,2,1,0,2,1.0,70.0,Medium Risk
+Zaid Irani,22.0,Male,Surat,B.Tech,8.2,Yes (3 months),1015L,No,Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,1250000.0,0,0,3,1,1,2,2.0,80.0,Low Risk
+Rituja Salunkhe,19.0,Female,Sangli,B.Sc,7.1,No,<1L,Yes (?9000),No,Student,OTT,800.0,5300.0,Occasional,50000.0,9000,1,0,0,0,1,1.0,65.0,Medium Risk
+Harsh Vyas,20.0,Male,Udaipur,Diploma,6.4,No,36L,Yes (?14000),No,Student,Gym,550.0,4200.0,,450000.0,14000,1,0,0,0,1,0.0,60.0,Medium Risk
+Ayesha Mirza,22.0,Female,Srinagar,MBA,8.2,Yes (4 months),610L,No,Personal Loan,Joint,"Netflix, Spotify",2100.0,10300.0,Regular,800000.0,0,0,4,1,1,2,2.0,70.0,Medium Risk
+Karan Bhatia,21.0,Male,Amritsar,BCA,7.7,Yes (2 months),13L,Yes (?11000),No,Savings,"OTT, Gym",1250.0,7700.0,Occasional,200000.0,11000,1,2,1,0,2,1.0,65.0,Medium Risk
+Priyanka Mohanty,23.0,Female,Bhubaneswar,M.Tech,9.0,Yes (5 months),<1L,Yes (?6000),Education Loan,Joint,"Netflix, OTT",2400.0,11400.0,Regular,50000.0,6000,1,5,1,1,2,2.0,75.0,Low Risk
+Arvindh Joshi,20.0,Male,Nashik,B.Com,6.8,No,36L,Yes (?12000),No,Student,"OTT, Gym",850.0,5600.0,,450000.0,12000,1,0,0,0,2,0.0,55.0,Medium Risk
+Nandini Chatterjee,21.0,Female,Kolkata,BBA,7.3,Yes (2 months),610L,No,No,Savings,"Netflix, OTT",1300.0,7900.0,Occasional,800000.0,0,0,2,1,0,2,1.0,70.0,Medium Risk
+Saurabh Kulkarni,22.0,Male,Pune,B.Tech,8.3,Yes (3 months),1015L,No,Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,1250000.0,0,0,3,1,1,2,2.0,80.0,Low Risk
+Tanya Desai,21.0,Female,Surat,B.Sc,8.1,Yes (2 months),<1L,Yes (?9000),No,Student,"Netflix, Gym",1100.0,7800.0,Regular,50000.0,9000,1,2,1,0,2,2.0,75.0,Low Risk
+Aditya Pillai,22.0,Male,Kochi,B.Tech,7.8,Yes (3 months),610L,No,Education Loan,Savings,"OTT, Gym",1250.0,8300.0,Occasional,800000.0,0,0,3,1,1,2,1.0,65.0,Medium Risk
+Shalini Reddy,23.0,Female,Hyderabad,MBA,8.5,Yes (5 months),13L,Yes (?7000),Personal Loan,Joint,"Netflix, Spotify",2350.0,11200.0,Regular,200000.0,7000,1,5,1,1,2,2.0,65.0,Medium Risk
+Karan Bhagat,20.0,Male,Pune,BCA,7.3,No,36L,Yes (?10000),No,Student,OTT,900.0,5400.0,,450000.0,10000,1,0,0,0,1,0.0,65.0,Medium Risk
+Ayesha Chauhan,22.0,Female,Kanpur,M.Tech,9.0,Yes (6 months),610L,No,Education Loan,Savings,"Netflix, OTT",2450.0,11100.0,Regular,800000.0,0,0,6,1,1,2,2.0,80.0,Low Risk
+Harshit Ghosh,20.0,Male,Siliguri,B.Com,6.9,No,<1L,Yes (?6000),No,Student,Gym,650.0,4800.0,,50000.0,6000,1,0,0,0,1,0.0,55.0,Medium Risk
+Sneha Kulkarni,21.0,Female,Nashik,BBA,7.6,Yes (1 month),36L,Yes (?14000),No,Savings,"OTT, Spotify",1000.0,6900.0,Occasional,450000.0,14000,1,1,1,0,2,1.0,70.0,Medium Risk
+Arvindh Singh,22.0,Male,Gwalior,MBA,8.3,Yes (4 months),1015L,No,Personal Loan,Joint,"Netflix, Gym",2050.0,10500.0,Regular,1250000.0,0,0,4,1,1,2,2.0,75.0,Low Risk
+Ananya Joshi,20.0,Female,Ahmedabad,B.Sc,7.0,No,<1L,Yes (?8000),No,Student,Spotify,750.0,5100.0,Occasional,50000.0,8000,1,0,0,0,1,1.0,65.0,Medium Risk
+Shreya Nair,22.0,Female,Thane,M.Sc,8.8,Yes (5 months),36L,Yes (?13000),No,Joint,"Netflix, Spotify",2150.0,10900.0,Regular,450000.0,13000,1,5,1,0,2,2.0,80.0,Low Risk
+Manish Verma,20.0,Male,Varanasi,B.Com,6.6,No,610L,No,No,Student,"OTT, Gym",850.0,5500.0,,800000.0,0,0,0,0,0,2,0.0,55.0,Medium Risk
+Bhavika Shetty,21.0,Female,Mangalore,BBA,7.5,Yes (2 months),13L,Yes (?10000),No,Savings,"Netflix, OTT",1350.0,7700.0,Occasional,200000.0,10000,1,2,1,0,2,1.0,65.0,Medium Risk
+Zubair Ansari,22.0,Male,Bhopal,B.Tech,8.2,Yes (3 months),<1L,Yes (?6000),Education Loan,Savings,"Spotify, Gym",1600.0,8900.0,Regular,50000.0,6000,1,3,1,1,2,2.0,70.0,Medium Risk
+Abhay Mishra,20.0,Male,Patna,Diploma,6.4,No,610L,No,No,Student,Gym,550.0,4200.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Shraddha Rao,22.0,Female,Bengaluru,MBA,8.2,Yes (4 months),36L,Yes (?16000),Personal Loan,Joint,"Netflix, Spotify",2100.0,10300.0,Regular,450000.0,16000,1,4,1,1,2,2.0,70.0,Medium Risk
+Arvindh Reddy,20.0,Male,Hyderabad,B.Com,6.8,No,1015L,No,No,Student,"OTT, Gym",850.0,5600.0,,1250000.0,0,0,0,0,0,2,0.0,60.0,Medium Risk
+Nandini Sen,21.0,Female,Asansol,BBA,7.3,Yes (2 months),<1L,Yes (?9000),No,Savings,"Netflix, OTT",1300.0,7900.0,Occasional,50000.0,9000,1,2,1,0,2,1.0,65.0,Medium Risk
+Saurabh Bansal,22.0,Male,Ludhiana,B.Tech,8.3,Yes (3 months),36L,Yes (?14000),Education Loan,Savings,"Spotify, Gym",1600.0,8800.0,Regular,450000.0,14000,1,3,1,1,2,2.0,75.0,Low Risk
+Aastha Menon,21.0,Female,Kochi,B.Sc,8.2,Yes (2 months),610L,No,No,Student,"Netflix, Gym",1150.0,7800.0,Regular,800000.0,0,0,2,1,0,2,2.0,80.0,Low Risk
+Arvindh Barua,22.0,Male,Guwahati,B.Tech,7.8,Yes (3 months),13L,Yes (?11000),Education Loan,Savings,"OTT, Gym",1250.0,8300.0,Occasional,200000.0,11000,1,3,1,1,2,1.0,60.0,Medium Risk
+Neha Raval,21.0,Female,Ahmedabad,B.Sc,8.2,Yes (2 months),<1L,Yes (?6000),No,Student,"Netflix, Gym",1150.0,7800.0,Regular,50000.0,6000,1,2,1,0,2,2.0,75.0,Low Risk
+Arvindh Chauhan,22.0,Male,Jaipur,B.Tech,7.8,Yes (3 months),36L,Yes (?12000),Education Loan,Savings,"OTT, Gym",1250.0,8300.0,Occasional,450000.0,12000,1,3,1,1,2,1.0,65.0,Medium Risk
+Harshit Patel,20.0,Male,Surat,B.Com,6.9,No,610L,No,No,Student,Gym,650.0,4800.0,,800000.0,0,0,0,0,0,1,0.0,60.0,Medium Risk
+Shreya Pillay,22.0,Female,Thane,M.Sc,8.8,Yes (5 months),1015L,No,No,Joint,"Netflix, Spotify",2150.0,10900.0,Regular,1250000.0,0,0,5,1,0,2,2.0,85.0,Low Risk
+Aastha Sharma,21.0,Female,Jaipur,B.Sc,8.1,Yes (2 months),<1L,Yes (?9000),No,Student,"Netflix, Gym",1100.0,7800.0,Regular,50000.0,9000,1,2,1,0,2,2.0,75.0,Low Risk
+Raghav Sinha,22.0,Male,Patna,B.Tech,7.9,Yes (3 months),610L,No,Education Loan,Savings,"OTT, Gym",1300.0,8400.0,Occasional,800000.0,0,0,3,1,1,2,1.0,65.0,Medium Risk
+Simran Deshmukh,23.0,Female,Pune,MBA,8.6,Yes (5 months),13L,Yes (?7000),Personal Loan,Joint,"Netflix, Spotify",2300.0,11100.0,Regular,200000.0,7000,1,5,1,1,2,2.0,65.0,Medium Risk
+Arvind Yadav,20.0,Male,Kanpur,BCA,7.2,No,36L,Yes (?10000),No,Student,OTT,850.0,5300.0,,450000.0,10000,1,0,0,0,1,0.0,65.0,Medium Risk
+,,,,,,,610L,No,,,,,,,800000.0,0,0,0,0,1,1,0.0,45.0,High Risk
+,,,,,,,<1L,Yes (?6000),,,,,,,50000.0,6000,1,0,0,1,1,0.0,40.0,High Risk
+,,,,,,,36L,Yes (?14000),,,,,,,450000.0,14000,1,0,0,1,1,0.0,45.0,High Risk
+,,,,,,,1015L,No,,,,,,,1250000.0,0,0,0,0,1,1,0.0,50.0,High Risk
+,,,,,,,<1L,Yes (?8000),,,,,,,50000.0,8000,1,0,0,1,1,0.0,40.0,High Risk
+,,,,,,,36L,Yes (?13000),,,,,,,450000.0,13000,1,0,0,1,1,0.0,45.0,High Risk
+,,,,,,,610L,No,,,,,,,800000.0,0,0,0,0,1,1,0.0,45.0,High Risk
+,,,,,,,13L,Yes (?10000),,,,,,,200000.0,10000,1,0,0,1,1,0.0,40.0,High Risk
+,,,,,,,<1L,Yes (?6000),,,,,,,50000.0,6000,1,0,0,1,1,0.0,40.0,High Risk
+,,,,,,,610L,No,,,,,,,800000.0,0,0,0,0,1,1,0.0,45.0,High Risk
+,,,,,,,36L,Yes (?16000),,,,,,,450000.0,16000,1,0,0,1,1,0.0,45.0,High Risk
+,,,,,,,1015L,No,,,,,,,1250000.0,0,0,0,0,1,1,0.0,50.0,High Risk
+,,,,,,,<1L,Yes (?9000),,,,,,,50000.0,9000,1,0,0,1,1,0.0,40.0,High Risk
+,,,,,,,36L,Yes (?14000),,,,,,,450000.0,14000,1,0,0,1,1,0.0,45.0,High Risk
+,,,,,,,610L,No,,,,,,,800000.0,0,0,0,0,1,1,0.0,45.0,High Risk
+,,,,,,,13L,Yes (?11000),,,,,,,200000.0,11000,1,0,0,1,1,0.0,40.0,High Risk
+,,,,,,,<1L,Yes (?6000),,,,,,,50000.0,6000,1,0,0,1,1,0.0,40.0,High Risk
+,,,,,,,36L,Yes (?12000),,,,,,,450000.0,12000,1,0,0,1,1,0.0,45.0,High Risk
+,,,,,,,610L,No,,,,,,,800000.0,0,0,0,0,1,1,0.0,45.0,High Risk
+,,,,,,,1015L,No,,,,,,,1250000.0,0,0,0,0,1,1,0.0,50.0,High Risk
+,,,,,,,<1L,Yes (?9000),,,,,,,50000.0,9000,1,0,0,1,1,0.0,40.0,High Risk
+,,,,,,,610L,No,,,,,,,800000.0,0,0,0,0,1,1,0.0,45.0,High Risk
+,,,,,,,13L,Yes (?7000),,,,,,,200000.0,7000,1,0,0,1,1,0.0,40.0,High Risk
+,,,,,,,36L,Yes (?10000),,,,,,,450000.0,10000,1,0,0,1,1,0.0,45.0,High Risk
+,,,,,,,610L,No,,,,,,,800000.0,0,0,0,0,1,1,0.0,45.0,High Risk
+,,,,,,,<1L,Yes (?6000),,,,,,,50000.0,6000,1,0,0,1,1,0.0,40.0,High Risk
+,,,,,,,36L,Yes (?14000),,,,,,,450000.0,14000,1,0,0,1,1,0.0,45.0,High Risk
