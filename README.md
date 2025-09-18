@@ -34,18 +34,17 @@ Digital-Credit-Scoring/
 - streamlit run app.py
 
 
-
-OUR TEAM -
+💪OUR TEAM -
 1. Pranav Prabhanjan Mane
-Github - 
+Github - https://github.com/pranav09mane
 2. Swayam Talreja
-Github - 
+Github - https://github.com/swayamtalreja
 3. Pratiksha Warake
-Github - 
+Github - https://github.com/pratikshawarake
 4. Purva Kamat
-Github - 
+Github - https://github.com/KPurva24
 5. Utkarsha Salokhe 
-
+Github - https://github.com/Utkarshasalokhe05
 
 
 
